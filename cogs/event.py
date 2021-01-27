@@ -39,13 +39,21 @@ class EventCog(commands.Cog):
     @commands.Cog.listener()
     async def on_guild_join(self, guild):
         logger.info(f"{guild.name} 서버에 들어갔어!")
-        pass
 
     # 이 봇이 어떤 서버에 쫓겨나면 여기가 실행될 거야
     @commands.Cog.listener()
     async def on_guild_remove(self, guild):
         logger.info(f"{guild.name} 서버에서 쫓겨났어...")
-        pass
+
+    # 누군가가 메시지를 삭제하면 여기가 실행될 거야
+    @commands.Cog.listener()
+    async def on_message_delete(self, message):
+        logger.info(f"{message.author.name}이(가) '{message.content}'라고 한 메시지를 삭제했어!")
+
+    # 누군가가 메시지를 수정하면 여기가 실행될 거야 before와 after 모두 message야.
+    @commands.Cog.listener()
+    async def on_message_edit(self, before, after):
+        logger.info(f"{before.author.name}이(가) '{before.content}'라고 한 메시지를 '{after.content}'로 수정했어!")
 
     # 오류 발생 시 여기가 실행될 거야
     @commands.Cog.listener()
