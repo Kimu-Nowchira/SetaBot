@@ -58,6 +58,12 @@ class ExampleCog(commands.Cog):
         await ctx.message.delete()  # 유저가 쓴 메시지는 지웁니다.
         await ctx.send(content)
 
+    # 1번 사용하면 5초의 쿨타임이 생기는 예시 명령어
+    @commands.cooldown(1, 5)
+    @commands.command()
+    async def 쿨타임(self, ctx, *args):
+        await ctx.send(f'와아아아아아아')
+
     # 핑 하면 퐁 하면서 봇의 레이턴시(지연 시간)을 알려 주는 예시 명령어야!
     @commands.command()
     async def 핑(self, ctx, *args):

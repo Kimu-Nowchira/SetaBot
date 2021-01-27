@@ -25,6 +25,28 @@ class EventCog(commands.Cog):
         if message.content == '세타봇 바보':  # 만약 누가 '세타봇 바보'라고 말하면
             await message.channel.send('바보 아니야')  # 바보 아니라고 답변
 
+    # 누가 서버에 들어오면 여기가 실행될 거야
+    @commands.Cog.listener()
+    async def on_member_join(self, member):
+        pass
+
+    # 누가 서버에서 나가면 여기가 실행될 거야
+    @commands.Cog.listener()
+    async def on_member_remove(self, member):
+        pass
+
+    # 이 봇이 어떤 서버에 초대되면 여기가 실행될 거야
+    @commands.Cog.listener()
+    async def on_guild_join(self, guild):
+        logger.info(f"{guild.name} 서버에 들어갔어!")
+        pass
+
+    # 이 봇이 어떤 서버에 쫓겨나면 여기가 실행될 거야
+    @commands.Cog.listener()
+    async def on_guild_remove(self, guild):
+        logger.info(f"{guild.name} 서버에서 쫓겨났어...")
+        pass
+
     # 오류 발생 시 여기가 실행될 거야
     @commands.Cog.listener()
     async def on_command_error(self, ctx, error):
@@ -38,6 +60,9 @@ class EventCog(commands.Cog):
 
         except commands.errors.CommandNotFound:  # 해당하는 명령어가 없는 경우
             await ctx.send('그런 명령어는 없어!')
+        
+        except commands.CommandOnCooldown:  # 명령어 쿨타임이 다 차지 않은 경우
+            await ctx.send(f'이 명령어는 {error.cooldown.rate}번 쓰면 {error.cooldown.per}초의 쿨타임이 생겨!```cs\n{int(error.retry_after)}초 후에 다시 시도해 줘!```')
 
         else:
             await ctx.send(f'으앙 오류가 발생했어...\n`{str(error)}`')
