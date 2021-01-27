@@ -3,3 +3,5 @@ https://discordpy.readthedocs.io/en/latest/
 
 <파이썬에 대해 잘 모른다면>
 https://wikidocs.net/book/1
+
+세타봇 제작 : 키뮤
