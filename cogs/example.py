@@ -1,9 +1,16 @@
+'''
+    <example.py>
+    여러 예시들이 있어요! 이해가 됐다면 마음껏 수정해봐요!
+    - 키뮤 제작(0127 버전)
+'''
+
+# 필수 임포트
 from discord.ext import commands
 import discord
 import os
-
-# 기본 임포트
 from utils import logger
+
+# 부가 임포트
 from utils import util_box
 
 
