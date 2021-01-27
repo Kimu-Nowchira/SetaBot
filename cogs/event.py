@@ -48,11 +48,15 @@ class EventCog(commands.Cog):
     # 누군가가 메시지를 삭제하면 여기가 실행될 거야
     @commands.Cog.listener()
     async def on_message_delete(self, message):
+        if message.author.bot:
+            return None
         logger.info(f"{message.author.name}이(가) '{message.content}'라고 한 메시지를 삭제했어!")
 
     # 누군가가 메시지를 수정하면 여기가 실행될 거야 before와 after 모두 message야.
     @commands.Cog.listener()
     async def on_message_edit(self, before, after):
+        if before.author.bot:
+            return None
         logger.info(f"{before.author.name}이(가) '{before.content}'라고 한 메시지를 '{after.content}'로 수정했어!")
 
     # 오류 발생 시 여기가 실행될 거야
@@ -68,7 +72,7 @@ class EventCog(commands.Cog):
 
         except commands.errors.CommandNotFound:  # 해당하는 명령어가 없는 경우
             await ctx.send('그런 명령어는 없어!')
-        
+
         except commands.CommandOnCooldown:  # 명령어 쿨타임이 다 차지 않은 경우
             await ctx.send(f'이 명령어는 {error.cooldown.rate}번 쓰면 {error.cooldown.per}초의 쿨타임이 생겨!```cs\n{int(error.retry_after)}초 후에 다시 시도해 줘!```')
 

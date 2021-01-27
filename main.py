@@ -64,6 +64,13 @@ class AdminCog(commands.Cog):
 
         await w.edit(content="```cs\n'불러오기 성공'```")
 
+    @commands.command()
+    async def info(self, ctx, *args):
+        embed = discord.Embed(title='정보', description=f'이 봇은 키뮤소프트의 세타봇 틀 기반으로 짜여진 프로젝트입니다.', colour=0x1DDB16)
+        embed.add_field(name='키뮤의 과학실 서버 바로가기', value='🔗 https://discord.gg/XQuexpQ', inline=True)
+        embed.set_footer(text="이 명령어를 지우지 말아 주세요!")
+        await ctx.send(embed=embed)
+
 
 setabot = SetaBot()
 setabot.run()
