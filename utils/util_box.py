@@ -13,11 +13,15 @@ import random
 async def ox(bot, message, ctx):
     '''
     🅾️❎ 이모지 선택지를 만들어 줘요!
-    만약 시간이 초과되거나 ❎를 누르면 False를 반환하고
-    🅾️를 누르면 True를 반환해요!
+    ❎를 누르면 False를 반환하고(0)
+    🅾️를 누르면 True를 반환해요(1)
+    만약 시간이 초과되면 2를 반환해요(False)
     '''
     result = await wait_for_reaction(bot, message, ['🅾️', '❎'], 10, ctx)
-    if not result or result.emoji == '❎':
+    if not result:
+        await message.clear_reactions()
+        return 2
+    elif result.emoji == '❎':
         await message.clear_reactions()
         return False
     else:
