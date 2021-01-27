@@ -7,9 +7,9 @@
 
 class Config:
     # 봇의 토큰을 넣어 주세요
-    token = 'ODAyOTM2MzQ5MjM3NzA2Nzkz.YA2evw.1QRQGRMQemlnvWNle7xlLfuGllk'
+    token = ''
     # 디버그 모드가 켜졌을 때 사용할 토큰을 넣어주세요(위와 똑같이 넣어도 괜찮아요)
-    test_token = 'ODAyOTM2MzQ5MjM3NzA2Nzkz.YA2evw.1QRQGRMQemlnvWNle7xlLfuGllk'
+    test_token = ''
 
     # 디버그 여부
     is_debug = False
