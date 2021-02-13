@@ -5,3 +5,4 @@ https://discordpy.readthedocs.io/en/latest/
 https://wikidocs.net/book/1
 
 세타봇 제작 : 키뮤
+코드 기여 : Tim232
