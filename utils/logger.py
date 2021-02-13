@@ -22,7 +22,7 @@ def err(error):
         raise error
     except Exception:
         error_message = traceback.format_exc()
-        log('[오류] {}\n\n'.format(error_message), True)
+        log(f'[오류] {error_message}\n\n', True)
         return error_message
 
 
@@ -30,14 +30,14 @@ def warn(msg: str):
     '''
     경고 기록을 남길 때 사용해요!
     '''
-    log('[경고] {}'.format(msg))
+    log(f'[경고] {msg}')
 
 
 def info(msg: str):
     '''
     일반적인 기록을 남길 때 사용해요!
     '''
-    log('[정보] {}'.format(msg))
+    log(f'[정보] {msg}')
 
 
 def debug(msg: str):
@@ -45,7 +45,7 @@ def debug(msg: str):
     디버그 모드를 켰을 때만 기록해 줘요!
     '''
     if Config.is_debug:
-        log('[디버그] {}'.format(msg))
+        log(f'[디버그] {msg}')
 
 
 def msg(message):
@@ -53,22 +53,17 @@ def msg(message):
     디스코드 메시지를 깔끔하게 정리해 기록해 줘요!
     '''
     if message.content == '':
-        return None
+        return
 
     author = message.author
 
     '''message를 넣으면 로그를 씀'''
     if 'DM' in str(type(message.channel)):
-        log_msg = 'DM <{}> {}'.format(author.name, message.content)
+        log_msg = f'DM <{}> {}'.format(author.name, message.content)
     else:
         guild = message.guild
         channel = message.channel
-        log_msg = '{server} <{channel} | {user} | {id}> {text}'.format(
-            server=guild.name,
-            channel=channel.name,
-            user=author.name,
-            text=message.content,
-            id=author.id)
+        log_msg = f'{guild.name} <{channel.name} | {author.name} | {author.id}> {message.content}'
 
     log(log_msg)
 
@@ -77,7 +72,7 @@ def log(msg: str, iserror=False):
     now = datetime.now()
     hour = now.strftime("%H")
     minute = now.strftime("%M")
-    log_msg = '{}시 {}분 / {}'.format(hour, minute, msg)
+    log_msg = f'{hour}시 {minute}분 / {msg}'
     print(log_msg)
     save(log_msg)
     if iserror:
