@@ -19,11 +19,11 @@ class SetaBot(commands.AutoShardedBot):
         super().__init__(
             command_prefix=Config.prefixes,  # 접두사는 config.py에서 설정
             help_command=None,
+            intents=discord.Intents.all()
         )
 
         # Cogs 로드(Cogs 폴더 안에 있는 것이라면 자동으로 인식합니다)
-        cog_list = [i.split('.')[0] for i in os.listdir('cogs') if '.py' in i]
-        cog_list.remove('__init__')
+        cog_list = [i[:-3] for i in os.listdir('cogs') if i.endswith('.py') and i != 'cogs.__init__.py']
         self.add_cog(AdminCog(self))  # 기본 제공 명령어 Cog
         for i in cog_list:
             self.load_extension(f"cogs.{i}")
@@ -49,15 +49,14 @@ class AdminCog(commands.Cog):
         self.bot = bot
 
     # cogs 폴더 안의 코드를 수정했다면 굳이 껐다 키지 않아도 다시시작 명령어로 적용이 가능해!
-    @commands.command()
-    async def 다시시작(self, ctx, *args):
+    @commands.command(name='')
+    async def restart(self, ctx):
         if ctx.author.id not in Config.admin:
             await ctx.send('권한이 부족해!\n`봇 관리자라면 config.py의 admin 리스트에 자신의 디스코드 id가 있는지 확인해 봐!`')
-            return None
+            return
 
         w = await ctx.send("```모듈을 다시 불러오는 중...```")
-        cog_list = [i.split('.')[0] for i in os.listdir('cogs') if '.py' in i]
-        cog_list.remove('__init__')
+        cog_list = [i[:-3] for i in os.listdir('cogs') if i.endswith('.py') and i != 'cogs.__init__.py']
         for i in cog_list:
             self.bot.reload_extension(f"cogs.{i}")
             logger.info(f"'{i}' 다시 불러옴")
@@ -65,7 +64,7 @@ class AdminCog(commands.Cog):
         await w.edit(content="```cs\n'불러오기 성공'```")
 
     @commands.command()
-    async def info(self, ctx, *args):
+    async def info(self, ctx):
         embed = discord.Embed(title='정보', description=f'이 봇은 키뮤소프트의 세타봇 틀 기반으로 짜여진 프로젝트입니다.', colour=0x1DDB16)
         embed.add_field(name='키뮤의 과학실 서버 바로가기', value='🔗 https://discord.gg/XQuexpQ', inline=True)
         embed.set_footer(text="이 명령어를 지우지 말아 주세요!")
