@@ -14,8 +14,7 @@ def exp_to_level(exp: int):
     '''누적 경험치값을 레벨로 전환시켜줍니다. 음수 경험치는 레벨 0으로 처리됩니다.'''
     if exp < 0:
         return 0
-    else:
-        return int(((exp/5)+(1/4))**0.5 + 0.5)
+    return int(((exp/5)+(1/4))**0.5 + 0.5)
 
 
 def level_to_atk(level: int):
