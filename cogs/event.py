@@ -18,7 +18,7 @@ class EventCog(commands.Cog):
     @commands.Cog.listener()
     async def on_message(self, message):
         if message.author.bot:  # 봇이 말한 건 무시
-            return None
+            return
 
         logger.msg(message)  # 메시지를 기록
 
@@ -49,37 +49,34 @@ class EventCog(commands.Cog):
     @commands.Cog.listener()
     async def on_message_delete(self, message):
         if message.author.bot:
-            return None
+            return
         logger.info(f"{message.author.name}이(가) '{message.content}'라고 한 메시지를 삭제했어!")
 
     # 누군가가 메시지를 수정하면 여기가 실행될 거야 before와 after 모두 message야.
     @commands.Cog.listener()
     async def on_message_edit(self, before, after):
         if before.author.bot:
-            return None
+            return
         logger.info(f"{before.author.name}이(가) '{before.content}'라고 한 메시지를 '{after.content}'로 수정했어!")
 
     # 오류 발생 시 여기가 실행될 거야
     @commands.Cog.listener()
     async def on_command_error(self, ctx, error):
-        try:
-            raise error
-        except discord.errors.Forbidden:  # 권한 부족 오류
+        if isinstance(error, discord.errors.Forbidden):  # 권한 부족 오류
             try:
-                await ctx.send('어어... 권한이 없네?')
+                return await ctx.send('어어... 권한이 없네?')
             except discord.errors.Forbidden:  # 여기는 봇이 볼 수는 있지만 메시지를 쓸 수 조차 없는 경우야
-                logger.warn('채팅 쓰기 권한 부족 오류 발생')
+                return logger.warn('채팅 쓰기 권한 부족 오류 발생')
+            
+        elif isinstance(error, commands.errors.CommandNotFound):  # 해당하는 명령어가 없는 경우
+            return await ctx.send('그런 명령어는 없어!')            
 
-        except commands.errors.CommandNotFound:  # 해당하는 명령어가 없는 경우
-            await ctx.send('그런 명령어는 없어!')
+        elif isinstance(error, commands.CommandOnCooldown):  # 명령어 쿨타임이 다 차지 않은 경우
+            return await ctx.send(f'이 명령어는 {error.cooldown.rate}번 쓰면 {error.cooldown.per}초의 쿨타임이 생겨!```cs\n{int(error.retry_after)}초 후에 다시 시도해 줘!```')
 
-        except commands.CommandOnCooldown:  # 명령어 쿨타임이 다 차지 않은 경우
-            await ctx.send(f'이 명령어는 {error.cooldown.rate}번 쓰면 {error.cooldown.per}초의 쿨타임이 생겨!```cs\n{int(error.retry_after)}초 후에 다시 시도해 줘!```')
-
-        else:
-            await ctx.send(f'으앙 오류가 발생했어...\n`{str(error)}`')
-            logger.err(error)
-
+        await ctx.send(f'으앙 오류가 발생했어...\n`{str(error)}`')
+        logger.err(error)
+    
 
 def setup(bot):
     logger.info(f'{os.path.abspath(__file__)} 로드 완료')
