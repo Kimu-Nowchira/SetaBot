@@ -34,14 +34,10 @@ class Config:
         '''
         if self.is_debug:
             return self.test_token
-        else:
-            return self.token
+        return self.token
 
     def prefixes_no_space(self):
         '''
         접두사들을 띄어쓰기 없이 반환합니다.
         '''
-        result = []
-        for i in self.prefixes:
-            result.append(i.replace(' ', ''))
-        return result
+        return [i.replace(' ', '') for i in self.prefixes]

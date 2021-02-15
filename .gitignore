@@ -1,7 +1,8 @@
-/.vscode
-/logs
-/__pycache__
-__pycache__
+.vscode/
+.idea/
+logs/
+__pycache__/
+*.pyc
 
 config.py
 db/userdata.db
