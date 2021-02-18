@@ -1,7 +1,6 @@
 '''
     <config.py>
     봇의 설정을 이렇게 따로 빼 놓으면 편하게 설정할 수 있어요!
-    - 키뮤 제작(0127 버전)
 '''
 
 
@@ -29,15 +28,9 @@ class Config:
     admin = [12345678910]
 
     def using_token(self):
-        '''
-        사용해야 하는 봇 토큰을 반환합니다.
-        '''
-        if self.is_debug:
-            return self.test_token
-        return self.token
+        ''' 사용해야 하는 봇 토큰을 반환합니다. '''
+        return self.test_token if self.is_debug else self.token
 
     def prefixes_no_space(self):
-        '''
-        접두사들을 띄어쓰기 없이 반환합니다.
-        '''
+        ''' 접두사들을 띄어쓰기 없이 반환합니다. '''
         return [i.replace(' ', '') for i in self.prefixes]

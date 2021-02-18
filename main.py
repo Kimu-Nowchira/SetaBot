@@ -5,25 +5,26 @@
     - 키뮤 제작(0127 버전)
 '''
 
+import datetime
+import os
+
 from discord.ext import commands
 import discord
 
+from classes.user import User
 from config import Config
 from utils import logger
-import re
-import os
 
 
 class SetaBot(commands.AutoShardedBot):
     def __init__(self):
         super().__init__(
             command_prefix=Config.prefixes,  # 접두사는 config.py에서 설정
-            help_command=None,
-            intents=discord.Intents.all()
+            help_command=None
         )
 
         # Cogs 로드(Cogs 폴더 안에 있는 것이라면 자동으로 인식합니다)
-        cog_list = [i[:-3] for i in os.listdir('cogs') if i.endswith('.py') and i != 'cogs.__init__.py']
+        cog_list = [i[:-3] for i in os.listdir('cogs') if i.endswith('.py') and i != '__init__.py']
         self.add_cog(AdminCog(self))  # 기본 제공 명령어 Cog
         for i in cog_list:
             self.load_extension(f"cogs.{i}")
@@ -52,8 +53,9 @@ class AdminCog(commands.Cog):
     @commands.command(name='')
     async def restart(self, ctx):
         if ctx.author.id not in Config.admin:
-            await ctx.send('권한이 부족해!\n`봇 관리자라면 config.py의 admin 리스트에 자신의 디스코드 id가 있는지 확인해 봐!`')
-            return
+            return await ctx.send(
+                '권한이 부족해!'
+                '\n`❗ 봇 관리자라면 config.py의 admin 리스트에 자신의 디스코드 id가 있는지 확인해 봐!`')
 
         w = await ctx.send("```모듈을 다시 불러오는 중...```")
         cog_list = [i[:-3] for i in os.listdir('cogs') if i.endswith('.py') and i != 'cogs.__init__.py']
@@ -65,10 +67,85 @@ class AdminCog(commands.Cog):
 
     @commands.command()
     async def info(self, ctx):
-        embed = discord.Embed(title='정보', description=f'이 봇은 키뮤소프트의 세타봇 틀 기반으로 짜여진 프로젝트입니다.', colour=0x1DDB16)
-        embed.add_field(name='키뮤의 과학실 서버 바로가기', value='🔗 https://discord.gg/XQuexpQ', inline=True)
+        ''' 봇 프레임워크 정보를 볼 수 있는 명령어입니다. 명령어를 지우지 말아 주세요! '''
+        embed = discord.Embed(
+            title='정보',
+            description='이 봇은 키뮤소프트의 세타봇 V2.2 프레임워크 기반으로 짜여진 프로젝트입니다.',
+            colour=0x1DDB16)
+        embed.add_field(
+            name='키뮤의 과학실 서버 바로가기',
+            value='🔗 https://discord.gg/XQuexpQ',
+            inline=True)
         embed.set_footer(text="이 명령어를 지우지 말아 주세요!")
         await ctx.send(embed=embed)
+
+    @commands.command()
+    async def exec(self, ctx, *args):
+        if ctx.author.id not in Config.admin:
+            return await ctx.send(
+                '권한이 부족해!'
+                '\n`❗ 봇 관리자라면 config.py의 admin 리스트에 자신의 디스코드 id가 있는지 확인해 봐!`')
+
+        text = ' '.join(args)
+        me = User(ctx.author)
+        logger.info(f'{me.name}이(가) exec 명령어 사용 : {text}')
+        try:
+            exec(text)
+        except Exception as e:
+            embed = discord.Embed(
+                color=0x980000,
+                timestamp=datetime.datetime.today())
+            embed.add_field(
+                name="🐣  **Cracked!**",
+                value=f"```css\n[입구] {text}\n[오류] {e}```",
+                inline=False)
+            logger.err(e)
+        else:
+            embed = discord.Embed(
+                color=0x00a495,
+                timestamp=datetime.datetime.today())
+            embed.add_field(
+                name="🥚  **Exec**",
+                value=f"```css\n[입구] {text}```",
+                inline=False)
+        embed.set_footer(
+            text=f"{ctx.author.name} • exec",
+            icon_url=str(ctx.author.avatar_url_as(static_format='png', size=128)))
+        await ctx.send(embed=embed, reference=ctx.message)
+
+    @commands.command()
+    async def eval(self, ctx, *args):
+        if ctx.author.id not in Config.admin:
+            return await ctx.send(
+                '권한이 부족해!'
+                '\n`❗ 봇 관리자라면 config.py의 admin 리스트에 자신의 디스코드 id가 있는지 확인해 봐!`')
+
+        text = ' '.join(args)
+        me = User(ctx.author)
+        logger.info(f'{me.name}이(가) eval 명령어 사용 : {text}')
+        try:
+            result = eval(text)
+        except Exception as e:
+            embed = discord.Embed(
+                color=0x980000,
+                timestamp=datetime.datetime.today())
+            embed.add_field(
+                name="🐣  **Cracked!**",
+                value=f"```css\n[입구] {text}\n[오류] {e}```",
+                inline=False)
+            logger.err(e)
+        else:
+            embed = discord.Embed(
+                color=0x00a495,
+                timestamp=datetime.datetime.today())
+            embed.add_field(
+                name="🥚  **Eval**",
+                value=f"```css\n[입구] {text}\n[출구] {result}```",
+                inline=False)
+        embed.set_footer(
+            text=f"{ctx.author.name} • eval",
+            icon_url=str(ctx.author.avatar_url_as(static_format='png', size=128)))
+        await ctx.send(embed=embed, reference=ctx.message)
 
 
 setabot = SetaBot()

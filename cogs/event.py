@@ -67,16 +67,18 @@ class EventCog(commands.Cog):
                 return await ctx.send('어어... 권한이 없네?')
             except discord.errors.Forbidden:  # 여기는 봇이 볼 수는 있지만 메시지를 쓸 수 조차 없는 경우야
                 return logger.warn('채팅 쓰기 권한 부족 오류 발생')
-            
+
         elif isinstance(error, commands.errors.CommandNotFound):  # 해당하는 명령어가 없는 경우
-            return await ctx.send('그런 명령어는 없어!')            
+            return await ctx.send('그런 명령어는 없어!')
 
         elif isinstance(error, commands.CommandOnCooldown):  # 명령어 쿨타임이 다 차지 않은 경우
-            return await ctx.send(f'이 명령어는 {error.cooldown.rate}번 쓰면 {error.cooldown.per}초의 쿨타임이 생겨!```cs\n{int(error.retry_after)}초 후에 다시 시도해 줘!```')
+            return await ctx.send(
+                f'이 명령어는 {error.cooldown.rate}번 쓰면 {error.cooldown.per}초의 쿨타임이 생겨!'
+                f'```cs\n{int(error.retry_after)}초 후에 다시 시도해 줘!```')
 
         await ctx.send(f'으앙 오류가 발생했어...\n`{str(error)}`')
         logger.err(error)
-    
+
 
 def setup(bot):
     logger.info(f'{os.path.abspath(__file__)} 로드 완료')

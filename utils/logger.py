@@ -59,7 +59,7 @@ def msg(message):
 
     '''message를 넣으면 로그를 씀'''
     if 'DM' in str(type(message.channel)):
-        log_msg = f'DM <{}> {}'.format(author.name, message.content)
+        log_msg = f'DM <{author.name}> {message.content}'
     else:
         guild = message.guild
         channel = message.channel

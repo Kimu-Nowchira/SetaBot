@@ -1,8 +1,0 @@
-<discord.py에 대해 더 알고 싶다면>
-https://discordpy.readthedocs.io/en/latest/
-
-<파이썬에 대해 잘 모른다면>
-https://wikidocs.net/book/1
-
-세타봇 제작 : 키뮤
-코드 기여 : Tim232

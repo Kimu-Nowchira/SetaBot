@@ -5,7 +5,6 @@
 
 # 필수 임포트
 from discord.ext import commands
-import discord
 import os
 from utils import logger
 
