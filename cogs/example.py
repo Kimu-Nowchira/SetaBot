@@ -11,7 +11,6 @@ import os
 from utils import logger
 
 # 부가 임포트
-from config import Config
 from utils import util_box
 
 
@@ -27,7 +26,7 @@ class ExampleCog(commands.Cog):
     # 답장해 주는 예시 명령어야(최신 discord.py가 설치되어 있어야 해)
     @commands.command()
     async def 답장(self, ctx):
-        await ctx.send(content=f'자 답장이야!', reference=ctx.message)
+        await ctx.send(content='자 답장이야!', reference=ctx.message)
 
     # '!칭찬 키뮤' 이런 식으로 쓰는 예시 명령어야
     @commands.command()
@@ -42,7 +41,7 @@ class ExampleCog(commands.Cog):
     async def 발사(self, ctx, arg1=None, arg2=None):
         if arg1 is None or arg2 is None:
             return await ctx.send('뭘 누구한테 발사해야 해?')
-            
+
         await ctx.send(f'`{arg1}`에 `{arg2}`를 발사! 퍼퍼벙')
 
     # 따라말하는 예시 명령어야
@@ -50,7 +49,7 @@ class ExampleCog(commands.Cog):
     async def 말해(self, ctx, *, content=None):
         if content is None:  # 그냥 '!말해' 만 말했다면
             return await ctx.send('뭘 말해요?')  # ctx.send('내용')은 봇이 말하는 함수
-            
+
         await ctx.message.delete()  # 유저가 쓴 메시지는 지웁니다.
         await ctx.send(content)
 
