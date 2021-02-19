@@ -51,14 +51,14 @@ class AdminCog(commands.Cog):
 
     # cogs 폴더 안의 코드를 수정했다면 굳이 껐다 키지 않아도 다시시작 명령어로 적용이 가능해!
     @commands.command(name='')
-    async def restart(self, ctx):
+    async def reload(self, ctx):
         if ctx.author.id not in Config.admin:
             return await ctx.send(
                 '권한이 부족해!'
                 '\n`❗ 봇 관리자라면 config.py의 admin 리스트에 자신의 디스코드 id가 있는지 확인해 봐!`')
 
         w = await ctx.send("```모듈을 다시 불러오는 중...```")
-        cog_list = [i[:-3] for i in os.listdir('cogs') if i.endswith('.py') and i != 'cogs.__init__.py']
+        cog_list = [i[:-3] for i in os.listdir('cogs') if i.endswith('.py') and i != '__init__.py']
         for i in cog_list:
             self.bot.reload_extension(f"cogs.{i}")
             logger.info(f"'{i}' 다시 불러옴")

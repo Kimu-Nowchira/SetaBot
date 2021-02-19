@@ -12,7 +12,6 @@
 '''
 
 import sqlite3
-import os
 from utils import logger
 
 
@@ -33,8 +32,9 @@ class Seta_sqlite:
         """
 
         if not where == '':
-            where = ' WHERE ' + where
-        self.sql("UPDATE " + table + " SET " + rec + where)
+            if not where.startswith('WHERE '):
+                where = 'WHERE ' + where
+        self.sql(f"UPDATE {table} SET {rec} {where}")
         return True
 
     def insert_sql(self, table: str, rec: str, val: str):

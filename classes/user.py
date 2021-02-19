@@ -8,6 +8,7 @@ from typing import Union, Optional
 
 import discord
 
+from classes.skill import Skill
 from utils.sqlite_class import Seta_sqlite
 from utils import level_design
 
@@ -40,7 +41,7 @@ class User:
         try:
             self.load()
         except NotExistUser:
-            self.name = self.realname if self.realname is not None else name
+            self.name = self.realname if self.realname is not None else self.name
             db.insert_sql(
                 'users', 'id, name, hp, mp',
                 f"{self.id}, '{self.name}', {level_design.level_to_maxhp(1)}, {level_design.level_to_maxmp(1)}"
@@ -128,12 +129,12 @@ class User:
 
         HP 변화량을 반환합니다.'''
         value = int(value)
-        real_value = self.max_hp - self.hp if self.hp + value > self.max_hp else value
-        real_value = self.hp * -1 if self.hp + value < 0 else value
+        value = (self.max_hp - self.hp) if (self.hp + value) > self.max_hp else value
+        value = (self.hp * -1) if (self.hp + value) < 0 else value
 
         db.update_sql('users', f'hp=hp+{value}', f'WHERE id={self.id}')
-        self._hp += real_value
-        return real_value
+        self._hp += value
+        return value
 
     @property
     def mp(self):
@@ -157,12 +158,12 @@ class User:
 
         HP 변화량을 반환합니다.'''
         value = int(value)
-        real_value = self.max_mp - self.mp if self.mp + value > self.max_mp else value
-        real_value = self.mp * -1 if self.mp + value < 0 else value
+        value = self.max_mp - self.mp if self.mp + value > self.max_mp else value
+        value = self.mp * -1 if self.mp + value < 0 else value
 
         db.update_sql('users', f'mp=mp+{value}', f'WHERE id={self.id}')
-        self._mp += real_value
-        return real_value
+        self._mp += value
+        return value
 
     @property
     def is_gaming(self):
@@ -204,10 +205,11 @@ class User:
 
 # --------- 메서드 --------- #
 
-    def attack_to(self, target, skill=None):
-        pass
+    def attack_to(self, target, skill_code: str = 'DEFAULT'):
+        skill = Skill(skill_code)
+        return skill.use(self, target)
 
 
 class NotExistUser(Exception):
     def __init__(self):
-        super().__init__('존재하지 않는 유저입니다')
+        super().__init__('데이터 내에 존재하지 않는 유저입니다')

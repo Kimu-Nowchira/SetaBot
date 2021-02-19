@@ -8,6 +8,14 @@
 
 import asyncio
 import random
+import math
+
+
+def bar(value: int, full: int, block: int = 10, theme: dict = {'fill': '■', 'empty': '□'}):
+    bar_str = ''
+    bar_str += theme['fill'] * math.ceil(value / full * block)
+    bar_str += theme['empty'] * (block - len(bar_str))
+    return bar_str
 
 
 async def ox(bot, message, ctx):
