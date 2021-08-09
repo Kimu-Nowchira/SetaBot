@@ -1,10 +1,3 @@
-'''
-    <main.py>
-    디스코드 봇의 메인이 되는 파일입니다. 이 파일을 실행해야 디스코드 봇을 실행할 수 있어요!
-    ※ 봇 개발 초심자라면 이 파일을 수정하지 않는 것을 추천드려요!
-    - 키뮤 제작(0127 버전)
-'''
-
 import datetime
 import os
 
@@ -16,15 +9,16 @@ from config import Config
 from utils import logger
 
 
-class SetaBot(commands.AutoShardedBot):
+class DiscordBot(commands.AutoShardedBot):
     def __init__(self):
         super().__init__(
-            command_prefix=Config.prefixes,  # 접두사는 config.py에서 설정
+            command_prefix=Config.PREFIXES,  # 접두사는 config.py에서 설정
             help_command=None
         )
 
         # Cogs 로드(Cogs 폴더 안에 있는 것이라면 자동으로 인식합니다)
-        cog_list = [i[:-3] for i in os.listdir('cogs') if i.endswith('.py') and i != '__init__.py']
+        cog_list = [
+            i[:-3] for i in os.listdir('cogs') if i.endswith('.py') and i != '__init__.py']
         self.add_cog(AdminCog(self))  # 기본 제공 명령어 Cog
         for i in cog_list:
             self.load_extension(f"cogs.{i}")
@@ -38,10 +32,10 @@ class SetaBot(commands.AutoShardedBot):
 
         await self.change_presence(
             status=discord.Status.online,  # 상태 설정
-            activity=discord.Game(name=Config.activity))  # 하고 있는 게임으로 표시되는 것 설정
+            activity=discord.Game(name=Config.ACTIVITIES))  # 하고 있는 게임으로 표시되는 것 설정
 
     def run(self):
-        super().run(Config().using_token(), reconnect=True)
+        super().run(Config().token, reconnect=True)
 
 
 # 기본 제공 명령어
@@ -51,14 +45,15 @@ class AdminCog(commands.Cog):
 
     # cogs 폴더 안의 코드를 수정했다면 굳이 껐다 키지 않아도 다시시작 명령어로 적용이 가능해!
     @commands.command(name='')
-    async def reload(self, ctx):
-        if ctx.author.id not in Config.admin:
+    async def 다시시작(self, ctx):
+        if ctx.author.id not in Config.ADMIN:
             return await ctx.send(
                 '권한이 부족해!'
                 '\n`❗ 봇 관리자라면 config.py의 admin 리스트에 자신의 디스코드 id가 있는지 확인해 봐!`')
 
         w = await ctx.send("```모듈을 다시 불러오는 중...```")
-        cog_list = [i[:-3] for i in os.listdir('cogs') if i.endswith('.py') and i != '__init__.py']
+        cog_list = [
+            i[:-3] for i in os.listdir('cogs') if i.endswith('.py') and i != '__init__.py']
         for i in cog_list:
             self.bot.reload_extension(f"cogs.{i}")
             logger.info(f"'{i}' 다시 불러옴")
@@ -70,7 +65,7 @@ class AdminCog(commands.Cog):
         ''' 봇 프레임워크 정보를 볼 수 있는 명령어입니다. 명령어를 지우지 말아 주세요! '''
         embed = discord.Embed(
             title='정보',
-            description='이 봇은 키뮤소프트의 세타봇 V2.2 프레임워크 기반으로 짜여진 프로젝트입니다.',
+            description='이 봇은 키뮤소프트의 세타봇 V3 프레임워크 기반으로 짜여진 프로젝트입니다.',
             colour=0x1DDB16)
         embed.add_field(
             name='키뮤의 과학실 서버 바로가기',
@@ -80,8 +75,8 @@ class AdminCog(commands.Cog):
         await ctx.send(embed=embed)
 
     @commands.command()
-    async def exec(self, ctx, *args):
-        if ctx.author.id not in Config.admin:
+    async def 계란(self, ctx, *args):
+        if ctx.author.id not in Config.ADMIN:
             return await ctx.send(
                 '권한이 부족해!'
                 '\n`❗ 봇 관리자라면 config.py의 admin 리스트에 자신의 디스코드 id가 있는지 확인해 봐!`')
@@ -114,8 +109,8 @@ class AdminCog(commands.Cog):
         await ctx.send(embed=embed, reference=ctx.message)
 
     @commands.command()
-    async def eval(self, ctx, *args):
-        if ctx.author.id not in Config.admin:
+    async def 달걀(self, ctx, *args):
+        if ctx.author.id not in Config.ADMIN:
             return await ctx.send(
                 '권한이 부족해!'
                 '\n`❗ 봇 관리자라면 config.py의 admin 리스트에 자신의 디스코드 id가 있는지 확인해 봐!`')
@@ -148,5 +143,5 @@ class AdminCog(commands.Cog):
         await ctx.send(embed=embed, reference=ctx.message)
 
 
-setabot = SetaBot()
-setabot.run()
+bot = DiscordBot()
+bot.run()

@@ -5,14 +5,15 @@
 - user = User(id)로도 쓸 수 있지만 기능이 제한됩니다.
 '''
 from typing import Union, Optional
+import ast
 
 import discord
 
-from classes.skill import Skill
-from utils.sqlite_class import Seta_sqlite
+from utils.theta_sql import SetaSQL
 from utils import level_design
+from .game import Game
 
-db = Seta_sqlite('db/userdata.db')
+db = SetaSQL('db/db.db', 'user')
 
 
 class User:
@@ -27,11 +28,13 @@ class User:
     _hp: int = 0  # 체력(최대 체력은 레벨에 따라 자동 조정됩니다.)
     _mp: int = 0  # 마나
     items: list = []  # 아이템 목록
+    _gamelist: list = []
 
     realname: Optional[str] = None
 
     def __init__(self, user: Union[discord.User, int]):
         if isinstance(user, int):
+            print('유저로 객체 생성')
             self.id = user
         else:
             self.user = user
@@ -42,40 +45,69 @@ class User:
             self.load()
         except NotExistUser:
             self.name = self.realname if self.realname is not None else self.name
-            db.insert_sql(
-                'users', 'id, name, hp, mp',
-                f"{self.id}, '{self.name}', {level_design.level_to_maxhp(1)}, {level_design.level_to_maxmp(1)}"
-                )
+            userdata = {
+                'id': self.id,
+                'name': self.name,
+                'exp': 0,
+                'money': 0,
+                'items': [],
+                'gamelist': []
+            }
+            db.insert(**userdata)
             self.load()
 
         if self.realname is not None:
             if self.realname != self.name:
-                db.update_sql('users', f"name='{self.name}'", f"id={self.id}")
+                print(self.name)
+                db.update(name=self.name, where=f'id={self.id}')
             self.name = self.realname
 
     def load(self):
         '''데이터에서 값을 다시 불러옵니다'''
         data = self._load_data()
-        if data == []:
+        if data is None:
             raise NotExistUser
 
-        data = data[0]
-        self.name = str(data[0])
-        self._money = int(data[1])
-        self._exp = int(data[2])
-        self._hp = int(data[3])
-        self._mp = int(data[4])
-        self._is_gaming = bool(data[5])
+        self.name = str(data['id'])
+        self._money = int(data['money'])
+        self._exp = int(data['exp'])
+        self.item = ast.literal_eval(str(data['items']))
+        self._gamelist = ast.literal_eval(str(data['gamelist']))
         return data
 
     def _load_data(self):
-        return db.select_sql(
-            'users',
-            'name, money, exp, hp, mp, is_gaming',
-            f'WHERE id={self.id}'
-            )
+        return db.selectone(rec=['id', 'name', 'exp', 'money', 'items', 'gamelist'], where=f'id={self.id}')
+
+    def append_gamelist(self, game_id: int):
+        if game_id in self.gamelist:
+            raise AlreadyAppendedGame
+        if not isinstance(game_id, int):
+            raise TypeError
+        self.gamelist.append(game_id)
+        db.update(gamelist=list(set(self.gamelist)), where=f'id={self.id}')
+
+    def append_gamelist_obj(self, game):
+        if game.id in self.gamelist:
+            raise AlreadyAppendedGame
+        self.gamelist.append(game.id)
+        db.update(gamelist=self.gamelist, where=f'id={self.id}')
+
+    @property
+    def gamelist_class(self):
+        return [Game(i) for i in self.gamelist]
+
 
 # --------- Getter/Setter --------- #
+
+
+    @property
+    def gamelist(self):
+        return self._gamelist
+
+    @gamelist.setter
+    def gamelist(self, val: list):
+        self._gamelist = val
+        db.update(gamelist=self._gamelist, where=f'id={self.id}')
 
     @property
     def money(self):
@@ -89,7 +121,8 @@ class User:
 
     def add_money(self, value: int):
         '''유저의 돈을 value 만큼 더합니다. 유저의 돈을 늘리거나 줄일 때 add_money의 사용을 권장합니다.'''
-        db.update_sql('users', f'money=money+{int(value)}', f'WHERE id={self.id}')
+        db.update_sql(
+            'users', f'money=money+{int(value)}', f'WHERE id={self.id}')
         self._money += int(value)
 
     @property
@@ -108,71 +141,14 @@ class User:
         self._exp += int(value)
 
     @property
-    def hp(self):
-        '''int: 유저의 체력'''
-        return self._hp
-
-    @hp.setter
-    def hp(self, value: int):
-        value = int(value)
-
-        value = self.max_hp if self.max_hp < value else value
-        value = 0 if 0 > value else value
-
-        db.update_sql('users', f'hp={value}', f'WHERE id={self.id}')
-        self._hp = value
-
-    def add_hp(self, value: int):
-        '''유저의 체력(HP)에 value 만큼 더합니다. 유저의 HP를 늘리거나 줄일 때 이 함수의 사용을 권장합니다.
-        더해진 값이 최대 HP 값 이상이면 최대 HP 값으로 설정됩니다.
-        더해진 값이 0 미만이면 0으로 설정됩니다.
-
-        HP 변화량을 반환합니다.'''
-        value = int(value)
-        value = (self.max_hp - self.hp) if (self.hp + value) > self.max_hp else value
-        value = (self.hp * -1) if (self.hp + value) < 0 else value
-
-        db.update_sql('users', f'hp=hp+{value}', f'WHERE id={self.id}')
-        self._hp += value
-        return value
-
-    @property
-    def mp(self):
-        '''int: 유저의 마력'''
-        return self._mp
-
-    @mp.setter
-    def mp(self, value: int):
-        value = int(value)
-
-        value = self.max_mp if self.max_mp < value else value
-        value = 0 if 0 > value else value
-
-        db.update_sql('users', f'mp={value}', f'WHERE id={self.id}')
-        self._mp = value
-
-    def add_mp(self, value: int):
-        '''유저의 마력(MP)에 value 만큼 더합니다. 유저의 MP를 늘리거나 줄일 때 이 함수의 사용을 권장합니다.
-        더해진 값이 최대 MP 값 이상이면 최대 MP 값으로 설정됩니다.
-        더해진 값이 0 미만이면 0으로 설정됩니다.
-
-        HP 변화량을 반환합니다.'''
-        value = int(value)
-        value = self.max_mp - self.mp if self.mp + value > self.max_mp else value
-        value = self.mp * -1 if self.mp + value < 0 else value
-
-        db.update_sql('users', f'mp=mp+{value}', f'WHERE id={self.id}')
-        self._mp += value
-        return value
-
-    @property
     def is_gaming(self):
         '''bool: 유저의 게임 진행 중 여부'''
         return db.select_sql('users', 'is_gaming', f'WHERE id={self.id}')[0][0]
 
     @is_gaming.setter
     def is_gaming(self, value: bool):
-        db.update_sql('users', f'is_gaming={int(value)}', f'WHERE id={self.id}')
+        db.update_sql(
+            'users', f'is_gaming={int(value)}', f'WHERE id={self.id}')
         self._is_gaming = bool(value)
 
 # --------- 스테이터스 관련 --------- #
@@ -182,34 +158,12 @@ class User:
         '''int: 유저의 레벨'''
         return level_design.exp_to_level(self.exp)
 
-    @property
-    def max_hp(self):
-        '''int: 유저의 최대 HP'''
-        level_design.exp_to_maxhp(3)
-        return level_design.exp_to_maxhp(self.exp)
-
-    @property
-    def max_mp(self):
-        '''int: 유저의 최대 MP'''
-        return level_design.exp_to_maxmp(self.exp)
-
-    @property
-    def attack(self):
-        '''int: 유저의 공격력'''
-        return level_design.exp_to_atk(self.exp)
-
-    @property
-    def defend(self):
-        '''int: 유저의 방어력'''
-        return level_design.exp_to_def(self.exp)
-
-# --------- 메서드 --------- #
-
-    def attack_to(self, target, skill_code: str = 'DEFAULT'):
-        skill = Skill(skill_code)
-        return skill.use(self, target)
-
 
 class NotExistUser(Exception):
     def __init__(self):
         super().__init__('데이터 내에 존재하지 않는 유저입니다')
+
+
+class AlreadyAppendedGame(Exception):
+    def __init__(self):
+        super().__init__('이미 해당 유저가 추가한 게임입니다.')

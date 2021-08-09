@@ -22,7 +22,7 @@ def err(error):
         raise error
     except Exception:
         error_message = traceback.format_exc()
-        log(f'[오류] {error_message}\n\n', True)
+        log(f'\033[31m[오류]\033[0m {error_message}\n\n', True)
         return error_message
 
 
@@ -30,22 +30,22 @@ def warn(msg: str):
     '''
     경고 기록을 남길 때 사용해요!
     '''
-    log(f'[경고] {msg}')
+    log(f'\043[33m[경고]\033[0m {msg}')
 
 
 def info(msg: str):
     '''
     일반적인 기록을 남길 때 사용해요!
     '''
-    log(f'[정보] {msg}')
+    log(f'\033[32m[정보]\033[0m {msg}')
 
 
 def debug(msg: str):
     '''
     디버그 모드를 켰을 때만 기록해 줘요!
     '''
-    if Config.is_debug:
-        log(f'[디버그] {msg}')
+    if Config.DEBUG:
+        log(f'\033[47m[디버그]\033[0m {msg}')
 
 
 def msg(message):
@@ -63,7 +63,7 @@ def msg(message):
     else:
         guild = message.guild
         channel = message.channel
-        log_msg = f'{guild.name} <{channel.name} | {author.name} | {author.id}> {message.content}'
+        log_msg = f'\033[34m <{channel.name} | {author.name}>\033[0m {message.content} ({guild.name}, {author.id})'
 
     log(log_msg)
 

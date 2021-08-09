@@ -14,17 +14,6 @@ class EventCog(commands.Cog):
     def __init__(self, bot):
         self.bot = bot
 
-    # 접두사에 관계없이 누군가가 메시지를 올렸을 때 여기가 실행될 거야
-    @commands.Cog.listener()
-    async def on_message(self, message):
-        if message.author.bot:  # 봇이 말한 건 무시
-            return
-
-        logger.msg(message)  # 메시지를 기록
-
-        if message.content == '세타봇 바보':  # 만약 누가 '세타봇 바보'라고 말하면
-            await message.channel.send('바보 아니야')  # 바보 아니라고 답변
-
     # 누가 서버에 들어오면 여기가 실행될 거야
     @commands.Cog.listener()
     async def on_member_join(self, member):
@@ -50,14 +39,16 @@ class EventCog(commands.Cog):
     async def on_message_delete(self, message):
         if message.author.bot:
             return
-        logger.info(f"{message.author.name}이(가) '{message.content}'라고 한 메시지를 삭제했어!")
+        logger.info(
+            f"{message.author.name}이(가) '{message.content}'라고 한 메시지를 삭제했어!")
 
     # 누군가가 메시지를 수정하면 여기가 실행될 거야 before와 after 모두 message야.
     @commands.Cog.listener()
     async def on_message_edit(self, before, after):
         if before.author.bot:
             return
-        logger.info(f"{before.author.name}이(가) '{before.content}'라고 한 메시지를 '{after.content}'로 수정했어!")
+        logger.info(
+            f"{before.author.name}이(가) '{before.content}'라고 한 메시지를 '{after.content}'로 수정했어!")
 
     # 오류 발생 시 여기가 실행될 거야
     @commands.Cog.listener()
