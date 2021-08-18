@@ -1,0 +1,1702 @@
+{
+	"kind": "youtube#playlistItemListResponse",
+	"etag": "qJLHWo66RrVSum0t-tyAnQslYCg",
+	"items": [
+		{
+			"kind": "youtube#playlistItem",
+			"etag": "q45AKZ4HKEninyyzHeiIqRdExfU",
+			"id": "UEx2TnAwQm9hczcyM3Y3UHlDTkFiYjQ0NEJSUFZiR2lEUi41NkI0NEY2RDEwNTU3Q0M2",
+			"snippet": {
+				"publishedAt": "2015-02-08T08:16:31Z",
+				"channelId": "UCubokaJqWnfPdVpFw_G_Q2w",
+				"title": "Title Theme - Mario & Luigi: Partners in Time [OST]",
+				"description": "Game: Mario & Luigi: Partners in Time\nMusic: Title Theme",
+				"thumbnails": {
+					"default": {
+						"url": "https://i.ytimg.com/vi/uRrgfcFv2pU/default.jpg",
+						"width": 120,
+						"height": 90
+					},
+					"medium": {
+						"url": "https://i.ytimg.com/vi/uRrgfcFv2pU/mqdefault.jpg",
+						"width": 320,
+						"height": 180
+					},
+					"high": {
+						"url": "https://i.ytimg.com/vi/uRrgfcFv2pU/hqdefault.jpg",
+						"width": 480,
+						"height": 360
+					},
+					"standard": {
+						"url": "https://i.ytimg.com/vi/uRrgfcFv2pU/sddefault.jpg",
+						"width": 640,
+						"height": 480
+					},
+					"maxres": {
+						"url": "https://i.ytimg.com/vi/uRrgfcFv2pU/maxresdefault.jpg",
+						"width": 1280,
+						"height": 720
+					}
+				},
+				"channelTitle": "DeoxysPrime",
+				"playlistId": "PLvNp0Boas723v7PyCNAbb444BRPVbGiDR",
+				"position": 0,
+				"resourceId": {
+					"kind": "youtube#video",
+					"videoId": "uRrgfcFv2pU"
+				},
+				"videoOwnerChannelTitle": "DeoxysPrime",
+				"videoOwnerChannelId": "UCubokaJqWnfPdVpFw_G_Q2w"
+			}
+		},
+		{
+			"kind": "youtube#playlistItem",
+			"etag": "N6TghD_NgHnU_leAw4A9nL9Pbc0",
+			"id": "UEx2TnAwQm9hczcyM3Y3UHlDTkFiYjQ0NEJSUFZiR2lEUi4yODlGNEE0NkRGMEEzMEQy",
+			"snippet": {
+				"publishedAt": "2015-02-08T08:16:36Z",
+				"channelId": "UCubokaJqWnfPdVpFw_G_Q2w",
+				"title": "File Select - Mario & Luigi: Partners in Time [OST]",
+				"description": "Game: Mario & Luigi: Partners in Time\nMusic: File Select",
+				"thumbnails": {
+					"default": {
+						"url": "https://i.ytimg.com/vi/YtkgYXYCnwY/default.jpg",
+						"width": 120,
+						"height": 90
+					},
+					"medium": {
+						"url": "https://i.ytimg.com/vi/YtkgYXYCnwY/mqdefault.jpg",
+						"width": 320,
+						"height": 180
+					},
+					"high": {
+						"url": "https://i.ytimg.com/vi/YtkgYXYCnwY/hqdefault.jpg",
+						"width": 480,
+						"height": 360
+					},
+					"standard": {
+						"url": "https://i.ytimg.com/vi/YtkgYXYCnwY/sddefault.jpg",
+						"width": 640,
+						"height": 480
+					},
+					"maxres": {
+						"url": "https://i.ytimg.com/vi/YtkgYXYCnwY/maxresdefault.jpg",
+						"width": 1280,
+						"height": 720
+					}
+				},
+				"channelTitle": "DeoxysPrime",
+				"playlistId": "PLvNp0Boas723v7PyCNAbb444BRPVbGiDR",
+				"position": 1,
+				"resourceId": {
+					"kind": "youtube#video",
+					"videoId": "YtkgYXYCnwY"
+				},
+				"videoOwnerChannelTitle": "DeoxysPrime",
+				"videoOwnerChannelId": "UCubokaJqWnfPdVpFw_G_Q2w"
+			}
+		},
+		{
+			"kind": "youtube#playlistItem",
+			"etag": "jRssLCERUO3F0xqLBxKrQ0nEWSk",
+			"id": "UEx2TnAwQm9hczcyM3Y3UHlDTkFiYjQ0NEJSUFZiR2lEUi4wMTcyMDhGQUE4NTIzM0Y5",
+			"snippet": {
+				"publishedAt": "2015-02-08T08:16:43Z",
+				"channelId": "UCubokaJqWnfPdVpFw_G_Q2w",
+				"title": "Shroobs - Mario & Luigi: Partners in Time [OST]",
+				"description": "Game: Mario & Luigi: Partners in Time\nMusic: Shroobs",
+				"thumbnails": {
+					"default": {
+						"url": "https://i.ytimg.com/vi/yZh57gKLy8w/default.jpg",
+						"width": 120,
+						"height": 90
+					},
+					"medium": {
+						"url": "https://i.ytimg.com/vi/yZh57gKLy8w/mqdefault.jpg",
+						"width": 320,
+						"height": 180
+					},
+					"high": {
+						"url": "https://i.ytimg.com/vi/yZh57gKLy8w/hqdefault.jpg",
+						"width": 480,
+						"height": 360
+					},
+					"standard": {
+						"url": "https://i.ytimg.com/vi/yZh57gKLy8w/sddefault.jpg",
+						"width": 640,
+						"height": 480
+					},
+					"maxres": {
+						"url": "https://i.ytimg.com/vi/yZh57gKLy8w/maxresdefault.jpg",
+						"width": 1280,
+						"height": 720
+					}
+				},
+				"channelTitle": "DeoxysPrime",
+				"playlistId": "PLvNp0Boas723v7PyCNAbb444BRPVbGiDR",
+				"position": 2,
+				"resourceId": {
+					"kind": "youtube#video",
+					"videoId": "yZh57gKLy8w"
+				},
+				"videoOwnerChannelTitle": "DeoxysPrime",
+				"videoOwnerChannelId": "UCubokaJqWnfPdVpFw_G_Q2w"
+			}
+		},
+		{
+			"kind": "youtube#playlistItem",
+			"etag": "hJ5RhSCLErFtG3veavMwght2WoI",
+			"id": "UEx2TnAwQm9hczcyM3Y3UHlDTkFiYjQ0NEJSUFZiR2lEUi41MjE1MkI0OTQ2QzJGNzNG",
+			"snippet": {
+				"publishedAt": "2015-02-08T08:16:48Z",
+				"channelId": "UCubokaJqWnfPdVpFw_G_Q2w",
+				"title": "Peach's Castle - Mario & Luigi: Partners in Time [OST]",
+				"description": "Game: Mario & Luigi: Partners in Time\nMusic: Peach's Castle",
+				"thumbnails": {
+					"default": {
+						"url": "https://i.ytimg.com/vi/76deYlzLbko/default.jpg",
+						"width": 120,
+						"height": 90
+					},
+					"medium": {
+						"url": "https://i.ytimg.com/vi/76deYlzLbko/mqdefault.jpg",
+						"width": 320,
+						"height": 180
+					},
+					"high": {
+						"url": "https://i.ytimg.com/vi/76deYlzLbko/hqdefault.jpg",
+						"width": 480,
+						"height": 360
+					},
+					"standard": {
+						"url": "https://i.ytimg.com/vi/76deYlzLbko/sddefault.jpg",
+						"width": 640,
+						"height": 480
+					},
+					"maxres": {
+						"url": "https://i.ytimg.com/vi/76deYlzLbko/maxresdefault.jpg",
+						"width": 1280,
+						"height": 720
+					}
+				},
+				"channelTitle": "DeoxysPrime",
+				"playlistId": "PLvNp0Boas723v7PyCNAbb444BRPVbGiDR",
+				"position": 3,
+				"resourceId": {
+					"kind": "youtube#video",
+					"videoId": "76deYlzLbko"
+				},
+				"videoOwnerChannelTitle": "DeoxysPrime",
+				"videoOwnerChannelId": "UCubokaJqWnfPdVpFw_G_Q2w"
+			}
+		},
+		{
+			"kind": "youtube#playlistItem",
+			"etag": "qJFi4d6jNF2rOzAFzRlm7Ym08Ak",
+			"id": "UEx2TnAwQm9hczcyM3Y3UHlDTkFiYjQ0NEJSUFZiR2lEUi4wOTA3OTZBNzVEMTUzOTMy",
+			"snippet": {
+				"publishedAt": "2015-02-08T08:16:52Z",
+				"channelId": "UCubokaJqWnfPdVpFw_G_Q2w",
+				"title": "Serious Trouble - Mario & Luigi: Partners in Time [OST]",
+				"description": "Game: Mario & Luigi: Partners in Time\nMusic: Serious Trouble",
+				"thumbnails": {
+					"default": {
+						"url": "https://i.ytimg.com/vi/y25UBYNod9w/default.jpg",
+						"width": 120,
+						"height": 90
+					},
+					"medium": {
+						"url": "https://i.ytimg.com/vi/y25UBYNod9w/mqdefault.jpg",
+						"width": 320,
+						"height": 180
+					},
+					"high": {
+						"url": "https://i.ytimg.com/vi/y25UBYNod9w/hqdefault.jpg",
+						"width": 480,
+						"height": 360
+					},
+					"standard": {
+						"url": "https://i.ytimg.com/vi/y25UBYNod9w/sddefault.jpg",
+						"width": 640,
+						"height": 480
+					},
+					"maxres": {
+						"url": "https://i.ytimg.com/vi/y25UBYNod9w/maxresdefault.jpg",
+						"width": 1280,
+						"height": 720
+					}
+				},
+				"channelTitle": "DeoxysPrime",
+				"playlistId": "PLvNp0Boas723v7PyCNAbb444BRPVbGiDR",
+				"position": 4,
+				"resourceId": {
+					"kind": "youtube#video",
+					"videoId": "y25UBYNod9w"
+				},
+				"videoOwnerChannelTitle": "DeoxysPrime",
+				"videoOwnerChannelId": "UCubokaJqWnfPdVpFw_G_Q2w"
+			}
+		},
+		{
+			"kind": "youtube#playlistItem",
+			"etag": "0LOsQBpRdxHTY0Zu3rInTVDw2kk",
+			"id": "UEx2TnAwQm9hczcyM3Y3UHlDTkFiYjQ0NEJSUFZiR2lEUi4xMkVGQjNCMUM1N0RFNEUx",
+			"snippet": {
+				"publishedAt": "2015-02-08T08:16:57Z",
+				"channelId": "UCubokaJqWnfPdVpFw_G_Q2w",
+				"title": "Battle - Mario & Luigi: Partners in Time [OST]",
+				"description": "Game: Mario & Luigi: Partners in Time\nMusic: Battle",
+				"thumbnails": {
+					"default": {
+						"url": "https://i.ytimg.com/vi/pM5Ss6Sk5FA/default.jpg",
+						"width": 120,
+						"height": 90
+					},
+					"medium": {
+						"url": "https://i.ytimg.com/vi/pM5Ss6Sk5FA/mqdefault.jpg",
+						"width": 320,
+						"height": 180
+					},
+					"high": {
+						"url": "https://i.ytimg.com/vi/pM5Ss6Sk5FA/hqdefault.jpg",
+						"width": 480,
+						"height": 360
+					},
+					"standard": {
+						"url": "https://i.ytimg.com/vi/pM5Ss6Sk5FA/sddefault.jpg",
+						"width": 640,
+						"height": 480
+					},
+					"maxres": {
+						"url": "https://i.ytimg.com/vi/pM5Ss6Sk5FA/maxresdefault.jpg",
+						"width": 1280,
+						"height": 720
+					}
+				},
+				"channelTitle": "DeoxysPrime",
+				"playlistId": "PLvNp0Boas723v7PyCNAbb444BRPVbGiDR",
+				"position": 5,
+				"resourceId": {
+					"kind": "youtube#video",
+					"videoId": "pM5Ss6Sk5FA"
+				},
+				"videoOwnerChannelTitle": "DeoxysPrime",
+				"videoOwnerChannelId": "UCubokaJqWnfPdVpFw_G_Q2w"
+			}
+		},
+		{
+			"kind": "youtube#playlistItem",
+			"etag": "38V6TuP8zVKENfNSPA0Q4vHHh6o",
+			"id": "UEx2TnAwQm9hczcyM3Y3UHlDTkFiYjQ0NEJSUFZiR2lEUi41MzJCQjBCNDIyRkJDN0VD",
+			"snippet": {
+				"publishedAt": "2015-02-08T08:17:03Z",
+				"channelId": "UCubokaJqWnfPdVpFw_G_Q2w",
+				"title": "Victory! - Mario & Luigi: Partners in Time [OST]",
+				"description": "Game: Mario & Luigi: Partners in Time\nMusic: Victory!",
+				"thumbnails": {
+					"default": {
+						"url": "https://i.ytimg.com/vi/Ksjx9WlH2Xs/default.jpg",
+						"width": 120,
+						"height": 90
+					},
+					"medium": {
+						"url": "https://i.ytimg.com/vi/Ksjx9WlH2Xs/mqdefault.jpg",
+						"width": 320,
+						"height": 180
+					},
+					"high": {
+						"url": "https://i.ytimg.com/vi/Ksjx9WlH2Xs/hqdefault.jpg",
+						"width": 480,
+						"height": 360
+					},
+					"standard": {
+						"url": "https://i.ytimg.com/vi/Ksjx9WlH2Xs/sddefault.jpg",
+						"width": 640,
+						"height": 480
+					},
+					"maxres": {
+						"url": "https://i.ytimg.com/vi/Ksjx9WlH2Xs/maxresdefault.jpg",
+						"width": 1280,
+						"height": 720
+					}
+				},
+				"channelTitle": "DeoxysPrime",
+				"playlistId": "PLvNp0Boas723v7PyCNAbb444BRPVbGiDR",
+				"position": 6,
+				"resourceId": {
+					"kind": "youtube#video",
+					"videoId": "Ksjx9WlH2Xs"
+				},
+				"videoOwnerChannelTitle": "DeoxysPrime",
+				"videoOwnerChannelId": "UCubokaJqWnfPdVpFw_G_Q2w"
+			}
+		},
+		{
+			"kind": "youtube#playlistItem",
+			"etag": "DImjXpzAvAAiVWYn6TRfhYrXs1s",
+			"id": "UEx2TnAwQm9hczcyM3Y3UHlDTkFiYjQ0NEJSUFZiR2lEUi5DQUNERDQ2NkIzRUQxNTY1",
+			"snippet": {
+				"publishedAt": "2015-02-08T08:17:07Z",
+				"channelId": "UCubokaJqWnfPdVpFw_G_Q2w",
+				"title": "Shroob Attack - Mario & Luigi: Partners in Time [OST]",
+				"description": "Game: Mario & Luigi: Partners in Time\nMusic: Shroob Attack",
+				"thumbnails": {
+					"default": {
+						"url": "https://i.ytimg.com/vi/gMEcdgddFzk/default.jpg",
+						"width": 120,
+						"height": 90
+					},
+					"medium": {
+						"url": "https://i.ytimg.com/vi/gMEcdgddFzk/mqdefault.jpg",
+						"width": 320,
+						"height": 180
+					},
+					"high": {
+						"url": "https://i.ytimg.com/vi/gMEcdgddFzk/hqdefault.jpg",
+						"width": 480,
+						"height": 360
+					},
+					"standard": {
+						"url": "https://i.ytimg.com/vi/gMEcdgddFzk/sddefault.jpg",
+						"width": 640,
+						"height": 480
+					},
+					"maxres": {
+						"url": "https://i.ytimg.com/vi/gMEcdgddFzk/maxresdefault.jpg",
+						"width": 1280,
+						"height": 720
+					}
+				},
+				"channelTitle": "DeoxysPrime",
+				"playlistId": "PLvNp0Boas723v7PyCNAbb444BRPVbGiDR",
+				"position": 7,
+				"resourceId": {
+					"kind": "youtube#video",
+					"videoId": "gMEcdgddFzk"
+				},
+				"videoOwnerChannelTitle": "DeoxysPrime",
+				"videoOwnerChannelId": "UCubokaJqWnfPdVpFw_G_Q2w"
+			}
+		},
+		{
+			"kind": "youtube#playlistItem",
+			"etag": "umwTemHNPmBNjUsPyaJfwvfAPxo",
+			"id": "UEx2TnAwQm9hczcyM3Y3UHlDTkFiYjQ0NEJSUFZiR2lEUi45NDk1REZENzhEMzU5MDQz",
+			"snippet": {
+				"publishedAt": "2015-02-08T08:17:13Z",
+				"channelId": "UCubokaJqWnfPdVpFw_G_Q2w",
+				"title": "The Time Machine - Mario & Luigi: Partners in Time [OST]",
+				"description": "Game: Mario & Luigi: Partners in Time\nMusic: The Time Machine",
+				"thumbnails": {
+					"default": {
+						"url": "https://i.ytimg.com/vi/oAfDW5HS0S8/default.jpg",
+						"width": 120,
+						"height": 90
+					},
+					"medium": {
+						"url": "https://i.ytimg.com/vi/oAfDW5HS0S8/mqdefault.jpg",
+						"width": 320,
+						"height": 180
+					},
+					"high": {
+						"url": "https://i.ytimg.com/vi/oAfDW5HS0S8/hqdefault.jpg",
+						"width": 480,
+						"height": 360
+					},
+					"standard": {
+						"url": "https://i.ytimg.com/vi/oAfDW5HS0S8/sddefault.jpg",
+						"width": 640,
+						"height": 480
+					},
+					"maxres": {
+						"url": "https://i.ytimg.com/vi/oAfDW5HS0S8/maxresdefault.jpg",
+						"width": 1280,
+						"height": 720
+					}
+				},
+				"channelTitle": "DeoxysPrime",
+				"playlistId": "PLvNp0Boas723v7PyCNAbb444BRPVbGiDR",
+				"position": 8,
+				"resourceId": {
+					"kind": "youtube#video",
+					"videoId": "oAfDW5HS0S8"
+				},
+				"videoOwnerChannelTitle": "DeoxysPrime",
+				"videoOwnerChannelId": "UCubokaJqWnfPdVpFw_G_Q2w"
+			}
+		},
+		{
+			"kind": "youtube#playlistItem",
+			"etag": "wZNJolwEcSLWwAmlXUzy4TCjgE0",
+			"id": "UEx2TnAwQm9hczcyM3Y3UHlDTkFiYjQ0NEJSUFZiR2lEUi5GNjNDRDREMDQxOThCMDQ2",
+			"snippet": {
+				"publishedAt": "2015-02-08T08:17:18Z",
+				"channelId": "UCubokaJqWnfPdVpFw_G_Q2w",
+				"title": "Boss Battle - Mario & Luigi: Partners in Time [OST]",
+				"description": "Game: Mario & Luigi: Partners in Time\nMusic: Boss Battle",
+				"thumbnails": {
+					"default": {
+						"url": "https://i.ytimg.com/vi/BWNzQlor9OU/default.jpg",
+						"width": 120,
+						"height": 90
+					},
+					"medium": {
+						"url": "https://i.ytimg.com/vi/BWNzQlor9OU/mqdefault.jpg",
+						"width": 320,
+						"height": 180
+					},
+					"high": {
+						"url": "https://i.ytimg.com/vi/BWNzQlor9OU/hqdefault.jpg",
+						"width": 480,
+						"height": 360
+					},
+					"standard": {
+						"url": "https://i.ytimg.com/vi/BWNzQlor9OU/sddefault.jpg",
+						"width": 640,
+						"height": 480
+					},
+					"maxres": {
+						"url": "https://i.ytimg.com/vi/BWNzQlor9OU/maxresdefault.jpg",
+						"width": 1280,
+						"height": 720
+					}
+				},
+				"channelTitle": "DeoxysPrime",
+				"playlistId": "PLvNp0Boas723v7PyCNAbb444BRPVbGiDR",
+				"position": 9,
+				"resourceId": {
+					"kind": "youtube#video",
+					"videoId": "BWNzQlor9OU"
+				},
+				"videoOwnerChannelTitle": "DeoxysPrime",
+				"videoOwnerChannelId": "UCubokaJqWnfPdVpFw_G_Q2w"
+			}
+		},
+		{
+			"kind": "youtube#playlistItem",
+			"etag": "9Tg8pnm1mZ593wbIh1sL0ItfJw4",
+			"id": "UEx2TnAwQm9hczcyM3Y3UHlDTkFiYjQ0NEJSUFZiR2lEUi40NzZCMERDMjVEN0RFRThB",
+			"snippet": {
+				"publishedAt": "2015-02-08T08:17:23Z",
+				"channelId": "UCubokaJqWnfPdVpFw_G_Q2w",
+				"title": "Professor E. Gadd - Mario & Luigi: Partners in Time [OST]",
+				"description": "Game: Mario & Luigi: Partners in Time\nMusic: Professor E. Gadd",
+				"thumbnails": {
+					"default": {
+						"url": "https://i.ytimg.com/vi/Ynxx-bLB95s/default.jpg",
+						"width": 120,
+						"height": 90
+					},
+					"medium": {
+						"url": "https://i.ytimg.com/vi/Ynxx-bLB95s/mqdefault.jpg",
+						"width": 320,
+						"height": 180
+					},
+					"high": {
+						"url": "https://i.ytimg.com/vi/Ynxx-bLB95s/hqdefault.jpg",
+						"width": 480,
+						"height": 360
+					},
+					"standard": {
+						"url": "https://i.ytimg.com/vi/Ynxx-bLB95s/sddefault.jpg",
+						"width": 640,
+						"height": 480
+					},
+					"maxres": {
+						"url": "https://i.ytimg.com/vi/Ynxx-bLB95s/maxresdefault.jpg",
+						"width": 1280,
+						"height": 720
+					}
+				},
+				"channelTitle": "DeoxysPrime",
+				"playlistId": "PLvNp0Boas723v7PyCNAbb444BRPVbGiDR",
+				"position": 10,
+				"resourceId": {
+					"kind": "youtube#video",
+					"videoId": "Ynxx-bLB95s"
+				},
+				"videoOwnerChannelTitle": "DeoxysPrime",
+				"videoOwnerChannelId": "UCubokaJqWnfPdVpFw_G_Q2w"
+			}
+		},
+		{
+			"kind": "youtube#playlistItem",
+			"etag": "4aZShhbpMlaquVru_EQFLJggYMs",
+			"id": "UEx2TnAwQm9hczcyM3Y3UHlDTkFiYjQ0NEJSUFZiR2lEUi5EMEEwRUY5M0RDRTU3NDJC",
+			"snippet": {
+				"publishedAt": "2015-02-08T08:17:28Z",
+				"channelId": "UCubokaJqWnfPdVpFw_G_Q2w",
+				"title": "Listen Up - Mario & Luigi: Partners in Time [OST]",
+				"description": "Game: Mario & Luigi: Partners in Time\nMusic: Listen Up",
+				"thumbnails": {
+					"default": {
+						"url": "https://i.ytimg.com/vi/yEDvBYlRgz8/default.jpg",
+						"width": 120,
+						"height": 90
+					},
+					"medium": {
+						"url": "https://i.ytimg.com/vi/yEDvBYlRgz8/mqdefault.jpg",
+						"width": 320,
+						"height": 180
+					},
+					"high": {
+						"url": "https://i.ytimg.com/vi/yEDvBYlRgz8/hqdefault.jpg",
+						"width": 480,
+						"height": 360
+					},
+					"standard": {
+						"url": "https://i.ytimg.com/vi/yEDvBYlRgz8/sddefault.jpg",
+						"width": 640,
+						"height": 480
+					},
+					"maxres": {
+						"url": "https://i.ytimg.com/vi/yEDvBYlRgz8/maxresdefault.jpg",
+						"width": 1280,
+						"height": 720
+					}
+				},
+				"channelTitle": "DeoxysPrime",
+				"playlistId": "PLvNp0Boas723v7PyCNAbb444BRPVbGiDR",
+				"position": 11,
+				"resourceId": {
+					"kind": "youtube#video",
+					"videoId": "yEDvBYlRgz8"
+				},
+				"videoOwnerChannelTitle": "DeoxysPrime",
+				"videoOwnerChannelId": "UCubokaJqWnfPdVpFw_G_Q2w"
+			}
+		},
+		{
+			"kind": "youtube#playlistItem",
+			"etag": "eWqJexE6_th_WcXR--sAFFW7Y9o",
+			"id": "UEx2TnAwQm9hczcyM3Y3UHlDTkFiYjQ0NEJSUFZiR2lEUi45ODRDNTg0QjA4NkFBNkQy",
+			"snippet": {
+				"publishedAt": "2015-02-08T08:17:47Z",
+				"channelId": "UCubokaJqWnfPdVpFw_G_Q2w",
+				"title": "Holli Jolli Village - Mario & Luigi: Partners in Time [OST]",
+				"description": "Game: Mario & Luigi: Partners in Time\nMusic: Holli Jolli Village",
+				"thumbnails": {
+					"default": {
+						"url": "https://i.ytimg.com/vi/ob2nLVXzABc/default.jpg",
+						"width": 120,
+						"height": 90
+					},
+					"medium": {
+						"url": "https://i.ytimg.com/vi/ob2nLVXzABc/mqdefault.jpg",
+						"width": 320,
+						"height": 180
+					},
+					"high": {
+						"url": "https://i.ytimg.com/vi/ob2nLVXzABc/hqdefault.jpg",
+						"width": 480,
+						"height": 360
+					},
+					"standard": {
+						"url": "https://i.ytimg.com/vi/ob2nLVXzABc/sddefault.jpg",
+						"width": 640,
+						"height": 480
+					},
+					"maxres": {
+						"url": "https://i.ytimg.com/vi/ob2nLVXzABc/maxresdefault.jpg",
+						"width": 1280,
+						"height": 720
+					}
+				},
+				"channelTitle": "DeoxysPrime",
+				"playlistId": "PLvNp0Boas723v7PyCNAbb444BRPVbGiDR",
+				"position": 12,
+				"resourceId": {
+					"kind": "youtube#video",
+					"videoId": "ob2nLVXzABc"
+				},
+				"videoOwnerChannelTitle": "DeoxysPrime",
+				"videoOwnerChannelId": "UCubokaJqWnfPdVpFw_G_Q2w"
+			}
+		},
+		{
+			"kind": "youtube#playlistItem",
+			"etag": "j3QAxeotSwFdN8KK9It5evU38p0",
+			"id": "UEx2TnAwQm9hczcyM3Y3UHlDTkFiYjQ0NEJSUFZiR2lEUi4zMDg5MkQ5MEVDMEM1NTg2",
+			"snippet": {
+				"publishedAt": "2015-02-08T08:17:51Z",
+				"channelId": "UCubokaJqWnfPdVpFw_G_Q2w",
+				"title": "Prince Bowser - Mario & Luigi: Partners in Time [OST]",
+				"description": "Game: Mario & Luigi: Partners in Time\nMusic: Prince Bowser",
+				"thumbnails": {
+					"default": {
+						"url": "https://i.ytimg.com/vi/45zOh0X-2P0/default.jpg",
+						"width": 120,
+						"height": 90
+					},
+					"medium": {
+						"url": "https://i.ytimg.com/vi/45zOh0X-2P0/mqdefault.jpg",
+						"width": 320,
+						"height": 180
+					},
+					"high": {
+						"url": "https://i.ytimg.com/vi/45zOh0X-2P0/hqdefault.jpg",
+						"width": 480,
+						"height": 360
+					},
+					"standard": {
+						"url": "https://i.ytimg.com/vi/45zOh0X-2P0/sddefault.jpg",
+						"width": 640,
+						"height": 480
+					},
+					"maxres": {
+						"url": "https://i.ytimg.com/vi/45zOh0X-2P0/maxresdefault.jpg",
+						"width": 1280,
+						"height": 720
+					}
+				},
+				"channelTitle": "DeoxysPrime",
+				"playlistId": "PLvNp0Boas723v7PyCNAbb444BRPVbGiDR",
+				"position": 13,
+				"resourceId": {
+					"kind": "youtube#video",
+					"videoId": "45zOh0X-2P0"
+				},
+				"videoOwnerChannelTitle": "DeoxysPrime",
+				"videoOwnerChannelId": "UCubokaJqWnfPdVpFw_G_Q2w"
+			}
+		},
+		{
+			"kind": "youtube#playlistItem",
+			"etag": "AIwLmPQbe4moXFMVwGhgI8hC-C8",
+			"id": "UEx2TnAwQm9hczcyM3Y3UHlDTkFiYjQ0NEJSUFZiR2lEUi41Mzk2QTAxMTkzNDk4MDhF",
+			"snippet": {
+				"publishedAt": "2015-02-08T08:17:58Z",
+				"channelId": "UCubokaJqWnfPdVpFw_G_Q2w",
+				"title": "Bowser's Castle - Mario & Luigi: Partners in Time [OST]",
+				"description": "Game: Mario & Luigi: Partners in Time\nMusic: Bowser's Castle",
+				"thumbnails": {
+					"default": {
+						"url": "https://i.ytimg.com/vi/ANMTe7k7RSY/default.jpg",
+						"width": 120,
+						"height": 90
+					},
+					"medium": {
+						"url": "https://i.ytimg.com/vi/ANMTe7k7RSY/mqdefault.jpg",
+						"width": 320,
+						"height": 180
+					},
+					"high": {
+						"url": "https://i.ytimg.com/vi/ANMTe7k7RSY/hqdefault.jpg",
+						"width": 480,
+						"height": 360
+					},
+					"standard": {
+						"url": "https://i.ytimg.com/vi/ANMTe7k7RSY/sddefault.jpg",
+						"width": 640,
+						"height": 480
+					},
+					"maxres": {
+						"url": "https://i.ytimg.com/vi/ANMTe7k7RSY/maxresdefault.jpg",
+						"width": 1280,
+						"height": 720
+					}
+				},
+				"channelTitle": "DeoxysPrime",
+				"playlistId": "PLvNp0Boas723v7PyCNAbb444BRPVbGiDR",
+				"position": 14,
+				"resourceId": {
+					"kind": "youtube#video",
+					"videoId": "ANMTe7k7RSY"
+				},
+				"videoOwnerChannelTitle": "DeoxysPrime",
+				"videoOwnerChannelId": "UCubokaJqWnfPdVpFw_G_Q2w"
+			}
+		},
+		{
+			"kind": "youtube#playlistItem",
+			"etag": "5rXLY9dgPmjA5JbvIGHGHD501vw",
+			"id": "UEx2TnAwQm9hczcyM3Y3UHlDTkFiYjQ0NEJSUFZiR2lEUi5EQUE1NTFDRjcwMDg0NEMz",
+			"snippet": {
+				"publishedAt": "2015-02-08T08:18:03Z",
+				"channelId": "UCubokaJqWnfPdVpFw_G_Q2w",
+				"title": "Toadwood Forest - Mario & Luigi: Partners in Time [OST]",
+				"description": "Game: Mario & Luigi: Partners in Time\nMusic: Toadwood Forest",
+				"thumbnails": {
+					"default": {
+						"url": "https://i.ytimg.com/vi/1jLnkuJEXZk/default.jpg",
+						"width": 120,
+						"height": 90
+					},
+					"medium": {
+						"url": "https://i.ytimg.com/vi/1jLnkuJEXZk/mqdefault.jpg",
+						"width": 320,
+						"height": 180
+					},
+					"high": {
+						"url": "https://i.ytimg.com/vi/1jLnkuJEXZk/hqdefault.jpg",
+						"width": 480,
+						"height": 360
+					},
+					"standard": {
+						"url": "https://i.ytimg.com/vi/1jLnkuJEXZk/sddefault.jpg",
+						"width": 640,
+						"height": 480
+					},
+					"maxres": {
+						"url": "https://i.ytimg.com/vi/1jLnkuJEXZk/maxresdefault.jpg",
+						"width": 1280,
+						"height": 720
+					}
+				},
+				"channelTitle": "DeoxysPrime",
+				"playlistId": "PLvNp0Boas723v7PyCNAbb444BRPVbGiDR",
+				"position": 15,
+				"resourceId": {
+					"kind": "youtube#video",
+					"videoId": "1jLnkuJEXZk"
+				},
+				"videoOwnerChannelTitle": "DeoxysPrime",
+				"videoOwnerChannelId": "UCubokaJqWnfPdVpFw_G_Q2w"
+			}
+		},
+		{
+			"kind": "youtube#playlistItem",
+			"etag": "u7EdL-6oZ-vNyCTyFXRY7MX1UUY",
+			"id": "UEx2TnAwQm9hczcyM3Y3UHlDTkFiYjQ0NEJSUFZiR2lEUi41QTY1Q0UxMTVCODczNThE",
+			"snippet": {
+				"publishedAt": "2015-02-08T08:18:07Z",
+				"channelId": "UCubokaJqWnfPdVpFw_G_Q2w",
+				"title": "Vim Factory - Mario & Luigi: Partners in Time [OST]",
+				"description": "Game: Mario & Luigi: Partners in Time\nMusic: Vim Factory",
+				"thumbnails": {
+					"default": {
+						"url": "https://i.ytimg.com/vi/hGw1YxIS1eg/default.jpg",
+						"width": 120,
+						"height": 90
+					},
+					"medium": {
+						"url": "https://i.ytimg.com/vi/hGw1YxIS1eg/mqdefault.jpg",
+						"width": 320,
+						"height": 180
+					},
+					"high": {
+						"url": "https://i.ytimg.com/vi/hGw1YxIS1eg/hqdefault.jpg",
+						"width": 480,
+						"height": 360
+					},
+					"standard": {
+						"url": "https://i.ytimg.com/vi/hGw1YxIS1eg/sddefault.jpg",
+						"width": 640,
+						"height": 480
+					},
+					"maxres": {
+						"url": "https://i.ytimg.com/vi/hGw1YxIS1eg/maxresdefault.jpg",
+						"width": 1280,
+						"height": 720
+					}
+				},
+				"channelTitle": "DeoxysPrime",
+				"playlistId": "PLvNp0Boas723v7PyCNAbb444BRPVbGiDR",
+				"position": 16,
+				"resourceId": {
+					"kind": "youtube#video",
+					"videoId": "hGw1YxIS1eg"
+				},
+				"videoOwnerChannelTitle": "DeoxysPrime",
+				"videoOwnerChannelId": "UCubokaJqWnfPdVpFw_G_Q2w"
+			}
+		},
+		{
+			"kind": "youtube#playlistItem",
+			"etag": "J-XAPv4OF_4Q5-Bqlqd6-n3en-E",
+			"id": "UEx2TnAwQm9hczcyM3Y3UHlDTkFiYjQ0NEJSUFZiR2lEUi4yMUQyQTQzMjRDNzMyQTMy",
+			"snippet": {
+				"publishedAt": "2015-02-08T08:18:11Z",
+				"channelId": "UCubokaJqWnfPdVpFw_G_Q2w",
+				"title": "Yoshi Village - Mario & Luigi: Partners in Time [OST]",
+				"description": "Game: Mario & Luigi: Partners in Time\nMusic: Yoshi Village",
+				"thumbnails": {
+					"default": {
+						"url": "https://i.ytimg.com/vi/bK4oa8UhrnU/default.jpg",
+						"width": 120,
+						"height": 90
+					},
+					"medium": {
+						"url": "https://i.ytimg.com/vi/bK4oa8UhrnU/mqdefault.jpg",
+						"width": 320,
+						"height": 180
+					},
+					"high": {
+						"url": "https://i.ytimg.com/vi/bK4oa8UhrnU/hqdefault.jpg",
+						"width": 480,
+						"height": 360
+					},
+					"standard": {
+						"url": "https://i.ytimg.com/vi/bK4oa8UhrnU/sddefault.jpg",
+						"width": 640,
+						"height": 480
+					},
+					"maxres": {
+						"url": "https://i.ytimg.com/vi/bK4oa8UhrnU/maxresdefault.jpg",
+						"width": 1280,
+						"height": 720
+					}
+				},
+				"channelTitle": "DeoxysPrime",
+				"playlistId": "PLvNp0Boas723v7PyCNAbb444BRPVbGiDR",
+				"position": 17,
+				"resourceId": {
+					"kind": "youtube#video",
+					"videoId": "bK4oa8UhrnU"
+				},
+				"videoOwnerChannelTitle": "DeoxysPrime",
+				"videoOwnerChannelId": "UCubokaJqWnfPdVpFw_G_Q2w"
+			}
+		},
+		{
+			"kind": "youtube#playlistItem",
+			"etag": "fPwwIVvdTDdNaGYzcyatzP1ZQpU",
+			"id": "UEx2TnAwQm9hczcyM3Y3UHlDTkFiYjQ0NEJSUFZiR2lEUi45RTgxNDRBMzUwRjQ0MDhC",
+			"snippet": {
+				"publishedAt": "2015-02-08T08:18:16Z",
+				"channelId": "UCubokaJqWnfPdVpFw_G_Q2w",
+				"title": "Yoshi Mountain - Mario & Luigi: Partners in Time [OST]",
+				"description": "Game: Mario & Luigi: Partners in Time\nMusic: Yoshi Mountain",
+				"thumbnails": {
+					"default": {
+						"url": "https://i.ytimg.com/vi/pTbudh3swwE/default.jpg",
+						"width": 120,
+						"height": 90
+					},
+					"medium": {
+						"url": "https://i.ytimg.com/vi/pTbudh3swwE/mqdefault.jpg",
+						"width": 320,
+						"height": 180
+					},
+					"high": {
+						"url": "https://i.ytimg.com/vi/pTbudh3swwE/hqdefault.jpg",
+						"width": 480,
+						"height": 360
+					},
+					"standard": {
+						"url": "https://i.ytimg.com/vi/pTbudh3swwE/sddefault.jpg",
+						"width": 640,
+						"height": 480
+					},
+					"maxres": {
+						"url": "https://i.ytimg.com/vi/pTbudh3swwE/maxresdefault.jpg",
+						"width": 1280,
+						"height": 720
+					}
+				},
+				"channelTitle": "DeoxysPrime",
+				"playlistId": "PLvNp0Boas723v7PyCNAbb444BRPVbGiDR",
+				"position": 18,
+				"resourceId": {
+					"kind": "youtube#video",
+					"videoId": "pTbudh3swwE"
+				},
+				"videoOwnerChannelTitle": "DeoxysPrime",
+				"videoOwnerChannelId": "UCubokaJqWnfPdVpFw_G_Q2w"
+			}
+		},
+		{
+			"kind": "youtube#playlistItem",
+			"etag": "Wri_X0yCqclIfqwHgMjIOh6rT8c",
+			"id": "UEx2TnAwQm9hczcyM3Y3UHlDTkFiYjQ0NEJSUFZiR2lEUi5ENDU4Q0M4RDExNzM1Mjcy",
+			"snippet": {
+				"publishedAt": "2015-02-08T08:18:20Z",
+				"channelId": "UCubokaJqWnfPdVpFw_G_Q2w",
+				"title": "Yoob's Belly - Mario & Luigi: Partners in Time [OST]",
+				"description": "Game: Mario & Luigi: Partners in Time\nMusic: Yoob's Belly",
+				"thumbnails": {
+					"default": {
+						"url": "https://i.ytimg.com/vi/E6po8vIfZHg/default.jpg",
+						"width": 120,
+						"height": 90
+					},
+					"medium": {
+						"url": "https://i.ytimg.com/vi/E6po8vIfZHg/mqdefault.jpg",
+						"width": 320,
+						"height": 180
+					},
+					"high": {
+						"url": "https://i.ytimg.com/vi/E6po8vIfZHg/hqdefault.jpg",
+						"width": 480,
+						"height": 360
+					},
+					"standard": {
+						"url": "https://i.ytimg.com/vi/E6po8vIfZHg/sddefault.jpg",
+						"width": 640,
+						"height": 480
+					},
+					"maxres": {
+						"url": "https://i.ytimg.com/vi/E6po8vIfZHg/maxresdefault.jpg",
+						"width": 1280,
+						"height": 720
+					}
+				},
+				"channelTitle": "DeoxysPrime",
+				"playlistId": "PLvNp0Boas723v7PyCNAbb444BRPVbGiDR",
+				"position": 19,
+				"resourceId": {
+					"kind": "youtube#video",
+					"videoId": "E6po8vIfZHg"
+				},
+				"videoOwnerChannelTitle": "DeoxysPrime",
+				"videoOwnerChannelId": "UCubokaJqWnfPdVpFw_G_Q2w"
+			}
+		},
+		{
+			"kind": "youtube#playlistItem",
+			"etag": "PAwc0NKnkqVZwnOXEQlChf0iQ5Q",
+			"id": "UEx2TnAwQm9hczcyM3Y3UHlDTkFiYjQ0NEJSUFZiR2lEUi4yMDhBMkNBNjRDMjQxQTg1",
+			"snippet": {
+				"publishedAt": "2015-02-09T23:07:15Z",
+				"channelId": "UCubokaJqWnfPdVpFw_G_Q2w",
+				"title": "Dark Dungeon - Mario & Luigi: Partners in Time [OST]",
+				"description": "Game: Mario & Luigi: Partners in Time\nMusic: Dark Dungeon",
+				"thumbnails": {
+					"default": {
+						"url": "https://i.ytimg.com/vi/RTt6irg_lqI/default.jpg",
+						"width": 120,
+						"height": 90
+					},
+					"medium": {
+						"url": "https://i.ytimg.com/vi/RTt6irg_lqI/mqdefault.jpg",
+						"width": 320,
+						"height": 180
+					},
+					"high": {
+						"url": "https://i.ytimg.com/vi/RTt6irg_lqI/hqdefault.jpg",
+						"width": 480,
+						"height": 360
+					},
+					"standard": {
+						"url": "https://i.ytimg.com/vi/RTt6irg_lqI/sddefault.jpg",
+						"width": 640,
+						"height": 480
+					},
+					"maxres": {
+						"url": "https://i.ytimg.com/vi/RTt6irg_lqI/maxresdefault.jpg",
+						"width": 1280,
+						"height": 720
+					}
+				},
+				"channelTitle": "DeoxysPrime",
+				"playlistId": "PLvNp0Boas723v7PyCNAbb444BRPVbGiDR",
+				"position": 20,
+				"resourceId": {
+					"kind": "youtube#video",
+					"videoId": "RTt6irg_lqI"
+				},
+				"videoOwnerChannelTitle": "DeoxysPrime",
+				"videoOwnerChannelId": "UCubokaJqWnfPdVpFw_G_Q2w"
+			}
+		},
+		{
+			"kind": "youtube#playlistItem",
+			"etag": "QDiZr7DEcGGgZUrjl9vTMvMzA7U",
+			"id": "UEx2TnAwQm9hczcyM3Y3UHlDTkFiYjQ0NEJSUFZiR2lEUi5GM0Q3M0MzMzY5NTJFNTdE",
+			"snippet": {
+				"publishedAt": "2015-02-09T23:07:19Z",
+				"channelId": "UCubokaJqWnfPdVpFw_G_Q2w",
+				"title": "Gritzy Desert - Mario & Luigi: Partners in Time [OST]",
+				"description": "Game: Mario & Luigi: Partners in Time\nMusic: Gritzy Desert",
+				"thumbnails": {
+					"default": {
+						"url": "https://i.ytimg.com/vi/s3aaOX96zIM/default.jpg",
+						"width": 120,
+						"height": 90
+					},
+					"medium": {
+						"url": "https://i.ytimg.com/vi/s3aaOX96zIM/mqdefault.jpg",
+						"width": 320,
+						"height": 180
+					},
+					"high": {
+						"url": "https://i.ytimg.com/vi/s3aaOX96zIM/hqdefault.jpg",
+						"width": 480,
+						"height": 360
+					},
+					"standard": {
+						"url": "https://i.ytimg.com/vi/s3aaOX96zIM/sddefault.jpg",
+						"width": 640,
+						"height": 480
+					},
+					"maxres": {
+						"url": "https://i.ytimg.com/vi/s3aaOX96zIM/maxresdefault.jpg",
+						"width": 1280,
+						"height": 720
+					}
+				},
+				"channelTitle": "DeoxysPrime",
+				"playlistId": "PLvNp0Boas723v7PyCNAbb444BRPVbGiDR",
+				"position": 21,
+				"resourceId": {
+					"kind": "youtube#video",
+					"videoId": "s3aaOX96zIM"
+				},
+				"videoOwnerChannelTitle": "DeoxysPrime",
+				"videoOwnerChannelId": "UCubokaJqWnfPdVpFw_G_Q2w"
+			}
+		},
+		{
+			"kind": "youtube#playlistItem",
+			"etag": "wJFAhSG8h3lDUjX3qHb9XqdMYBQ",
+			"id": "UEx2TnAwQm9hczcyM3Y3UHlDTkFiYjQ0NEJSUFZiR2lEUi4zRjM0MkVCRTg0MkYyQTM0",
+			"snippet": {
+				"publishedAt": "2015-02-09T23:07:24Z",
+				"channelId": "UCubokaJqWnfPdVpFw_G_Q2w",
+				"title": "Koopaseum - Mario & Luigi: Partners in Time [OST]",
+				"description": "Game: Mario & Luigi: Partners in Time\nMusic: Koopaseum",
+				"thumbnails": {
+					"default": {
+						"url": "https://i.ytimg.com/vi/eDwTjuCixtE/default.jpg",
+						"width": 120,
+						"height": 90
+					},
+					"medium": {
+						"url": "https://i.ytimg.com/vi/eDwTjuCixtE/mqdefault.jpg",
+						"width": 320,
+						"height": 180
+					},
+					"high": {
+						"url": "https://i.ytimg.com/vi/eDwTjuCixtE/hqdefault.jpg",
+						"width": 480,
+						"height": 360
+					},
+					"standard": {
+						"url": "https://i.ytimg.com/vi/eDwTjuCixtE/sddefault.jpg",
+						"width": 640,
+						"height": 480
+					},
+					"maxres": {
+						"url": "https://i.ytimg.com/vi/eDwTjuCixtE/maxresdefault.jpg",
+						"width": 1280,
+						"height": 720
+					}
+				},
+				"channelTitle": "DeoxysPrime",
+				"playlistId": "PLvNp0Boas723v7PyCNAbb444BRPVbGiDR",
+				"position": 22,
+				"resourceId": {
+					"kind": "youtube#video",
+					"videoId": "eDwTjuCixtE"
+				},
+				"videoOwnerChannelTitle": "DeoxysPrime",
+				"videoOwnerChannelId": "UCubokaJqWnfPdVpFw_G_Q2w"
+			}
+		},
+		{
+			"kind": "youtube#playlistItem",
+			"etag": "FqaVCoHApjhoYqjmz96WWbVg2BM",
+			"id": "UEx2TnAwQm9hczcyM3Y3UHlDTkFiYjQ0NEJSUFZiR2lEUi45NzUwQkI1M0UxNThBMkU0",
+			"snippet": {
+				"publishedAt": "2015-02-09T23:07:28Z",
+				"channelId": "UCubokaJqWnfPdVpFw_G_Q2w",
+				"title": "King Bowser - Mario & Luigi: Partners in Time [OST]",
+				"description": "Game: Mario & Luigi: Partners in Time\nMusic: King Bowser",
+				"thumbnails": {
+					"default": {
+						"url": "https://i.ytimg.com/vi/tZs2b5eXzLg/default.jpg",
+						"width": 120,
+						"height": 90
+					},
+					"medium": {
+						"url": "https://i.ytimg.com/vi/tZs2b5eXzLg/mqdefault.jpg",
+						"width": 320,
+						"height": 180
+					},
+					"high": {
+						"url": "https://i.ytimg.com/vi/tZs2b5eXzLg/hqdefault.jpg",
+						"width": 480,
+						"height": 360
+					},
+					"standard": {
+						"url": "https://i.ytimg.com/vi/tZs2b5eXzLg/sddefault.jpg",
+						"width": 640,
+						"height": 480
+					},
+					"maxres": {
+						"url": "https://i.ytimg.com/vi/tZs2b5eXzLg/maxresdefault.jpg",
+						"width": 1280,
+						"height": 720
+					}
+				},
+				"channelTitle": "DeoxysPrime",
+				"playlistId": "PLvNp0Boas723v7PyCNAbb444BRPVbGiDR",
+				"position": 23,
+				"resourceId": {
+					"kind": "youtube#video",
+					"videoId": "tZs2b5eXzLg"
+				},
+				"videoOwnerChannelTitle": "DeoxysPrime",
+				"videoOwnerChannelId": "UCubokaJqWnfPdVpFw_G_Q2w"
+			}
+		},
+		{
+			"kind": "youtube#playlistItem",
+			"etag": "UndIciY6nZwKRVYfwqBbYC9m3X4",
+			"id": "UEx2TnAwQm9hczcyM3Y3UHlDTkFiYjQ0NEJSUFZiR2lEUi5DNzE1RjZEMUZCMjA0RDBB",
+			"snippet": {
+				"publishedAt": "2015-02-09T23:07:33Z",
+				"channelId": "UCubokaJqWnfPdVpFw_G_Q2w",
+				"title": "Thwomp Volcano - Mario & Luigi: Partners in Time [OST]",
+				"description": "Game: Mario & Luigi: Partners in Time\nMusic: Thwomp Volcano",
+				"thumbnails": {
+					"default": {
+						"url": "https://i.ytimg.com/vi/zUE8nMbV3KM/default.jpg",
+						"width": 120,
+						"height": 90
+					},
+					"medium": {
+						"url": "https://i.ytimg.com/vi/zUE8nMbV3KM/mqdefault.jpg",
+						"width": 320,
+						"height": 180
+					},
+					"high": {
+						"url": "https://i.ytimg.com/vi/zUE8nMbV3KM/hqdefault.jpg",
+						"width": 480,
+						"height": 360
+					},
+					"standard": {
+						"url": "https://i.ytimg.com/vi/zUE8nMbV3KM/sddefault.jpg",
+						"width": 640,
+						"height": 480
+					},
+					"maxres": {
+						"url": "https://i.ytimg.com/vi/zUE8nMbV3KM/maxresdefault.jpg",
+						"width": 1280,
+						"height": 720
+					}
+				},
+				"channelTitle": "DeoxysPrime",
+				"playlistId": "PLvNp0Boas723v7PyCNAbb444BRPVbGiDR",
+				"position": 24,
+				"resourceId": {
+					"kind": "youtube#video",
+					"videoId": "zUE8nMbV3KM"
+				},
+				"videoOwnerChannelTitle": "DeoxysPrime",
+				"videoOwnerChannelId": "UCubokaJqWnfPdVpFw_G_Q2w"
+			}
+		},
+		{
+			"kind": "youtube#playlistItem",
+			"etag": "3S0dx98roGNRBb8KxrG-MsBhJco",
+			"id": "UEx2TnAwQm9hczcyM3Y3UHlDTkFiYjQ0NEJSUFZiR2lEUi43MTI1NDIwOTMwQjIxMzNG",
+			"snippet": {
+				"publishedAt": "2015-02-09T23:07:40Z",
+				"channelId": "UCubokaJqWnfPdVpFw_G_Q2w",
+				"title": "Thwomp Caverns - Mario & Luigi: Partners in Time [OST]",
+				"description": "Game: Mario & Luigi: Partners in Time\nMusic: Thwomp Caverns",
+				"thumbnails": {
+					"default": {
+						"url": "https://i.ytimg.com/vi/dJXvNo3fJkw/default.jpg",
+						"width": 120,
+						"height": 90
+					},
+					"medium": {
+						"url": "https://i.ytimg.com/vi/dJXvNo3fJkw/mqdefault.jpg",
+						"width": 320,
+						"height": 180
+					},
+					"high": {
+						"url": "https://i.ytimg.com/vi/dJXvNo3fJkw/hqdefault.jpg",
+						"width": 480,
+						"height": 360
+					},
+					"standard": {
+						"url": "https://i.ytimg.com/vi/dJXvNo3fJkw/sddefault.jpg",
+						"width": 640,
+						"height": 480
+					},
+					"maxres": {
+						"url": "https://i.ytimg.com/vi/dJXvNo3fJkw/maxresdefault.jpg",
+						"width": 1280,
+						"height": 720
+					}
+				},
+				"channelTitle": "DeoxysPrime",
+				"playlistId": "PLvNp0Boas723v7PyCNAbb444BRPVbGiDR",
+				"position": 25,
+				"resourceId": {
+					"kind": "youtube#video",
+					"videoId": "dJXvNo3fJkw"
+				},
+				"videoOwnerChannelTitle": "DeoxysPrime",
+				"videoOwnerChannelId": "UCubokaJqWnfPdVpFw_G_Q2w"
+			}
+		},
+		{
+			"kind": "youtube#playlistItem",
+			"etag": "OiGCBgFsjlufucBck1czRvLJWHE",
+			"id": "UEx2TnAwQm9hczcyM3Y3UHlDTkFiYjQ0NEJSUFZiR2lEUi5DQ0MyQ0Y4Mzg0M0VGOEYw",
+			"snippet": {
+				"publishedAt": "2015-02-09T23:07:45Z",
+				"channelId": "UCubokaJqWnfPdVpFw_G_Q2w",
+				"title": "Bowser Battle - Mario & Luigi: Partners in Time [OST]",
+				"description": "Game: Mario & Luigi: Partners in Time\nMusic: Bowser Battle",
+				"thumbnails": {
+					"default": {
+						"url": "https://i.ytimg.com/vi/PaA64sSxYB4/default.jpg",
+						"width": 120,
+						"height": 90
+					},
+					"medium": {
+						"url": "https://i.ytimg.com/vi/PaA64sSxYB4/mqdefault.jpg",
+						"width": 320,
+						"height": 180
+					},
+					"high": {
+						"url": "https://i.ytimg.com/vi/PaA64sSxYB4/hqdefault.jpg",
+						"width": 480,
+						"height": 360
+					},
+					"standard": {
+						"url": "https://i.ytimg.com/vi/PaA64sSxYB4/sddefault.jpg",
+						"width": 640,
+						"height": 480
+					},
+					"maxres": {
+						"url": "https://i.ytimg.com/vi/PaA64sSxYB4/maxresdefault.jpg",
+						"width": 1280,
+						"height": 720
+					}
+				},
+				"channelTitle": "DeoxysPrime",
+				"playlistId": "PLvNp0Boas723v7PyCNAbb444BRPVbGiDR",
+				"position": 26,
+				"resourceId": {
+					"kind": "youtube#video",
+					"videoId": "PaA64sSxYB4"
+				},
+				"videoOwnerChannelTitle": "DeoxysPrime",
+				"videoOwnerChannelId": "UCubokaJqWnfPdVpFw_G_Q2w"
+			}
+		},
+		{
+			"kind": "youtube#playlistItem",
+			"etag": "bL2Tr3iv-NNksTVAvLBWRuIC7fA",
+			"id": "UEx2TnAwQm9hczcyM3Y3UHlDTkFiYjQ0NEJSUFZiR2lEUi4yQUE2Q0JEMTk4NTM3RTZC",
+			"snippet": {
+				"publishedAt": "2015-02-09T23:07:49Z",
+				"channelId": "UCubokaJqWnfPdVpFw_G_Q2w",
+				"title": "Toad Town - Mario & Luigi: Partners in Time [OST]",
+				"description": "Game: Mario & Luigi: Partners in Time\nMusic: Toad Town",
+				"thumbnails": {
+					"default": {
+						"url": "https://i.ytimg.com/vi/x1_o8Hks2WI/default.jpg",
+						"width": 120,
+						"height": 90
+					},
+					"medium": {
+						"url": "https://i.ytimg.com/vi/x1_o8Hks2WI/mqdefault.jpg",
+						"width": 320,
+						"height": 180
+					},
+					"high": {
+						"url": "https://i.ytimg.com/vi/x1_o8Hks2WI/hqdefault.jpg",
+						"width": 480,
+						"height": 360
+					},
+					"standard": {
+						"url": "https://i.ytimg.com/vi/x1_o8Hks2WI/sddefault.jpg",
+						"width": 640,
+						"height": 480
+					},
+					"maxres": {
+						"url": "https://i.ytimg.com/vi/x1_o8Hks2WI/maxresdefault.jpg",
+						"width": 1280,
+						"height": 720
+					}
+				},
+				"channelTitle": "DeoxysPrime",
+				"playlistId": "PLvNp0Boas723v7PyCNAbb444BRPVbGiDR",
+				"position": 27,
+				"resourceId": {
+					"kind": "youtube#video",
+					"videoId": "x1_o8Hks2WI"
+				},
+				"videoOwnerChannelTitle": "DeoxysPrime",
+				"videoOwnerChannelId": "UCubokaJqWnfPdVpFw_G_Q2w"
+			}
+		},
+		{
+			"kind": "youtube#playlistItem",
+			"etag": "_bDDmVA_IoGjzLDi5hgV0WfBWr8",
+			"id": "UEx2TnAwQm9hczcyM3Y3UHlDTkFiYjQ0NEJSUFZiR2lEUi5DMkU4NTY1QUFGQTYwMDE3",
+			"snippet": {
+				"publishedAt": "2015-02-09T23:07:53Z",
+				"channelId": "UCubokaJqWnfPdVpFw_G_Q2w",
+				"title": "Star Hill - Mario & Luigi: Partners in Time [OST]",
+				"description": "Game: Mario & Luigi: Partners in Time\nMusic: Star Hill",
+				"thumbnails": {
+					"default": {
+						"url": "https://i.ytimg.com/vi/PmdtQ8Nn96A/default.jpg",
+						"width": 120,
+						"height": 90
+					},
+					"medium": {
+						"url": "https://i.ytimg.com/vi/PmdtQ8Nn96A/mqdefault.jpg",
+						"width": 320,
+						"height": 180
+					},
+					"high": {
+						"url": "https://i.ytimg.com/vi/PmdtQ8Nn96A/hqdefault.jpg",
+						"width": 480,
+						"height": 360
+					},
+					"standard": {
+						"url": "https://i.ytimg.com/vi/PmdtQ8Nn96A/sddefault.jpg",
+						"width": 640,
+						"height": 480
+					},
+					"maxres": {
+						"url": "https://i.ytimg.com/vi/PmdtQ8Nn96A/maxresdefault.jpg",
+						"width": 1280,
+						"height": 720
+					}
+				},
+				"channelTitle": "DeoxysPrime",
+				"playlistId": "PLvNp0Boas723v7PyCNAbb444BRPVbGiDR",
+				"position": 28,
+				"resourceId": {
+					"kind": "youtube#video",
+					"videoId": "PmdtQ8Nn96A"
+				},
+				"videoOwnerChannelTitle": "DeoxysPrime",
+				"videoOwnerChannelId": "UCubokaJqWnfPdVpFw_G_Q2w"
+			}
+		},
+		{
+			"kind": "youtube#playlistItem",
+			"etag": "9S5WiPcAPFrhZc6m2fEdFPAK-E0",
+			"id": "UEx2TnAwQm9hczcyM3Y3UHlDTkFiYjQ0NEJSUFZiR2lEUi44Mjc5REFBRUE2MTdFRDU0",
+			"snippet": {
+				"publishedAt": "2015-02-09T23:07:58Z",
+				"channelId": "UCubokaJqWnfPdVpFw_G_Q2w",
+				"title": "Star Shrine - Mario & Luigi: Partners in Time [OST]",
+				"description": "Game: Mario & Luigi: Partners in Time\nMusic: Star Shrine",
+				"thumbnails": {
+					"default": {
+						"url": "https://i.ytimg.com/vi/Odd66JfA_yw/default.jpg",
+						"width": 120,
+						"height": 90
+					},
+					"medium": {
+						"url": "https://i.ytimg.com/vi/Odd66JfA_yw/mqdefault.jpg",
+						"width": 320,
+						"height": 180
+					},
+					"high": {
+						"url": "https://i.ytimg.com/vi/Odd66JfA_yw/hqdefault.jpg",
+						"width": 480,
+						"height": 360
+					},
+					"standard": {
+						"url": "https://i.ytimg.com/vi/Odd66JfA_yw/sddefault.jpg",
+						"width": 640,
+						"height": 480
+					},
+					"maxres": {
+						"url": "https://i.ytimg.com/vi/Odd66JfA_yw/maxresdefault.jpg",
+						"width": 1280,
+						"height": 720
+					}
+				},
+				"channelTitle": "DeoxysPrime",
+				"playlistId": "PLvNp0Boas723v7PyCNAbb444BRPVbGiDR",
+				"position": 29,
+				"resourceId": {
+					"kind": "youtube#video",
+					"videoId": "Odd66JfA_yw"
+				},
+				"videoOwnerChannelTitle": "DeoxysPrime",
+				"videoOwnerChannelId": "UCubokaJqWnfPdVpFw_G_Q2w"
+			}
+		},
+		{
+			"kind": "youtube#playlistItem",
+			"etag": "_JZQWGiXPmtrhRe_1najaGryNlo",
+			"id": "UEx2TnAwQm9hczcyM3Y3UHlDTkFiYjQ0NEJSUFZiR2lEUi43NDhFRTgwOTRERTU4Rjg3",
+			"snippet": {
+				"publishedAt": "2015-02-10T05:29:28Z",
+				"channelId": "UCubokaJqWnfPdVpFw_G_Q2w",
+				"title": "Shroob Castle - Mario & Luigi: Partners in Time [OST]",
+				"description": "Game: Mario & Luigi: Partners in Time\nMusic: Shroob Castle",
+				"thumbnails": {
+					"default": {
+						"url": "https://i.ytimg.com/vi/1o_QyEgzuRY/default.jpg",
+						"width": 120,
+						"height": 90
+					},
+					"medium": {
+						"url": "https://i.ytimg.com/vi/1o_QyEgzuRY/mqdefault.jpg",
+						"width": 320,
+						"height": 180
+					},
+					"high": {
+						"url": "https://i.ytimg.com/vi/1o_QyEgzuRY/hqdefault.jpg",
+						"width": 480,
+						"height": 360
+					},
+					"standard": {
+						"url": "https://i.ytimg.com/vi/1o_QyEgzuRY/sddefault.jpg",
+						"width": 640,
+						"height": 480
+					},
+					"maxres": {
+						"url": "https://i.ytimg.com/vi/1o_QyEgzuRY/maxresdefault.jpg",
+						"width": 1280,
+						"height": 720
+					}
+				},
+				"channelTitle": "DeoxysPrime",
+				"playlistId": "PLvNp0Boas723v7PyCNAbb444BRPVbGiDR",
+				"position": 30,
+				"resourceId": {
+					"kind": "youtube#video",
+					"videoId": "1o_QyEgzuRY"
+				},
+				"videoOwnerChannelTitle": "DeoxysPrime",
+				"videoOwnerChannelId": "UCubokaJqWnfPdVpFw_G_Q2w"
+			}
+		},
+		{
+			"kind": "youtube#playlistItem",
+			"etag": "--jtp6K6tZg8R5faI2eX8DQKLRw",
+			"id": "UEx2TnAwQm9hczcyM3Y3UHlDTkFiYjQ0NEJSUFZiR2lEUi41QUZGQTY5OTE4QTREQUU4",
+			"snippet": {
+				"publishedAt": "2015-02-10T05:29:33Z",
+				"channelId": "UCubokaJqWnfPdVpFw_G_Q2w",
+				"title": "Princess Shroob Battle - Mario & Luigi: Partners in Time [OST]",
+				"description": "Game: Mario & Luigi: Partners in Time\nMusic: Princess Shroob Battle",
+				"thumbnails": {
+					"default": {
+						"url": "https://i.ytimg.com/vi/f0hpyHasI34/default.jpg",
+						"width": 120,
+						"height": 90
+					},
+					"medium": {
+						"url": "https://i.ytimg.com/vi/f0hpyHasI34/mqdefault.jpg",
+						"width": 320,
+						"height": 180
+					},
+					"high": {
+						"url": "https://i.ytimg.com/vi/f0hpyHasI34/hqdefault.jpg",
+						"width": 480,
+						"height": 360
+					},
+					"standard": {
+						"url": "https://i.ytimg.com/vi/f0hpyHasI34/sddefault.jpg",
+						"width": 640,
+						"height": 480
+					},
+					"maxres": {
+						"url": "https://i.ytimg.com/vi/f0hpyHasI34/maxresdefault.jpg",
+						"width": 1280,
+						"height": 720
+					}
+				},
+				"channelTitle": "DeoxysPrime",
+				"playlistId": "PLvNp0Boas723v7PyCNAbb444BRPVbGiDR",
+				"position": 31,
+				"resourceId": {
+					"kind": "youtube#video",
+					"videoId": "f0hpyHasI34"
+				},
+				"videoOwnerChannelTitle": "DeoxysPrime",
+				"videoOwnerChannelId": "UCubokaJqWnfPdVpFw_G_Q2w"
+			}
+		},
+		{
+			"kind": "youtube#playlistItem",
+			"etag": "TQMObGdgyXxxN6A6o6qirVDNl0o",
+			"id": "UEx2TnAwQm9hczcyM3Y3UHlDTkFiYjQ0NEJSUFZiR2lEUi4zRDBDOEZDOUM0MDY5NEEz",
+			"snippet": {
+				"publishedAt": "2015-02-10T05:29:38Z",
+				"channelId": "UCubokaJqWnfPdVpFw_G_Q2w",
+				"title": "Destroy! - Mario & Luigi: Partners in Time [OST]",
+				"description": "Game: Mario & Luigi: Partners in Time\nMusic: Destroy!",
+				"thumbnails": {
+					"default": {
+						"url": "https://i.ytimg.com/vi/TYJVmuPwehE/default.jpg",
+						"width": 120,
+						"height": 90
+					},
+					"medium": {
+						"url": "https://i.ytimg.com/vi/TYJVmuPwehE/mqdefault.jpg",
+						"width": 320,
+						"height": 180
+					},
+					"high": {
+						"url": "https://i.ytimg.com/vi/TYJVmuPwehE/hqdefault.jpg",
+						"width": 480,
+						"height": 360
+					},
+					"standard": {
+						"url": "https://i.ytimg.com/vi/TYJVmuPwehE/sddefault.jpg",
+						"width": 640,
+						"height": 480
+					},
+					"maxres": {
+						"url": "https://i.ytimg.com/vi/TYJVmuPwehE/maxresdefault.jpg",
+						"width": 1280,
+						"height": 720
+					}
+				},
+				"channelTitle": "DeoxysPrime",
+				"playlistId": "PLvNp0Boas723v7PyCNAbb444BRPVbGiDR",
+				"position": 32,
+				"resourceId": {
+					"kind": "youtube#video",
+					"videoId": "TYJVmuPwehE"
+				},
+				"videoOwnerChannelTitle": "DeoxysPrime",
+				"videoOwnerChannelId": "UCubokaJqWnfPdVpFw_G_Q2w"
+			}
+		},
+		{
+			"kind": "youtube#playlistItem",
+			"etag": "H0f62y-6WatpJYkC9v2LxJcymeQ",
+			"id": "UEx2TnAwQm9hczcyM3Y3UHlDTkFiYjQ0NEJSUFZiR2lEUi5CMEQ2Mjk5NTc3NDZFRUNB",
+			"snippet": {
+				"publishedAt": "2015-02-10T05:29:43Z",
+				"channelId": "UCubokaJqWnfPdVpFw_G_Q2w",
+				"title": "Final Battle - Mario & Luigi: Partners in Time [OST]",
+				"description": "Game: Mario & Luigi: Partners in Time\nMusic: Final Battle",
+				"thumbnails": {
+					"default": {
+						"url": "https://i.ytimg.com/vi/Du6tMHU6wb8/default.jpg",
+						"width": 120,
+						"height": 90
+					},
+					"medium": {
+						"url": "https://i.ytimg.com/vi/Du6tMHU6wb8/mqdefault.jpg",
+						"width": 320,
+						"height": 180
+					},
+					"high": {
+						"url": "https://i.ytimg.com/vi/Du6tMHU6wb8/hqdefault.jpg",
+						"width": 480,
+						"height": 360
+					},
+					"standard": {
+						"url": "https://i.ytimg.com/vi/Du6tMHU6wb8/sddefault.jpg",
+						"width": 640,
+						"height": 480
+					},
+					"maxres": {
+						"url": "https://i.ytimg.com/vi/Du6tMHU6wb8/maxresdefault.jpg",
+						"width": 1280,
+						"height": 720
+					}
+				},
+				"channelTitle": "DeoxysPrime",
+				"playlistId": "PLvNp0Boas723v7PyCNAbb444BRPVbGiDR",
+				"position": 33,
+				"resourceId": {
+					"kind": "youtube#video",
+					"videoId": "Du6tMHU6wb8"
+				},
+				"videoOwnerChannelTitle": "DeoxysPrime",
+				"videoOwnerChannelId": "UCubokaJqWnfPdVpFw_G_Q2w"
+			}
+		},
+		{
+			"kind": "youtube#playlistItem",
+			"etag": "CSMZN6TpxWannm-3AZhnbiLlbb0",
+			"id": "UEx2TnAwQm9hczcyM3Y3UHlDTkFiYjQ0NEJSUFZiR2lEUi42MTI4Njc2QjM1RjU1MjlG",
+			"snippet": {
+				"publishedAt": "2015-02-10T05:29:46Z",
+				"channelId": "UCubokaJqWnfPdVpFw_G_Q2w",
+				"title": "Bye, Bye Babies - Mario & Luigi: Partners in Time [OST]",
+				"description": "Game: Mario & Luigi: Partners in Time\nMusic: Bye, Bye Babies",
+				"thumbnails": {
+					"default": {
+						"url": "https://i.ytimg.com/vi/Y0ajlIcpi1M/default.jpg",
+						"width": 120,
+						"height": 90
+					},
+					"medium": {
+						"url": "https://i.ytimg.com/vi/Y0ajlIcpi1M/mqdefault.jpg",
+						"width": 320,
+						"height": 180
+					},
+					"high": {
+						"url": "https://i.ytimg.com/vi/Y0ajlIcpi1M/hqdefault.jpg",
+						"width": 480,
+						"height": 360
+					},
+					"standard": {
+						"url": "https://i.ytimg.com/vi/Y0ajlIcpi1M/sddefault.jpg",
+						"width": 640,
+						"height": 480
+					},
+					"maxres": {
+						"url": "https://i.ytimg.com/vi/Y0ajlIcpi1M/maxresdefault.jpg",
+						"width": 1280,
+						"height": 720
+					}
+				},
+				"channelTitle": "DeoxysPrime",
+				"playlistId": "PLvNp0Boas723v7PyCNAbb444BRPVbGiDR",
+				"position": 34,
+				"resourceId": {
+					"kind": "youtube#video",
+					"videoId": "Y0ajlIcpi1M"
+				},
+				"videoOwnerChannelTitle": "DeoxysPrime",
+				"videoOwnerChannelId": "UCubokaJqWnfPdVpFw_G_Q2w"
+			}
+		},
+		{
+			"kind": "youtube#playlistItem",
+			"etag": "5C7oJKtC3aKH_sY4XSwq2QzKSgQ",
+			"id": "UEx2TnAwQm9hczcyM3Y3UHlDTkFiYjQ0NEJSUFZiR2lEUi45RjNFMDhGQ0Q2RkFCQTc1",
+			"snippet": {
+				"publishedAt": "2015-02-10T05:29:51Z",
+				"channelId": "UCubokaJqWnfPdVpFw_G_Q2w",
+				"title": "Credits - Mario & Luigi: Partners in Time [OST]",
+				"description": "Game: Mario & Luigi: Partners in Time\nMusic: Credits",
+				"thumbnails": {
+					"default": {
+						"url": "https://i.ytimg.com/vi/oXYEBwu0qII/default.jpg",
+						"width": 120,
+						"height": 90
+					},
+					"medium": {
+						"url": "https://i.ytimg.com/vi/oXYEBwu0qII/mqdefault.jpg",
+						"width": 320,
+						"height": 180
+					},
+					"high": {
+						"url": "https://i.ytimg.com/vi/oXYEBwu0qII/hqdefault.jpg",
+						"width": 480,
+						"height": 360
+					},
+					"standard": {
+						"url": "https://i.ytimg.com/vi/oXYEBwu0qII/sddefault.jpg",
+						"width": 640,
+						"height": 480
+					},
+					"maxres": {
+						"url": "https://i.ytimg.com/vi/oXYEBwu0qII/maxresdefault.jpg",
+						"width": 1280,
+						"height": 720
+					}
+				},
+				"channelTitle": "DeoxysPrime",
+				"playlistId": "PLvNp0Boas723v7PyCNAbb444BRPVbGiDR",
+				"position": 35,
+				"resourceId": {
+					"kind": "youtube#video",
+					"videoId": "oXYEBwu0qII"
+				},
+				"videoOwnerChannelTitle": "DeoxysPrime",
+				"videoOwnerChannelId": "UCubokaJqWnfPdVpFw_G_Q2w"
+			}
+		}
+	],
+	"pageInfo": {
+		"totalResults": 36,
+		"resultsPerPage": 50
+	}
+}

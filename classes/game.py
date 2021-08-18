@@ -44,10 +44,22 @@ class Game:
         self.nickname.append(nickname)
         db.update(nickname=self.nickname, where=f'id={self.id}')
 
+    def add_tags(self, tag: str):
+        if tag in self.tags:
+            raise AlreadyAppendedNickname
+        self.tags.append(tag)
+        db.update(tags=self.tags, where=f'id={self.id}')
+
+    def add_series(self, series: str):
+        if series in self.series:
+            raise AlreadyAppendedNickname
+        self.tags.append(series)
+        db.update(series=self.series, where=f'id={self.id}')
+
     @property
     def soundtrack(self):
         ''' RETURN EXAMPLE >> [{'id': 2, 'url': '대충 주소'}, {'id': 3, 'url': '대충 주소'}]'''
-        return db.select('music', ['id', 'url'], where=f"game={self.id}")
+        return db.select('music', ['id', 'url', 'title', 'view_count'], where=f"game={self.id}", order_by="view_count DESC")
 
     def compare(self, keyword: str) -> bool:
         if keyword in self.names:

@@ -96,8 +96,6 @@ class ListCog(commands.Cog):
                 break
             if res.content == '취소':
                 return await ctx.send('취소오오와아아')
-            elif res.content == '완료':
-                break
             else:
                 try:
                     urls += get_youtube_urls.gets(res.content)
@@ -109,44 +107,31 @@ class ListCog(commands.Cog):
         for i in urls:
             songdata = {
                 'game': game.id,
-                'url': i,
-                'famous': 0
+                'url': i[0],
+                'title': i[1],
+                'view_count': i[2]
             }
             db.insert('music', commit=False, **songdata)
         db.commit()
         await ctx.send(f'와아 다해따 >ㅅ<')
 
     @commands.command()
-    async def 음악여러개추가(self, ctx, *args):
-        name = ' '.join(args)
+    async def 조회수로드(self, ctx, *args):
+        await ctx.send('로드 시자아악 :star:')
+        data = db.select('music', rec=['id', 'url'], where='view_count=0')
 
-        game = Game(name)
-        await ctx.send(f"`{game.name}`에 넣을 유튜브 영상이나 재생목록의 링크를 적어 줘!\n(취소하려면 '취소', 다 넣었으면 '완료'라고 말해바)")
-        urls = []
-        while True:
-            res = await wait_for_saying(self.bot, 30, ctx, user=ctx.author)
-            if not res:
-                break
-            if res.content == '취소':
-                return await ctx.send('취소오오와아아')
-            elif res.content == '완료':
-                break
-            else:
-                try:
-                    urls += get_youtube_urls.gets(res.content)
-                except Exception as e:
-                    await ctx.send(f'으음 다시 확인해봐```{e}```')
+        count = 0
+        for i in data:
+            count += 1
+            id = i['url'].split('watch?v=')[1].split('&')[0]
+            vp = get_youtube_urls.get_view_from_video_id(id)
+            db.update('music', view_count=vp,
+                      where=f"id={i['id']}", commit=False)
 
-        await ctx.send(f'`{name}` 게임에 음악 {len(urls)}개를 등록 중...')
-        for i in urls:
-            songdata = {
-                'game': game.id,
-                'url': i,
-                'famous': 0
-            }
-            db.insert('music', commit=False, **songdata)
+            if count > 300:
+                break
         db.commit()
-        await ctx.send(f'와아 다해따 >ㅅ<')
+        await ctx.send('끄읕')
 
     @commands.command()
     async def 추가(self, ctx, *args):

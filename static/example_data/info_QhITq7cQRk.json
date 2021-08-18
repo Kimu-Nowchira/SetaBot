@@ -1,0 +1,2962 @@
+{
+	"id": "cQhITq7cQRk",
+	"title": "Galaga Sound Record - 갤러그 사운드",
+	"formats": [
+		{
+			"format_id": "139",
+			"manifest_url": "https://manifest.googlevideo.com/api/manifest/dash/expire/1628874635/ei/K1MWYfK9H7q22roPmZ-ASA/ip/220.72.26.14/id/7108484eaedc4119/source/youtube/requiressl/yes/playback_host/r5---sn-3u-bh2lr.googlevideo.com/mh/Q4/mm/31%2C26/mn/sn-3u-bh2lr%2Csn-oguelnlz/ms/au%2Conr/mv/m/mvi/5/pl/23/tx/24027932/txs/24027931%2C24027932/hfr/all/as/fmp4_audio_clear%2Cwebm_audio_clear%2Cwebm2_audio_clear%2Cfmp4_sd_hd_clear%2Cwebm2_sd_hd_clear/initcwndbps/1100000/vprv/1/mt/1628852693/fvip/5/keepalive/yes/fexp/24001373%2C24007246/itag/0/sparams/expire%2Cei%2Cip%2Cid%2Csource%2Crequiressl%2Ctx%2Ctxs%2Chfr%2Cas%2Cvprv%2Citag/sig/AOq0QJ8wRQIgF3eYPiuOBxkUwy7VZsPw2PwDIQLdiOkj3lg3tyUSoWcCIQDBNdHHjAUr7oWfmq-Ls5lC45YcL5_yrM7P3zEJm_08iA%3D%3D/lsparams/playback_host%2Cmh%2Cmm%2Cmn%2Cms%2Cmv%2Cmvi%2Cpl%2Cinitcwndbps/lsig/AG3C_xAwRgIhAM1gRFnElkU251nRqgzJj2olkGpwyfgwvzBJ9wvow9pAAiEA4boXWpR4X_Z-0QmLBn9P210s-kdHwYymXxIjG3V9hxs%3D",
+			"ext": "m4a",
+			"width": null,
+			"height": null,
+			"tbr": 49.878,
+			"asr": 22050,
+			"fps": null,
+			"language": null,
+			"format_note": "DASH audio",
+			"filesize": 1642732,
+			"container": "m4a_dash",
+			"vcodec": "none",
+			"acodec": "mp4a.40.5",
+			"url": "https://manifest.googlevideo.com/api/manifest/dash/expire/1628874635/ei/K1MWYfK9H7q22roPmZ-ASA/ip/220.72.26.14/id/7108484eaedc4119/source/youtube/requiressl/yes/playback_host/r5---sn-3u-bh2lr.googlevideo.com/mh/Q4/mm/31%2C26/mn/sn-3u-bh2lr%2Csn-oguelnlz/ms/au%2Conr/mv/m/mvi/5/pl/23/tx/24027932/txs/24027931%2C24027932/hfr/all/as/fmp4_audio_clear%2Cwebm_audio_clear%2Cwebm2_audio_clear%2Cfmp4_sd_hd_clear%2Cwebm2_sd_hd_clear/initcwndbps/1100000/vprv/1/mt/1628852693/fvip/5/keepalive/yes/fexp/24001373%2C24007246/itag/0/sparams/expire%2Cei%2Cip%2Cid%2Csource%2Crequiressl%2Ctx%2Ctxs%2Chfr%2Cas%2Cvprv%2Citag/sig/AOq0QJ8wRQIgF3eYPiuOBxkUwy7VZsPw2PwDIQLdiOkj3lg3tyUSoWcCIQDBNdHHjAUr7oWfmq-Ls5lC45YcL5_yrM7P3zEJm_08iA%3D%3D/lsparams/playback_host%2Cmh%2Cmm%2Cmn%2Cms%2Cmv%2Cmvi%2Cpl%2Cinitcwndbps/lsig/AG3C_xAwRgIhAM1gRFnElkU251nRqgzJj2olkGpwyfgwvzBJ9wvow9pAAiEA4boXWpR4X_Z-0QmLBn9P210s-kdHwYymXxIjG3V9hxs%3D",
+			"fragment_base_url": "https://r5---sn-3u-bh2lr.googlevideo.com/videoplayback/expire/1628874635/ei/K1MWYfK9H7q22roPmZ-ASA/ip/220.72.26.14/id/7108484eaedc4119/itag/139/source/youtube/requiressl/yes/mh/Q4/mm/31,26/mn/sn-3u-bh2lr,sn-oguelnlz/ms/au,onr/mv/m/mvi/5/pl/23/initcwndbps/1100000/vprv/1/ratebypass/yes/mime/audio%2Fmp4/otfp/1/gir/yes/clen/1642732/lmt/1595797264590044/dur/269.212/mt/1628852693/fvip/5/keepalive/yes/fexp/24001373,24007246/sparams/expire,ei,ip,id,itag,source,requiressl,vprv,ratebypass,mime,otfp,gir,clen,lmt,dur/sig/AOq0QJ8wRQIhAMbXXZcTFO_kdx67AXRxXBsT1zMtYvKA5uRZCsmo9zA5AiBDUTKKDtPCzSEyOpI9l8WCHaq5QZnfB0n7Iy5Tr7huQg%3D%3D/lsparams/mh,mm,mn,ms,mv,mvi,pl,initcwndbps/lsig/AG3C_xAwRQIhAN6xKED20z0FspWqZhMLoa2lR82yjFoscx3Lg9msLTehAiAKTr2iIbTAvVk_BcTAd5ZHfIf_pKjQPnghZvNJ1tXCIw%3D%3D/",
+			"fragments": [
+				{
+					"path": "range/0-640"
+				},
+				{
+					"path": "range/997-62253",
+					"duration": 9.985
+				},
+				{
+					"path": "range/62254-123325",
+					"duration": 9.984
+				},
+				{
+					"path": "range/123326-184232",
+					"duration": 9.985
+				},
+				{
+					"path": "range/184233-244963",
+					"duration": 9.984
+				},
+				{
+					"path": "range/244964-305623",
+					"duration": 9.985
+				},
+				{
+					"path": "range/305624-366759",
+					"duration": 9.984
+				},
+				{
+					"path": "range/366760-427601",
+					"duration": 9.985
+				},
+				{
+					"path": "range/427602-488767",
+					"duration": 9.985
+				},
+				{
+					"path": "range/488768-549473",
+					"duration": 9.984
+				},
+				{
+					"path": "range/549474-610198",
+					"duration": 9.985
+				},
+				{
+					"path": "range/610199-670934",
+					"duration": 9.984
+				},
+				{
+					"path": "range/670935-731921",
+					"duration": 9.985
+				},
+				{
+					"path": "range/731922-792822",
+					"duration": 9.985
+				},
+				{
+					"path": "range/792823-853772",
+					"duration": 9.984
+				},
+				{
+					"path": "range/853773-914513",
+					"duration": 9.985
+				},
+				{
+					"path": "range/914514-975216",
+					"duration": 9.984
+				},
+				{
+					"path": "range/975217-1036458",
+					"duration": 9.985
+				},
+				{
+					"path": "range/1036459-1096949",
+					"duration": 9.984
+				},
+				{
+					"path": "range/1096950-1157827",
+					"duration": 9.985
+				},
+				{
+					"path": "range/1157828-1219069",
+					"duration": 9.985
+				},
+				{
+					"path": "range/1219070-1279801",
+					"duration": 9.984
+				},
+				{
+					"path": "range/1279802-1340728",
+					"duration": 9.985
+				},
+				{
+					"path": "range/1340729-1401428",
+					"duration": 9.984
+				},
+				{
+					"path": "range/1401429-1462237",
+					"duration": 9.985
+				},
+				{
+					"path": "range/1462238-1523133",
+					"duration": 9.984
+				},
+				{
+					"path": "range/1523134-1584034",
+					"duration": 9.985
+				},
+				{
+					"path": "range/1584035-1642731",
+					"duration": 9.613
+				}
+			],
+			"protocol": "http_dash_segments",
+			"format": "139 - audio only (DASH audio)",
+			"http_headers": {
+				"User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3658.1 Safari/537.36",
+				"Accept-Charset": "ISO-8859-1,utf-8;q=0.7,*;q=0.7",
+				"Accept": "text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8",
+				"Accept-Encoding": "gzip, deflate",
+				"Accept-Language": "en-us,en;q=0.5"
+			}
+		},
+		{
+			"asr": 48000,
+			"filesize": 4026883,
+			"format_id": "251",
+			"format_note": "tiny",
+			"fps": null,
+			"height": null,
+			"quality": 0,
+			"tbr": 119.713,
+			"url": "https://r5---sn-3u-bh2lr.googlevideo.com/videoplayback?expire=1628874635&ei=K1MWYfK9H7q22roPmZ-ASA&ip=220.72.26.14&id=o-AEdApPBCFk7MVucZAOufSIgQ1FV1ANYlnMmZCJBWhfyp&itag=251&source=youtube&requiressl=yes&mh=Q4&mm=31%2C26&mn=sn-3u-bh2lr%2Csn-oguelnlz&ms=au%2Conr&mv=m&mvi=5&pl=23&initcwndbps=1100000&vprv=1&mime=audio%2Fwebm&ns=2J-p57xXFadfcsdZb0RIqIAG&gir=yes&clen=4026883&otfp=1&dur=269.101&lmt=1595797260684227&mt=1628852693&fvip=5&keepalive=yes&fexp=24001373%2C24007246&c=WEB&txp=6211222&n=BWwpM8-jDWmR8ySJeNZ&sparams=expire%2Cei%2Cip%2Cid%2Citag%2Csource%2Crequiressl%2Cvprv%2Cmime%2Cns%2Cgir%2Cclen%2Cotfp%2Cdur%2Clmt&sig=AOq0QJ8wRQIgLsW-pP8dsab4VkBv9RmBhMiGHJrWNS5IGpcx_jUNYCUCIQDfoc_BRCax_eF0LD63lS0pPcq-hOo4C5Vn3-L6olZU_g%3D%3D&lsparams=mh%2Cmm%2Cmn%2Cms%2Cmv%2Cmvi%2Cpl%2Cinitcwndbps&lsig=AG3C_xAwRQIgdlqgO1YvR3YyQYhJoj_2syAWcfMlRdqZHTmk-MrRlNwCIQDWadMBskXYQGo48-kvAivlepSNUof-HRwG97PwUtpunA%3D%3D",
+			"width": null,
+			"ext": "webm",
+			"vcodec": "none",
+			"acodec": "opus",
+			"abr": 119.713,
+			"downloader_options": {
+				"http_chunk_size": 10485760
+			},
+			"container": "webm_dash",
+			"format": "251 - audio only (tiny)",
+			"protocol": "https",
+			"http_headers": {
+				"User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3658.1 Safari/537.36",
+				"Accept-Charset": "ISO-8859-1,utf-8;q=0.7,*;q=0.7",
+				"Accept": "text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8",
+				"Accept-Encoding": "gzip, deflate",
+				"Accept-Language": "en-us,en;q=0.5"
+			}
+		},
+		{
+			"asr": 44100,
+			"filesize": 4356442,
+			"format_id": "140",
+			"format_note": "tiny",
+			"fps": null,
+			"height": null,
+			"quality": 0,
+			"tbr": 129.491,
+			"url": "https://r5---sn-3u-bh2lr.googlevideo.com/videoplayback?expire=1628874635&ei=K1MWYfK9H7q22roPmZ-ASA&ip=220.72.26.14&id=o-AEdApPBCFk7MVucZAOufSIgQ1FV1ANYlnMmZCJBWhfyp&itag=140&source=youtube&requiressl=yes&mh=Q4&mm=31%2C26&mn=sn-3u-bh2lr%2Csn-oguelnlz&ms=au%2Conr&mv=m&mvi=5&pl=23&initcwndbps=1100000&vprv=1&mime=audio%2Fmp4&ns=2J-p57xXFadfcsdZb0RIqIAG&gir=yes&clen=4356442&otfp=1&dur=269.142&lmt=1595797264590546&mt=1628852693&fvip=5&keepalive=yes&fexp=24001373%2C24007246&c=WEB&txp=6211222&n=BWwpM8-jDWmR8ySJeNZ&sparams=expire%2Cei%2Cip%2Cid%2Citag%2Csource%2Crequiressl%2Cvprv%2Cmime%2Cns%2Cgir%2Cclen%2Cotfp%2Cdur%2Clmt&sig=AOq0QJ8wRAIgNK8hIfSngV521Q3u7ejsSel2B1W0mNGOVusTU_KkyVsCIAMQ94Gvd9p1kuEEvXFMo_cvMnykSw4alCF7a_NCSCHc&lsparams=mh%2Cmm%2Cmn%2Cms%2Cmv%2Cmvi%2Cpl%2Cinitcwndbps&lsig=AG3C_xAwRQIgdlqgO1YvR3YyQYhJoj_2syAWcfMlRdqZHTmk-MrRlNwCIQDWadMBskXYQGo48-kvAivlepSNUof-HRwG97PwUtpunA%3D%3D",
+			"width": null,
+			"ext": "m4a",
+			"vcodec": "none",
+			"acodec": "mp4a.40.2",
+			"abr": 129.491,
+			"downloader_options": {
+				"http_chunk_size": 10485760
+			},
+			"container": "m4a_dash",
+			"format": "140 - audio only (tiny)",
+			"protocol": "https",
+			"http_headers": {
+				"User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3658.1 Safari/537.36",
+				"Accept-Charset": "ISO-8859-1,utf-8;q=0.7,*;q=0.7",
+				"Accept": "text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8",
+				"Accept-Encoding": "gzip, deflate",
+				"Accept-Language": "en-us,en;q=0.5"
+			}
+		},
+		{
+			"format_id": "278",
+			"manifest_url": "https://manifest.googlevideo.com/api/manifest/dash/expire/1628874635/ei/K1MWYfK9H7q22roPmZ-ASA/ip/220.72.26.14/id/7108484eaedc4119/source/youtube/requiressl/yes/playback_host/r5---sn-3u-bh2lr.googlevideo.com/mh/Q4/mm/31%2C26/mn/sn-3u-bh2lr%2Csn-oguelnlz/ms/au%2Conr/mv/m/mvi/5/pl/23/tx/24027932/txs/24027931%2C24027932/hfr/all/as/fmp4_audio_clear%2Cwebm_audio_clear%2Cwebm2_audio_clear%2Cfmp4_sd_hd_clear%2Cwebm2_sd_hd_clear/initcwndbps/1100000/vprv/1/mt/1628852693/fvip/5/keepalive/yes/fexp/24001373%2C24007246/itag/0/sparams/expire%2Cei%2Cip%2Cid%2Csource%2Crequiressl%2Ctx%2Ctxs%2Chfr%2Cas%2Cvprv%2Citag/sig/AOq0QJ8wRQIgF3eYPiuOBxkUwy7VZsPw2PwDIQLdiOkj3lg3tyUSoWcCIQDBNdHHjAUr7oWfmq-Ls5lC45YcL5_yrM7P3zEJm_08iA%3D%3D/lsparams/playback_host%2Cmh%2Cmm%2Cmn%2Cms%2Cmv%2Cmvi%2Cpl%2Cinitcwndbps/lsig/AG3C_xAwRgIhAM1gRFnElkU251nRqgzJj2olkGpwyfgwvzBJ9wvow9pAAiEA4boXWpR4X_Z-0QmLBn9P210s-kdHwYymXxIjG3V9hxs%3D",
+			"ext": "webm",
+			"width": 256,
+			"height": 144,
+			"tbr": 95.0,
+			"asr": null,
+			"fps": 25,
+			"language": null,
+			"format_note": "DASH video",
+			"filesize": null,
+			"container": "webm_dash",
+			"vcodec": "vp9",
+			"acodec": "none",
+			"url": "https://manifest.googlevideo.com/api/manifest/dash/expire/1628874635/ei/K1MWYfK9H7q22roPmZ-ASA/ip/220.72.26.14/id/7108484eaedc4119/source/youtube/requiressl/yes/playback_host/r5---sn-3u-bh2lr.googlevideo.com/mh/Q4/mm/31%2C26/mn/sn-3u-bh2lr%2Csn-oguelnlz/ms/au%2Conr/mv/m/mvi/5/pl/23/tx/24027932/txs/24027931%2C24027932/hfr/all/as/fmp4_audio_clear%2Cwebm_audio_clear%2Cwebm2_audio_clear%2Cfmp4_sd_hd_clear%2Cwebm2_sd_hd_clear/initcwndbps/1100000/vprv/1/mt/1628852693/fvip/5/keepalive/yes/fexp/24001373%2C24007246/itag/0/sparams/expire%2Cei%2Cip%2Cid%2Csource%2Crequiressl%2Ctx%2Ctxs%2Chfr%2Cas%2Cvprv%2Citag/sig/AOq0QJ8wRQIgF3eYPiuOBxkUwy7VZsPw2PwDIQLdiOkj3lg3tyUSoWcCIQDBNdHHjAUr7oWfmq-Ls5lC45YcL5_yrM7P3zEJm_08iA%3D%3D/lsparams/playback_host%2Cmh%2Cmm%2Cmn%2Cms%2Cmv%2Cmvi%2Cpl%2Cinitcwndbps/lsig/AG3C_xAwRgIhAM1gRFnElkU251nRqgzJj2olkGpwyfgwvzBJ9wvow9pAAiEA4boXWpR4X_Z-0QmLBn9P210s-kdHwYymXxIjG3V9hxs%3D",
+			"fragment_base_url": "https://r5---sn-3u-bh2lr.googlevideo.com/videoplayback/expire/1628874635/ei/K1MWYfK9H7q22roPmZ-ASA/ip/220.72.26.14/id/7108484eaedc4119/itag/278/source/yt_otf/requiressl/yes/mh/Q4/mm/31,26/mn/sn-3u-bh2lr,sn-oguelnlz/ms/au,onr/mv/m/mvi/5/pl/23/initcwndbps/1100000/vprv/1/ratebypass/yes/mime/video%2Fwebm/otfp/1/otf/1/lmt/1595797270504800/mt/1628852693/fvip/5/keepalive/yes/fexp/24001373,24007246/sparams/expire,ei,ip,id,itag,source,requiressl,vprv,ratebypass,mime,otfp,otf,lmt/sig/AOq0QJ8wRQIgLncU4XLPFRp0uvsoROsx6Z-v5Mt_LgxgX7sprw6KvTECIQCTFj4-6UWpaBf5njFaLxwOfjC2B0lwankeYUjRipHwMQ%3D%3D/lsparams/mh,mm,mn,ms,mv,mvi,pl,initcwndbps/lsig/AG3C_xAwRQIgSbraboVeNs-d5WFCCyx13tccm4DKlKc1EUOsiBWmB1YCIQC6kkoJtUNXfJ6y2WGZytVEqLfYlOZYw5UxOSqBwIlOvg%3D%3D/",
+			"fragments": [
+				{
+					"path": "sq/0"
+				},
+				{
+					"path": "sq/1/dur/5.120",
+					"duration": 5.12
+				},
+				{
+					"path": "sq/2/dur/5.120",
+					"duration": 5.12
+				},
+				{
+					"path": "sq/3/dur/5.120",
+					"duration": 5.12
+				},
+				{
+					"path": "sq/4/dur/5.120",
+					"duration": 5.12
+				},
+				{
+					"path": "sq/5/dur/5.120",
+					"duration": 5.12
+				},
+				{
+					"path": "sq/6/dur/5.120",
+					"duration": 5.12
+				},
+				{
+					"path": "sq/7/dur/5.120",
+					"duration": 5.12
+				},
+				{
+					"path": "sq/8/dur/5.120",
+					"duration": 5.12
+				},
+				{
+					"path": "sq/9/dur/5.120",
+					"duration": 5.12
+				},
+				{
+					"path": "sq/10/dur/5.120",
+					"duration": 5.12
+				},
+				{
+					"path": "sq/11/dur/5.120",
+					"duration": 5.12
+				},
+				{
+					"path": "sq/12/dur/5.120",
+					"duration": 5.12
+				},
+				{
+					"path": "sq/13/dur/5.120",
+					"duration": 5.12
+				},
+				{
+					"path": "sq/14/dur/5.120",
+					"duration": 5.12
+				},
+				{
+					"path": "sq/15/dur/5.120",
+					"duration": 5.12
+				},
+				{
+					"path": "sq/16/dur/5.120",
+					"duration": 5.12
+				},
+				{
+					"path": "sq/17/dur/5.120",
+					"duration": 5.12
+				},
+				{
+					"path": "sq/18/dur/5.120",
+					"duration": 5.12
+				},
+				{
+					"path": "sq/19/dur/5.120",
+					"duration": 5.12
+				},
+				{
+					"path": "sq/20/dur/5.120",
+					"duration": 5.12
+				},
+				{
+					"path": "sq/21/dur/5.120",
+					"duration": 5.12
+				},
+				{
+					"path": "sq/22/dur/5.120",
+					"duration": 5.12
+				},
+				{
+					"path": "sq/23/dur/5.120",
+					"duration": 5.12
+				},
+				{
+					"path": "sq/24/dur/5.120",
+					"duration": 5.12
+				},
+				{
+					"path": "sq/25/dur/5.120",
+					"duration": 5.12
+				},
+				{
+					"path": "sq/26/dur/5.120",
+					"duration": 5.12
+				},
+				{
+					"path": "sq/27/dur/5.120",
+					"duration": 5.12
+				},
+				{
+					"path": "sq/28/dur/5.120",
+					"duration": 5.12
+				},
+				{
+					"path": "sq/29/dur/5.120",
+					"duration": 5.12
+				},
+				{
+					"path": "sq/30/dur/5.120",
+					"duration": 5.12
+				},
+				{
+					"path": "sq/31/dur/5.120",
+					"duration": 5.12
+				},
+				{
+					"path": "sq/32/dur/5.120",
+					"duration": 5.12
+				},
+				{
+					"path": "sq/33/dur/5.120",
+					"duration": 5.12
+				},
+				{
+					"path": "sq/34/dur/5.120",
+					"duration": 5.12
+				},
+				{
+					"path": "sq/35/dur/5.120",
+					"duration": 5.12
+				},
+				{
+					"path": "sq/36/dur/5.120",
+					"duration": 5.12
+				},
+				{
+					"path": "sq/37/dur/5.120",
+					"duration": 5.12
+				},
+				{
+					"path": "sq/38/dur/5.120",
+					"duration": 5.12
+				},
+				{
+					"path": "sq/39/dur/5.120",
+					"duration": 5.12
+				},
+				{
+					"path": "sq/40/dur/5.120",
+					"duration": 5.12
+				},
+				{
+					"path": "sq/41/dur/5.120",
+					"duration": 5.12
+				},
+				{
+					"path": "sq/42/dur/5.120",
+					"duration": 5.12
+				},
+				{
+					"path": "sq/43/dur/5.120",
+					"duration": 5.12
+				},
+				{
+					"path": "sq/44/dur/5.120",
+					"duration": 5.12
+				},
+				{
+					"path": "sq/45/dur/5.120",
+					"duration": 5.12
+				},
+				{
+					"path": "sq/46/dur/5.120",
+					"duration": 5.12
+				},
+				{
+					"path": "sq/47/dur/5.120",
+					"duration": 5.12
+				},
+				{
+					"path": "sq/48/dur/5.120",
+					"duration": 5.12
+				},
+				{
+					"path": "sq/49/dur/5.120",
+					"duration": 5.12
+				},
+				{
+					"path": "sq/50/dur/5.120",
+					"duration": 5.12
+				},
+				{
+					"path": "sq/51/dur/5.120",
+					"duration": 5.12
+				},
+				{
+					"path": "sq/52/dur/5.120",
+					"duration": 5.12
+				},
+				{
+					"path": "sq/53/dur/2.840",
+					"duration": 2.84
+				}
+			],
+			"protocol": "http_dash_segments",
+			"quality": 0,
+			"format": "278 - 256x144 (DASH video)",
+			"http_headers": {
+				"User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3658.1 Safari/537.36",
+				"Accept-Charset": "ISO-8859-1,utf-8;q=0.7,*;q=0.7",
+				"Accept": "text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8",
+				"Accept-Encoding": "gzip, deflate",
+				"Accept-Language": "en-us,en;q=0.5"
+			}
+		},
+		{
+			"format_id": "160",
+			"manifest_url": "https://manifest.googlevideo.com/api/manifest/dash/expire/1628874635/ei/K1MWYfK9H7q22roPmZ-ASA/ip/220.72.26.14/id/7108484eaedc4119/source/youtube/requiressl/yes/playback_host/r5---sn-3u-bh2lr.googlevideo.com/mh/Q4/mm/31%2C26/mn/sn-3u-bh2lr%2Csn-oguelnlz/ms/au%2Conr/mv/m/mvi/5/pl/23/tx/24027932/txs/24027931%2C24027932/hfr/all/as/fmp4_audio_clear%2Cwebm_audio_clear%2Cwebm2_audio_clear%2Cfmp4_sd_hd_clear%2Cwebm2_sd_hd_clear/initcwndbps/1100000/vprv/1/mt/1628852693/fvip/5/keepalive/yes/fexp/24001373%2C24007246/itag/0/sparams/expire%2Cei%2Cip%2Cid%2Csource%2Crequiressl%2Ctx%2Ctxs%2Chfr%2Cas%2Cvprv%2Citag/sig/AOq0QJ8wRQIgF3eYPiuOBxkUwy7VZsPw2PwDIQLdiOkj3lg3tyUSoWcCIQDBNdHHjAUr7oWfmq-Ls5lC45YcL5_yrM7P3zEJm_08iA%3D%3D/lsparams/playback_host%2Cmh%2Cmm%2Cmn%2Cms%2Cmv%2Cmvi%2Cpl%2Cinitcwndbps/lsig/AG3C_xAwRgIhAM1gRFnElkU251nRqgzJj2olkGpwyfgwvzBJ9wvow9pAAiEA4boXWpR4X_Z-0QmLBn9P210s-kdHwYymXxIjG3V9hxs%3D",
+			"ext": "mp4",
+			"width": 256,
+			"height": 144,
+			"tbr": 108.0,
+			"asr": null,
+			"fps": 25,
+			"language": null,
+			"format_note": "DASH video",
+			"filesize": null,
+			"container": "mp4_dash",
+			"vcodec": "avc1.4d400b",
+			"acodec": "none",
+			"url": "https://manifest.googlevideo.com/api/manifest/dash/expire/1628874635/ei/K1MWYfK9H7q22roPmZ-ASA/ip/220.72.26.14/id/7108484eaedc4119/source/youtube/requiressl/yes/playback_host/r5---sn-3u-bh2lr.googlevideo.com/mh/Q4/mm/31%2C26/mn/sn-3u-bh2lr%2Csn-oguelnlz/ms/au%2Conr/mv/m/mvi/5/pl/23/tx/24027932/txs/24027931%2C24027932/hfr/all/as/fmp4_audio_clear%2Cwebm_audio_clear%2Cwebm2_audio_clear%2Cfmp4_sd_hd_clear%2Cwebm2_sd_hd_clear/initcwndbps/1100000/vprv/1/mt/1628852693/fvip/5/keepalive/yes/fexp/24001373%2C24007246/itag/0/sparams/expire%2Cei%2Cip%2Cid%2Csource%2Crequiressl%2Ctx%2Ctxs%2Chfr%2Cas%2Cvprv%2Citag/sig/AOq0QJ8wRQIgF3eYPiuOBxkUwy7VZsPw2PwDIQLdiOkj3lg3tyUSoWcCIQDBNdHHjAUr7oWfmq-Ls5lC45YcL5_yrM7P3zEJm_08iA%3D%3D/lsparams/playback_host%2Cmh%2Cmm%2Cmn%2Cms%2Cmv%2Cmvi%2Cpl%2Cinitcwndbps/lsig/AG3C_xAwRgIhAM1gRFnElkU251nRqgzJj2olkGpwyfgwvzBJ9wvow9pAAiEA4boXWpR4X_Z-0QmLBn9P210s-kdHwYymXxIjG3V9hxs%3D",
+			"fragment_base_url": "https://r5---sn-3u-bh2lr.googlevideo.com/videoplayback/expire/1628874635/ei/K1MWYfK9H7q22roPmZ-ASA/ip/220.72.26.14/id/7108484eaedc4119/itag/160/source/yt_otf/requiressl/yes/mh/Q4/mm/31,26/mn/sn-3u-bh2lr,sn-oguelnlz/ms/au,onr/mv/m/mvi/5/pl/23/initcwndbps/1100000/vprv/1/ratebypass/yes/mime/video%2Fmp4/otfp/1/otf/1/lmt/1595797270504800/mt/1628852693/fvip/5/keepalive/yes/fexp/24001373,24007246/sparams/expire,ei,ip,id,itag,source,requiressl,vprv,ratebypass,mime,otfp,otf,lmt/sig/AOq0QJ8wRQIhAKl3w9SPS6W2WGCJZpx_ZA18a7jAN5mCFVTtSlfk1aIyAiB-KOvhZzLfwj5AnP7_54H1yC5akYutGUx80HZF3tm9MA%3D%3D/lsparams/mh,mm,mn,ms,mv,mvi,pl,initcwndbps/lsig/AG3C_xAwRQIhAI6KzLbevOHTs8AjzErw9PjvTtJCngk6gePxSLxmh_3TAiBu8CfsTXItjUqwNw0Cu4SOtwUcrVtLkoG3MTsMAN7mxw%3D%3D/",
+			"fragments": [
+				{
+					"path": "sq/0"
+				},
+				{
+					"path": "sq/1/dur/5.120",
+					"duration": 5.12
+				},
+				{
+					"path": "sq/2/dur/5.120",
+					"duration": 5.12
+				},
+				{
+					"path": "sq/3/dur/5.120",
+					"duration": 5.12
+				},
+				{
+					"path": "sq/4/dur/5.120",
+					"duration": 5.12
+				},
+				{
+					"path": "sq/5/dur/5.120",
+					"duration": 5.12
+				},
+				{
+					"path": "sq/6/dur/5.120",
+					"duration": 5.12
+				},
+				{
+					"path": "sq/7/dur/5.120",
+					"duration": 5.12
+				},
+				{
+					"path": "sq/8/dur/5.120",
+					"duration": 5.12
+				},
+				{
+					"path": "sq/9/dur/5.120",
+					"duration": 5.12
+				},
+				{
+					"path": "sq/10/dur/5.120",
+					"duration": 5.12
+				},
+				{
+					"path": "sq/11/dur/5.120",
+					"duration": 5.12
+				},
+				{
+					"path": "sq/12/dur/5.120",
+					"duration": 5.12
+				},
+				{
+					"path": "sq/13/dur/5.120",
+					"duration": 5.12
+				},
+				{
+					"path": "sq/14/dur/5.120",
+					"duration": 5.12
+				},
+				{
+					"path": "sq/15/dur/5.120",
+					"duration": 5.12
+				},
+				{
+					"path": "sq/16/dur/5.120",
+					"duration": 5.12
+				},
+				{
+					"path": "sq/17/dur/5.120",
+					"duration": 5.12
+				},
+				{
+					"path": "sq/18/dur/5.120",
+					"duration": 5.12
+				},
+				{
+					"path": "sq/19/dur/5.120",
+					"duration": 5.12
+				},
+				{
+					"path": "sq/20/dur/5.120",
+					"duration": 5.12
+				},
+				{
+					"path": "sq/21/dur/5.120",
+					"duration": 5.12
+				},
+				{
+					"path": "sq/22/dur/5.120",
+					"duration": 5.12
+				},
+				{
+					"path": "sq/23/dur/5.120",
+					"duration": 5.12
+				},
+				{
+					"path": "sq/24/dur/5.120",
+					"duration": 5.12
+				},
+				{
+					"path": "sq/25/dur/5.120",
+					"duration": 5.12
+				},
+				{
+					"path": "sq/26/dur/5.120",
+					"duration": 5.12
+				},
+				{
+					"path": "sq/27/dur/5.120",
+					"duration": 5.12
+				},
+				{
+					"path": "sq/28/dur/5.120",
+					"duration": 5.12
+				},
+				{
+					"path": "sq/29/dur/5.120",
+					"duration": 5.12
+				},
+				{
+					"path": "sq/30/dur/5.120",
+					"duration": 5.12
+				},
+				{
+					"path": "sq/31/dur/5.120",
+					"duration": 5.12
+				},
+				{
+					"path": "sq/32/dur/5.120",
+					"duration": 5.12
+				},
+				{
+					"path": "sq/33/dur/5.120",
+					"duration": 5.12
+				},
+				{
+					"path": "sq/34/dur/5.120",
+					"duration": 5.12
+				},
+				{
+					"path": "sq/35/dur/5.120",
+					"duration": 5.12
+				},
+				{
+					"path": "sq/36/dur/5.120",
+					"duration": 5.12
+				},
+				{
+					"path": "sq/37/dur/5.120",
+					"duration": 5.12
+				},
+				{
+					"path": "sq/38/dur/5.120",
+					"duration": 5.12
+				},
+				{
+					"path": "sq/39/dur/5.120",
+					"duration": 5.12
+				},
+				{
+					"path": "sq/40/dur/5.120",
+					"duration": 5.12
+				},
+				{
+					"path": "sq/41/dur/5.120",
+					"duration": 5.12
+				},
+				{
+					"path": "sq/42/dur/5.120",
+					"duration": 5.12
+				},
+				{
+					"path": "sq/43/dur/5.120",
+					"duration": 5.12
+				},
+				{
+					"path": "sq/44/dur/5.120",
+					"duration": 5.12
+				},
+				{
+					"path": "sq/45/dur/5.120",
+					"duration": 5.12
+				},
+				{
+					"path": "sq/46/dur/5.120",
+					"duration": 5.12
+				},
+				{
+					"path": "sq/47/dur/5.120",
+					"duration": 5.12
+				},
+				{
+					"path": "sq/48/dur/5.120",
+					"duration": 5.12
+				},
+				{
+					"path": "sq/49/dur/5.120",
+					"duration": 5.12
+				},
+				{
+					"path": "sq/50/dur/5.120",
+					"duration": 5.12
+				},
+				{
+					"path": "sq/51/dur/5.120",
+					"duration": 5.12
+				},
+				{
+					"path": "sq/52/dur/5.120",
+					"duration": 5.12
+				},
+				{
+					"path": "sq/53/dur/2.840",
+					"duration": 2.84
+				}
+			],
+			"protocol": "http_dash_segments",
+			"quality": 0,
+			"format": "160 - 256x144 (DASH video)",
+			"http_headers": {
+				"User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3658.1 Safari/537.36",
+				"Accept-Charset": "ISO-8859-1,utf-8;q=0.7,*;q=0.7",
+				"Accept": "text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8",
+				"Accept-Encoding": "gzip, deflate",
+				"Accept-Language": "en-us,en;q=0.5"
+			}
+		},
+		{
+			"format_id": "242",
+			"manifest_url": "https://manifest.googlevideo.com/api/manifest/dash/expire/1628874635/ei/K1MWYfK9H7q22roPmZ-ASA/ip/220.72.26.14/id/7108484eaedc4119/source/youtube/requiressl/yes/playback_host/r5---sn-3u-bh2lr.googlevideo.com/mh/Q4/mm/31%2C26/mn/sn-3u-bh2lr%2Csn-oguelnlz/ms/au%2Conr/mv/m/mvi/5/pl/23/tx/24027932/txs/24027931%2C24027932/hfr/all/as/fmp4_audio_clear%2Cwebm_audio_clear%2Cwebm2_audio_clear%2Cfmp4_sd_hd_clear%2Cwebm2_sd_hd_clear/initcwndbps/1100000/vprv/1/mt/1628852693/fvip/5/keepalive/yes/fexp/24001373%2C24007246/itag/0/sparams/expire%2Cei%2Cip%2Cid%2Csource%2Crequiressl%2Ctx%2Ctxs%2Chfr%2Cas%2Cvprv%2Citag/sig/AOq0QJ8wRQIgF3eYPiuOBxkUwy7VZsPw2PwDIQLdiOkj3lg3tyUSoWcCIQDBNdHHjAUr7oWfmq-Ls5lC45YcL5_yrM7P3zEJm_08iA%3D%3D/lsparams/playback_host%2Cmh%2Cmm%2Cmn%2Cms%2Cmv%2Cmvi%2Cpl%2Cinitcwndbps/lsig/AG3C_xAwRgIhAM1gRFnElkU251nRqgzJj2olkGpwyfgwvzBJ9wvow9pAAiEA4boXWpR4X_Z-0QmLBn9P210s-kdHwYymXxIjG3V9hxs%3D",
+			"ext": "webm",
+			"width": 426,
+			"height": 240,
+			"tbr": 220.5,
+			"asr": null,
+			"fps": 25,
+			"language": null,
+			"format_note": "DASH video",
+			"filesize": null,
+			"container": "webm_dash",
+			"vcodec": "vp9",
+			"acodec": "none",
+			"url": "https://manifest.googlevideo.com/api/manifest/dash/expire/1628874635/ei/K1MWYfK9H7q22roPmZ-ASA/ip/220.72.26.14/id/7108484eaedc4119/source/youtube/requiressl/yes/playback_host/r5---sn-3u-bh2lr.googlevideo.com/mh/Q4/mm/31%2C26/mn/sn-3u-bh2lr%2Csn-oguelnlz/ms/au%2Conr/mv/m/mvi/5/pl/23/tx/24027932/txs/24027931%2C24027932/hfr/all/as/fmp4_audio_clear%2Cwebm_audio_clear%2Cwebm2_audio_clear%2Cfmp4_sd_hd_clear%2Cwebm2_sd_hd_clear/initcwndbps/1100000/vprv/1/mt/1628852693/fvip/5/keepalive/yes/fexp/24001373%2C24007246/itag/0/sparams/expire%2Cei%2Cip%2Cid%2Csource%2Crequiressl%2Ctx%2Ctxs%2Chfr%2Cas%2Cvprv%2Citag/sig/AOq0QJ8wRQIgF3eYPiuOBxkUwy7VZsPw2PwDIQLdiOkj3lg3tyUSoWcCIQDBNdHHjAUr7oWfmq-Ls5lC45YcL5_yrM7P3zEJm_08iA%3D%3D/lsparams/playback_host%2Cmh%2Cmm%2Cmn%2Cms%2Cmv%2Cmvi%2Cpl%2Cinitcwndbps/lsig/AG3C_xAwRgIhAM1gRFnElkU251nRqgzJj2olkGpwyfgwvzBJ9wvow9pAAiEA4boXWpR4X_Z-0QmLBn9P210s-kdHwYymXxIjG3V9hxs%3D",
+			"fragment_base_url": "https://r5---sn-3u-bh2lr.googlevideo.com/videoplayback/expire/1628874635/ei/K1MWYfK9H7q22roPmZ-ASA/ip/220.72.26.14/id/7108484eaedc4119/itag/242/source/yt_otf/requiressl/yes/mh/Q4/mm/31,26/mn/sn-3u-bh2lr,sn-oguelnlz/ms/au,onr/mv/m/mvi/5/pl/23/initcwndbps/1100000/vprv/1/ratebypass/yes/mime/video%2Fwebm/otfp/1/otf/1/lmt/1595797270504800/mt/1628852693/fvip/5/keepalive/yes/fexp/24001373,24007246/sparams/expire,ei,ip,id,itag,source,requiressl,vprv,ratebypass,mime,otfp,otf,lmt/sig/AOq0QJ8wRQIgXbgqsGFOild5UGaKR8brLIxlnPP8hmAaluVHIqn1RV8CIQCUf57fPrVQ2wkyceGqZabpNYfrgm1rz_96eTuwMOVl7Q%3D%3D/lsparams/mh,mm,mn,ms,mv,mvi,pl,initcwndbps/lsig/AG3C_xAwRgIhAMzk6UlsA1xhMNtfuxHO9QYRbSWc0AHB-yGs6tYIslzIAiEAidfisQE3dqiMk_Bfw68Z30bBy7H_2fHZWh36PxOEhAU%3D/",
+			"fragments": [
+				{
+					"path": "sq/0"
+				},
+				{
+					"path": "sq/1/dur/5.120",
+					"duration": 5.12
+				},
+				{
+					"path": "sq/2/dur/5.120",
+					"duration": 5.12
+				},
+				{
+					"path": "sq/3/dur/5.120",
+					"duration": 5.12
+				},
+				{
+					"path": "sq/4/dur/5.120",
+					"duration": 5.12
+				},
+				{
+					"path": "sq/5/dur/5.120",
+					"duration": 5.12
+				},
+				{
+					"path": "sq/6/dur/5.120",
+					"duration": 5.12
+				},
+				{
+					"path": "sq/7/dur/5.120",
+					"duration": 5.12
+				},
+				{
+					"path": "sq/8/dur/5.120",
+					"duration": 5.12
+				},
+				{
+					"path": "sq/9/dur/5.120",
+					"duration": 5.12
+				},
+				{
+					"path": "sq/10/dur/5.120",
+					"duration": 5.12
+				},
+				{
+					"path": "sq/11/dur/5.120",
+					"duration": 5.12
+				},
+				{
+					"path": "sq/12/dur/5.120",
+					"duration": 5.12
+				},
+				{
+					"path": "sq/13/dur/5.120",
+					"duration": 5.12
+				},
+				{
+					"path": "sq/14/dur/5.120",
+					"duration": 5.12
+				},
+				{
+					"path": "sq/15/dur/5.120",
+					"duration": 5.12
+				},
+				{
+					"path": "sq/16/dur/5.120",
+					"duration": 5.12
+				},
+				{
+					"path": "sq/17/dur/5.120",
+					"duration": 5.12
+				},
+				{
+					"path": "sq/18/dur/5.120",
+					"duration": 5.12
+				},
+				{
+					"path": "sq/19/dur/5.120",
+					"duration": 5.12
+				},
+				{
+					"path": "sq/20/dur/5.120",
+					"duration": 5.12
+				},
+				{
+					"path": "sq/21/dur/5.120",
+					"duration": 5.12
+				},
+				{
+					"path": "sq/22/dur/5.120",
+					"duration": 5.12
+				},
+				{
+					"path": "sq/23/dur/5.120",
+					"duration": 5.12
+				},
+				{
+					"path": "sq/24/dur/5.120",
+					"duration": 5.12
+				},
+				{
+					"path": "sq/25/dur/5.120",
+					"duration": 5.12
+				},
+				{
+					"path": "sq/26/dur/5.120",
+					"duration": 5.12
+				},
+				{
+					"path": "sq/27/dur/5.120",
+					"duration": 5.12
+				},
+				{
+					"path": "sq/28/dur/5.120",
+					"duration": 5.12
+				},
+				{
+					"path": "sq/29/dur/5.120",
+					"duration": 5.12
+				},
+				{
+					"path": "sq/30/dur/5.120",
+					"duration": 5.12
+				},
+				{
+					"path": "sq/31/dur/5.120",
+					"duration": 5.12
+				},
+				{
+					"path": "sq/32/dur/5.120",
+					"duration": 5.12
+				},
+				{
+					"path": "sq/33/dur/5.120",
+					"duration": 5.12
+				},
+				{
+					"path": "sq/34/dur/5.120",
+					"duration": 5.12
+				},
+				{
+					"path": "sq/35/dur/5.120",
+					"duration": 5.12
+				},
+				{
+					"path": "sq/36/dur/5.120",
+					"duration": 5.12
+				},
+				{
+					"path": "sq/37/dur/5.120",
+					"duration": 5.12
+				},
+				{
+					"path": "sq/38/dur/5.120",
+					"duration": 5.12
+				},
+				{
+					"path": "sq/39/dur/5.120",
+					"duration": 5.12
+				},
+				{
+					"path": "sq/40/dur/5.120",
+					"duration": 5.12
+				},
+				{
+					"path": "sq/41/dur/5.120",
+					"duration": 5.12
+				},
+				{
+					"path": "sq/42/dur/5.120",
+					"duration": 5.12
+				},
+				{
+					"path": "sq/43/dur/5.120",
+					"duration": 5.12
+				},
+				{
+					"path": "sq/44/dur/5.120",
+					"duration": 5.12
+				},
+				{
+					"path": "sq/45/dur/5.120",
+					"duration": 5.12
+				},
+				{
+					"path": "sq/46/dur/5.120",
+					"duration": 5.12
+				},
+				{
+					"path": "sq/47/dur/5.120",
+					"duration": 5.12
+				},
+				{
+					"path": "sq/48/dur/5.120",
+					"duration": 5.12
+				},
+				{
+					"path": "sq/49/dur/5.120",
+					"duration": 5.12
+				},
+				{
+					"path": "sq/50/dur/5.120",
+					"duration": 5.12
+				},
+				{
+					"path": "sq/51/dur/5.120",
+					"duration": 5.12
+				},
+				{
+					"path": "sq/52/dur/5.120",
+					"duration": 5.12
+				},
+				{
+					"path": "sq/53/dur/2.840",
+					"duration": 2.84
+				}
+			],
+			"protocol": "http_dash_segments",
+			"quality": 1,
+			"format": "242 - 426x240 (DASH video)",
+			"http_headers": {
+				"User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3658.1 Safari/537.36",
+				"Accept-Charset": "ISO-8859-1,utf-8;q=0.7,*;q=0.7",
+				"Accept": "text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8",
+				"Accept-Encoding": "gzip, deflate",
+				"Accept-Language": "en-us,en;q=0.5"
+			}
+		},
+		{
+			"format_id": "133",
+			"manifest_url": "https://manifest.googlevideo.com/api/manifest/dash/expire/1628874635/ei/K1MWYfK9H7q22roPmZ-ASA/ip/220.72.26.14/id/7108484eaedc4119/source/youtube/requiressl/yes/playback_host/r5---sn-3u-bh2lr.googlevideo.com/mh/Q4/mm/31%2C26/mn/sn-3u-bh2lr%2Csn-oguelnlz/ms/au%2Conr/mv/m/mvi/5/pl/23/tx/24027932/txs/24027931%2C24027932/hfr/all/as/fmp4_audio_clear%2Cwebm_audio_clear%2Cwebm2_audio_clear%2Cfmp4_sd_hd_clear%2Cwebm2_sd_hd_clear/initcwndbps/1100000/vprv/1/mt/1628852693/fvip/5/keepalive/yes/fexp/24001373%2C24007246/itag/0/sparams/expire%2Cei%2Cip%2Cid%2Csource%2Crequiressl%2Ctx%2Ctxs%2Chfr%2Cas%2Cvprv%2Citag/sig/AOq0QJ8wRQIgF3eYPiuOBxkUwy7VZsPw2PwDIQLdiOkj3lg3tyUSoWcCIQDBNdHHjAUr7oWfmq-Ls5lC45YcL5_yrM7P3zEJm_08iA%3D%3D/lsparams/playback_host%2Cmh%2Cmm%2Cmn%2Cms%2Cmv%2Cmvi%2Cpl%2Cinitcwndbps/lsig/AG3C_xAwRgIhAM1gRFnElkU251nRqgzJj2olkGpwyfgwvzBJ9wvow9pAAiEA4boXWpR4X_Z-0QmLBn9P210s-kdHwYymXxIjG3V9hxs%3D",
+			"ext": "mp4",
+			"width": 426,
+			"height": 240,
+			"tbr": 242.0,
+			"asr": null,
+			"fps": 25,
+			"language": null,
+			"format_note": "DASH video",
+			"filesize": null,
+			"container": "mp4_dash",
+			"vcodec": "avc1.4d400c",
+			"acodec": "none",
+			"url": "https://manifest.googlevideo.com/api/manifest/dash/expire/1628874635/ei/K1MWYfK9H7q22roPmZ-ASA/ip/220.72.26.14/id/7108484eaedc4119/source/youtube/requiressl/yes/playback_host/r5---sn-3u-bh2lr.googlevideo.com/mh/Q4/mm/31%2C26/mn/sn-3u-bh2lr%2Csn-oguelnlz/ms/au%2Conr/mv/m/mvi/5/pl/23/tx/24027932/txs/24027931%2C24027932/hfr/all/as/fmp4_audio_clear%2Cwebm_audio_clear%2Cwebm2_audio_clear%2Cfmp4_sd_hd_clear%2Cwebm2_sd_hd_clear/initcwndbps/1100000/vprv/1/mt/1628852693/fvip/5/keepalive/yes/fexp/24001373%2C24007246/itag/0/sparams/expire%2Cei%2Cip%2Cid%2Csource%2Crequiressl%2Ctx%2Ctxs%2Chfr%2Cas%2Cvprv%2Citag/sig/AOq0QJ8wRQIgF3eYPiuOBxkUwy7VZsPw2PwDIQLdiOkj3lg3tyUSoWcCIQDBNdHHjAUr7oWfmq-Ls5lC45YcL5_yrM7P3zEJm_08iA%3D%3D/lsparams/playback_host%2Cmh%2Cmm%2Cmn%2Cms%2Cmv%2Cmvi%2Cpl%2Cinitcwndbps/lsig/AG3C_xAwRgIhAM1gRFnElkU251nRqgzJj2olkGpwyfgwvzBJ9wvow9pAAiEA4boXWpR4X_Z-0QmLBn9P210s-kdHwYymXxIjG3V9hxs%3D",
+			"fragment_base_url": "https://r5---sn-3u-bh2lr.googlevideo.com/videoplayback/expire/1628874635/ei/K1MWYfK9H7q22roPmZ-ASA/ip/220.72.26.14/id/7108484eaedc4119/itag/133/source/yt_otf/requiressl/yes/mh/Q4/mm/31,26/mn/sn-3u-bh2lr,sn-oguelnlz/ms/au,onr/mv/m/mvi/5/pl/23/initcwndbps/1100000/vprv/1/ratebypass/yes/mime/video%2Fmp4/otfp/1/otf/1/lmt/1595797270504800/mt/1628852693/fvip/5/keepalive/yes/fexp/24001373,24007246/sparams/expire,ei,ip,id,itag,source,requiressl,vprv,ratebypass,mime,otfp,otf,lmt/sig/AOq0QJ8wRQIgM2axGe_1xoXWZi4BoiakyGP_UKwbUCeCmwPaGX1gTe4CIQDIkNZX6UAIfzZ8u2l6_3mvjE9rnm7ZxnWBviAM3OjoHw%3D%3D/lsparams/mh,mm,mn,ms,mv,mvi,pl,initcwndbps/lsig/AG3C_xAwRQIge9lc4UkZwkDgTDQQrbZ-xTPRCuCjimzETqGOb4GGYf8CIQCyTICkazudbYd_gulWOpU2iwpMFPZX0p-Mll1FipmS6g%3D%3D/",
+			"fragments": [
+				{
+					"path": "sq/0"
+				},
+				{
+					"path": "sq/1/dur/5.120",
+					"duration": 5.12
+				},
+				{
+					"path": "sq/2/dur/5.120",
+					"duration": 5.12
+				},
+				{
+					"path": "sq/3/dur/5.120",
+					"duration": 5.12
+				},
+				{
+					"path": "sq/4/dur/5.120",
+					"duration": 5.12
+				},
+				{
+					"path": "sq/5/dur/5.120",
+					"duration": 5.12
+				},
+				{
+					"path": "sq/6/dur/5.120",
+					"duration": 5.12
+				},
+				{
+					"path": "sq/7/dur/5.120",
+					"duration": 5.12
+				},
+				{
+					"path": "sq/8/dur/5.120",
+					"duration": 5.12
+				},
+				{
+					"path": "sq/9/dur/5.120",
+					"duration": 5.12
+				},
+				{
+					"path": "sq/10/dur/5.120",
+					"duration": 5.12
+				},
+				{
+					"path": "sq/11/dur/5.120",
+					"duration": 5.12
+				},
+				{
+					"path": "sq/12/dur/5.120",
+					"duration": 5.12
+				},
+				{
+					"path": "sq/13/dur/5.120",
+					"duration": 5.12
+				},
+				{
+					"path": "sq/14/dur/5.120",
+					"duration": 5.12
+				},
+				{
+					"path": "sq/15/dur/5.120",
+					"duration": 5.12
+				},
+				{
+					"path": "sq/16/dur/5.120",
+					"duration": 5.12
+				},
+				{
+					"path": "sq/17/dur/5.120",
+					"duration": 5.12
+				},
+				{
+					"path": "sq/18/dur/5.120",
+					"duration": 5.12
+				},
+				{
+					"path": "sq/19/dur/5.120",
+					"duration": 5.12
+				},
+				{
+					"path": "sq/20/dur/5.120",
+					"duration": 5.12
+				},
+				{
+					"path": "sq/21/dur/5.120",
+					"duration": 5.12
+				},
+				{
+					"path": "sq/22/dur/5.120",
+					"duration": 5.12
+				},
+				{
+					"path": "sq/23/dur/5.120",
+					"duration": 5.12
+				},
+				{
+					"path": "sq/24/dur/5.120",
+					"duration": 5.12
+				},
+				{
+					"path": "sq/25/dur/5.120",
+					"duration": 5.12
+				},
+				{
+					"path": "sq/26/dur/5.120",
+					"duration": 5.12
+				},
+				{
+					"path": "sq/27/dur/5.120",
+					"duration": 5.12
+				},
+				{
+					"path": "sq/28/dur/5.120",
+					"duration": 5.12
+				},
+				{
+					"path": "sq/29/dur/5.120",
+					"duration": 5.12
+				},
+				{
+					"path": "sq/30/dur/5.120",
+					"duration": 5.12
+				},
+				{
+					"path": "sq/31/dur/5.120",
+					"duration": 5.12
+				},
+				{
+					"path": "sq/32/dur/5.120",
+					"duration": 5.12
+				},
+				{
+					"path": "sq/33/dur/5.120",
+					"duration": 5.12
+				},
+				{
+					"path": "sq/34/dur/5.120",
+					"duration": 5.12
+				},
+				{
+					"path": "sq/35/dur/5.120",
+					"duration": 5.12
+				},
+				{
+					"path": "sq/36/dur/5.120",
+					"duration": 5.12
+				},
+				{
+					"path": "sq/37/dur/5.120",
+					"duration": 5.12
+				},
+				{
+					"path": "sq/38/dur/5.120",
+					"duration": 5.12
+				},
+				{
+					"path": "sq/39/dur/5.120",
+					"duration": 5.12
+				},
+				{
+					"path": "sq/40/dur/5.120",
+					"duration": 5.12
+				},
+				{
+					"path": "sq/41/dur/5.120",
+					"duration": 5.12
+				},
+				{
+					"path": "sq/42/dur/5.120",
+					"duration": 5.12
+				},
+				{
+					"path": "sq/43/dur/5.120",
+					"duration": 5.12
+				},
+				{
+					"path": "sq/44/dur/5.120",
+					"duration": 5.12
+				},
+				{
+					"path": "sq/45/dur/5.120",
+					"duration": 5.12
+				},
+				{
+					"path": "sq/46/dur/5.120",
+					"duration": 5.12
+				},
+				{
+					"path": "sq/47/dur/5.120",
+					"duration": 5.12
+				},
+				{
+					"path": "sq/48/dur/5.120",
+					"duration": 5.12
+				},
+				{
+					"path": "sq/49/dur/5.120",
+					"duration": 5.12
+				},
+				{
+					"path": "sq/50/dur/5.120",
+					"duration": 5.12
+				},
+				{
+					"path": "sq/51/dur/5.120",
+					"duration": 5.12
+				},
+				{
+					"path": "sq/52/dur/5.120",
+					"duration": 5.12
+				},
+				{
+					"path": "sq/53/dur/2.840",
+					"duration": 2.84
+				}
+			],
+			"protocol": "http_dash_segments",
+			"quality": 1,
+			"format": "133 - 426x240 (DASH video)",
+			"http_headers": {
+				"User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3658.1 Safari/537.36",
+				"Accept-Charset": "ISO-8859-1,utf-8;q=0.7,*;q=0.7",
+				"Accept": "text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8",
+				"Accept-Encoding": "gzip, deflate",
+				"Accept-Language": "en-us,en;q=0.5"
+			}
+		},
+		{
+			"asr": null,
+			"filesize": 1546016,
+			"format_id": "134",
+			"format_note": "360p",
+			"fps": 25,
+			"height": 360,
+			"quality": 2,
+			"tbr": 45.964,
+			"url": "https://r5---sn-3u-bh2lr.googlevideo.com/videoplayback?expire=1628874635&ei=K1MWYfK9H7q22roPmZ-ASA&ip=220.72.26.14&id=o-AEdApPBCFk7MVucZAOufSIgQ1FV1ANYlnMmZCJBWhfyp&itag=134&aitags=133%2C134%2C135%2C136%2C137%2C160%2C242%2C243%2C244%2C247%2C248%2C278&source=youtube&requiressl=yes&mh=Q4&mm=31%2C26&mn=sn-3u-bh2lr%2Csn-oguelnlz&ms=au%2Conr&mv=m&mvi=5&pl=23&initcwndbps=1100000&vprv=1&mime=video%2Fmp4&ns=2J-p57xXFadfcsdZb0RIqIAG&gir=yes&clen=1546016&otfp=1&dur=269.080&lmt=1595797270505478&mt=1628852693&fvip=5&keepalive=yes&fexp=24001373%2C24007246&c=WEB&txp=6216222&n=BWwpM8-jDWmR8ySJeNZ&sparams=expire%2Cei%2Cip%2Cid%2Caitags%2Csource%2Crequiressl%2Cvprv%2Cmime%2Cns%2Cgir%2Cclen%2Cotfp%2Cdur%2Clmt&sig=AOq0QJ8wRgIhAIcx_NLI_J-N_VRjekR8FVsHoDTJG5AviN-MVmd4DkJdAiEAnst6JKw8swYw1CzHgnuhvrC2AkV9JT65_OskupEDSqw%3D&lsparams=mh%2Cmm%2Cmn%2Cms%2Cmv%2Cmvi%2Cpl%2Cinitcwndbps&lsig=AG3C_xAwRQIgdlqgO1YvR3YyQYhJoj_2syAWcfMlRdqZHTmk-MrRlNwCIQDWadMBskXYQGo48-kvAivlepSNUof-HRwG97PwUtpunA%3D%3D",
+			"width": 640,
+			"ext": "mp4",
+			"vcodec": "avc1.4d401e",
+			"acodec": "none",
+			"vbr": 45.964,
+			"downloader_options": {
+				"http_chunk_size": 10485760
+			},
+			"container": "mp4_dash",
+			"format": "134 - 640x360 (360p)",
+			"protocol": "https",
+			"http_headers": {
+				"User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3658.1 Safari/537.36",
+				"Accept-Charset": "ISO-8859-1,utf-8;q=0.7,*;q=0.7",
+				"Accept": "text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8",
+				"Accept-Encoding": "gzip, deflate",
+				"Accept-Language": "en-us,en;q=0.5"
+			}
+		},
+		{
+			"format_id": "243",
+			"manifest_url": "https://manifest.googlevideo.com/api/manifest/dash/expire/1628874635/ei/K1MWYfK9H7q22roPmZ-ASA/ip/220.72.26.14/id/7108484eaedc4119/source/youtube/requiressl/yes/playback_host/r5---sn-3u-bh2lr.googlevideo.com/mh/Q4/mm/31%2C26/mn/sn-3u-bh2lr%2Csn-oguelnlz/ms/au%2Conr/mv/m/mvi/5/pl/23/tx/24027932/txs/24027931%2C24027932/hfr/all/as/fmp4_audio_clear%2Cwebm_audio_clear%2Cwebm2_audio_clear%2Cfmp4_sd_hd_clear%2Cwebm2_sd_hd_clear/initcwndbps/1100000/vprv/1/mt/1628852693/fvip/5/keepalive/yes/fexp/24001373%2C24007246/itag/0/sparams/expire%2Cei%2Cip%2Cid%2Csource%2Crequiressl%2Ctx%2Ctxs%2Chfr%2Cas%2Cvprv%2Citag/sig/AOq0QJ8wRQIgF3eYPiuOBxkUwy7VZsPw2PwDIQLdiOkj3lg3tyUSoWcCIQDBNdHHjAUr7oWfmq-Ls5lC45YcL5_yrM7P3zEJm_08iA%3D%3D/lsparams/playback_host%2Cmh%2Cmm%2Cmn%2Cms%2Cmv%2Cmvi%2Cpl%2Cinitcwndbps/lsig/AG3C_xAwRgIhAM1gRFnElkU251nRqgzJj2olkGpwyfgwvzBJ9wvow9pAAiEA4boXWpR4X_Z-0QmLBn9P210s-kdHwYymXxIjG3V9hxs%3D",
+			"ext": "webm",
+			"width": 640,
+			"height": 360,
+			"tbr": 405.72,
+			"asr": null,
+			"fps": 25,
+			"language": null,
+			"format_note": "DASH video",
+			"filesize": null,
+			"container": "webm_dash",
+			"vcodec": "vp9",
+			"acodec": "none",
+			"url": "https://manifest.googlevideo.com/api/manifest/dash/expire/1628874635/ei/K1MWYfK9H7q22roPmZ-ASA/ip/220.72.26.14/id/7108484eaedc4119/source/youtube/requiressl/yes/playback_host/r5---sn-3u-bh2lr.googlevideo.com/mh/Q4/mm/31%2C26/mn/sn-3u-bh2lr%2Csn-oguelnlz/ms/au%2Conr/mv/m/mvi/5/pl/23/tx/24027932/txs/24027931%2C24027932/hfr/all/as/fmp4_audio_clear%2Cwebm_audio_clear%2Cwebm2_audio_clear%2Cfmp4_sd_hd_clear%2Cwebm2_sd_hd_clear/initcwndbps/1100000/vprv/1/mt/1628852693/fvip/5/keepalive/yes/fexp/24001373%2C24007246/itag/0/sparams/expire%2Cei%2Cip%2Cid%2Csource%2Crequiressl%2Ctx%2Ctxs%2Chfr%2Cas%2Cvprv%2Citag/sig/AOq0QJ8wRQIgF3eYPiuOBxkUwy7VZsPw2PwDIQLdiOkj3lg3tyUSoWcCIQDBNdHHjAUr7oWfmq-Ls5lC45YcL5_yrM7P3zEJm_08iA%3D%3D/lsparams/playback_host%2Cmh%2Cmm%2Cmn%2Cms%2Cmv%2Cmvi%2Cpl%2Cinitcwndbps/lsig/AG3C_xAwRgIhAM1gRFnElkU251nRqgzJj2olkGpwyfgwvzBJ9wvow9pAAiEA4boXWpR4X_Z-0QmLBn9P210s-kdHwYymXxIjG3V9hxs%3D",
+			"fragment_base_url": "https://r5---sn-3u-bh2lr.googlevideo.com/videoplayback/expire/1628874635/ei/K1MWYfK9H7q22roPmZ-ASA/ip/220.72.26.14/id/7108484eaedc4119/itag/243/source/yt_otf/requiressl/yes/mh/Q4/mm/31,26/mn/sn-3u-bh2lr,sn-oguelnlz/ms/au,onr/mv/m/mvi/5/pl/23/initcwndbps/1100000/vprv/1/ratebypass/yes/mime/video%2Fwebm/otfp/1/otf/1/lmt/1595797270504800/mt/1628852693/fvip/5/keepalive/yes/fexp/24001373,24007246/sparams/expire,ei,ip,id,itag,source,requiressl,vprv,ratebypass,mime,otfp,otf,lmt/sig/AOq0QJ8wRgIhAJ_Pd6Iu9_8Ym9emHueowBySuAIRzOUAmDjfmLirDTEHAiEA-wbNNfQoTTE5IuPcjaAUoTL8yfTpK1o5ASG1Yeaex04%3D/lsparams/mh,mm,mn,ms,mv,mvi,pl,initcwndbps/lsig/AG3C_xAwRQIgd1hWEypYquYxJPRWPici5CiBIzDMGb3FiSObloWbmsYCIQDT31VMBMfqGNpHU0gNG5MUWlyHnqi0R8Y6k6s2fwiyRQ%3D%3D/",
+			"fragments": [
+				{
+					"path": "sq/0"
+				},
+				{
+					"path": "sq/1/dur/5.120",
+					"duration": 5.12
+				},
+				{
+					"path": "sq/2/dur/5.120",
+					"duration": 5.12
+				},
+				{
+					"path": "sq/3/dur/5.120",
+					"duration": 5.12
+				},
+				{
+					"path": "sq/4/dur/5.120",
+					"duration": 5.12
+				},
+				{
+					"path": "sq/5/dur/5.120",
+					"duration": 5.12
+				},
+				{
+					"path": "sq/6/dur/5.120",
+					"duration": 5.12
+				},
+				{
+					"path": "sq/7/dur/5.120",
+					"duration": 5.12
+				},
+				{
+					"path": "sq/8/dur/5.120",
+					"duration": 5.12
+				},
+				{
+					"path": "sq/9/dur/5.120",
+					"duration": 5.12
+				},
+				{
+					"path": "sq/10/dur/5.120",
+					"duration": 5.12
+				},
+				{
+					"path": "sq/11/dur/5.120",
+					"duration": 5.12
+				},
+				{
+					"path": "sq/12/dur/5.120",
+					"duration": 5.12
+				},
+				{
+					"path": "sq/13/dur/5.120",
+					"duration": 5.12
+				},
+				{
+					"path": "sq/14/dur/5.120",
+					"duration": 5.12
+				},
+				{
+					"path": "sq/15/dur/5.120",
+					"duration": 5.12
+				},
+				{
+					"path": "sq/16/dur/5.120",
+					"duration": 5.12
+				},
+				{
+					"path": "sq/17/dur/5.120",
+					"duration": 5.12
+				},
+				{
+					"path": "sq/18/dur/5.120",
+					"duration": 5.12
+				},
+				{
+					"path": "sq/19/dur/5.120",
+					"duration": 5.12
+				},
+				{
+					"path": "sq/20/dur/5.120",
+					"duration": 5.12
+				},
+				{
+					"path": "sq/21/dur/5.120",
+					"duration": 5.12
+				},
+				{
+					"path": "sq/22/dur/5.120",
+					"duration": 5.12
+				},
+				{
+					"path": "sq/23/dur/5.120",
+					"duration": 5.12
+				},
+				{
+					"path": "sq/24/dur/5.120",
+					"duration": 5.12
+				},
+				{
+					"path": "sq/25/dur/5.120",
+					"duration": 5.12
+				},
+				{
+					"path": "sq/26/dur/5.120",
+					"duration": 5.12
+				},
+				{
+					"path": "sq/27/dur/5.120",
+					"duration": 5.12
+				},
+				{
+					"path": "sq/28/dur/5.120",
+					"duration": 5.12
+				},
+				{
+					"path": "sq/29/dur/5.120",
+					"duration": 5.12
+				},
+				{
+					"path": "sq/30/dur/5.120",
+					"duration": 5.12
+				},
+				{
+					"path": "sq/31/dur/5.120",
+					"duration": 5.12
+				},
+				{
+					"path": "sq/32/dur/5.120",
+					"duration": 5.12
+				},
+				{
+					"path": "sq/33/dur/5.120",
+					"duration": 5.12
+				},
+				{
+					"path": "sq/34/dur/5.120",
+					"duration": 5.12
+				},
+				{
+					"path": "sq/35/dur/5.120",
+					"duration": 5.12
+				},
+				{
+					"path": "sq/36/dur/5.120",
+					"duration": 5.12
+				},
+				{
+					"path": "sq/37/dur/5.120",
+					"duration": 5.12
+				},
+				{
+					"path": "sq/38/dur/5.120",
+					"duration": 5.12
+				},
+				{
+					"path": "sq/39/dur/5.120",
+					"duration": 5.12
+				},
+				{
+					"path": "sq/40/dur/5.120",
+					"duration": 5.12
+				},
+				{
+					"path": "sq/41/dur/5.120",
+					"duration": 5.12
+				},
+				{
+					"path": "sq/42/dur/5.120",
+					"duration": 5.12
+				},
+				{
+					"path": "sq/43/dur/5.120",
+					"duration": 5.12
+				},
+				{
+					"path": "sq/44/dur/5.120",
+					"duration": 5.12
+				},
+				{
+					"path": "sq/45/dur/5.120",
+					"duration": 5.12
+				},
+				{
+					"path": "sq/46/dur/5.120",
+					"duration": 5.12
+				},
+				{
+					"path": "sq/47/dur/5.120",
+					"duration": 5.12
+				},
+				{
+					"path": "sq/48/dur/5.120",
+					"duration": 5.12
+				},
+				{
+					"path": "sq/49/dur/5.120",
+					"duration": 5.12
+				},
+				{
+					"path": "sq/50/dur/5.120",
+					"duration": 5.12
+				},
+				{
+					"path": "sq/51/dur/5.120",
+					"duration": 5.12
+				},
+				{
+					"path": "sq/52/dur/5.120",
+					"duration": 5.12
+				},
+				{
+					"path": "sq/53/dur/2.840",
+					"duration": 2.84
+				}
+			],
+			"protocol": "http_dash_segments",
+			"quality": 2,
+			"format": "243 - 640x360 (DASH video)",
+			"http_headers": {
+				"User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3658.1 Safari/537.36",
+				"Accept-Charset": "ISO-8859-1,utf-8;q=0.7,*;q=0.7",
+				"Accept": "text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8",
+				"Accept-Encoding": "gzip, deflate",
+				"Accept-Language": "en-us,en;q=0.5"
+			}
+		},
+		{
+			"format_id": "244",
+			"manifest_url": "https://manifest.googlevideo.com/api/manifest/dash/expire/1628874635/ei/K1MWYfK9H7q22roPmZ-ASA/ip/220.72.26.14/id/7108484eaedc4119/source/youtube/requiressl/yes/playback_host/r5---sn-3u-bh2lr.googlevideo.com/mh/Q4/mm/31%2C26/mn/sn-3u-bh2lr%2Csn-oguelnlz/ms/au%2Conr/mv/m/mvi/5/pl/23/tx/24027932/txs/24027931%2C24027932/hfr/all/as/fmp4_audio_clear%2Cwebm_audio_clear%2Cwebm2_audio_clear%2Cfmp4_sd_hd_clear%2Cwebm2_sd_hd_clear/initcwndbps/1100000/vprv/1/mt/1628852693/fvip/5/keepalive/yes/fexp/24001373%2C24007246/itag/0/sparams/expire%2Cei%2Cip%2Cid%2Csource%2Crequiressl%2Ctx%2Ctxs%2Chfr%2Cas%2Cvprv%2Citag/sig/AOq0QJ8wRQIgF3eYPiuOBxkUwy7VZsPw2PwDIQLdiOkj3lg3tyUSoWcCIQDBNdHHjAUr7oWfmq-Ls5lC45YcL5_yrM7P3zEJm_08iA%3D%3D/lsparams/playback_host%2Cmh%2Cmm%2Cmn%2Cms%2Cmv%2Cmvi%2Cpl%2Cinitcwndbps/lsig/AG3C_xAwRgIhAM1gRFnElkU251nRqgzJj2olkGpwyfgwvzBJ9wvow9pAAiEA4boXWpR4X_Z-0QmLBn9P210s-kdHwYymXxIjG3V9hxs%3D",
+			"ext": "webm",
+			"width": 854,
+			"height": 480,
+			"tbr": 752.64,
+			"asr": null,
+			"fps": 25,
+			"language": null,
+			"format_note": "DASH video",
+			"filesize": null,
+			"container": "webm_dash",
+			"vcodec": "vp9",
+			"acodec": "none",
+			"url": "https://manifest.googlevideo.com/api/manifest/dash/expire/1628874635/ei/K1MWYfK9H7q22roPmZ-ASA/ip/220.72.26.14/id/7108484eaedc4119/source/youtube/requiressl/yes/playback_host/r5---sn-3u-bh2lr.googlevideo.com/mh/Q4/mm/31%2C26/mn/sn-3u-bh2lr%2Csn-oguelnlz/ms/au%2Conr/mv/m/mvi/5/pl/23/tx/24027932/txs/24027931%2C24027932/hfr/all/as/fmp4_audio_clear%2Cwebm_audio_clear%2Cwebm2_audio_clear%2Cfmp4_sd_hd_clear%2Cwebm2_sd_hd_clear/initcwndbps/1100000/vprv/1/mt/1628852693/fvip/5/keepalive/yes/fexp/24001373%2C24007246/itag/0/sparams/expire%2Cei%2Cip%2Cid%2Csource%2Crequiressl%2Ctx%2Ctxs%2Chfr%2Cas%2Cvprv%2Citag/sig/AOq0QJ8wRQIgF3eYPiuOBxkUwy7VZsPw2PwDIQLdiOkj3lg3tyUSoWcCIQDBNdHHjAUr7oWfmq-Ls5lC45YcL5_yrM7P3zEJm_08iA%3D%3D/lsparams/playback_host%2Cmh%2Cmm%2Cmn%2Cms%2Cmv%2Cmvi%2Cpl%2Cinitcwndbps/lsig/AG3C_xAwRgIhAM1gRFnElkU251nRqgzJj2olkGpwyfgwvzBJ9wvow9pAAiEA4boXWpR4X_Z-0QmLBn9P210s-kdHwYymXxIjG3V9hxs%3D",
+			"fragment_base_url": "https://r5---sn-3u-bh2lr.googlevideo.com/videoplayback/expire/1628874635/ei/K1MWYfK9H7q22roPmZ-ASA/ip/220.72.26.14/id/7108484eaedc4119/itag/244/source/yt_otf/requiressl/yes/mh/Q4/mm/31,26/mn/sn-3u-bh2lr,sn-oguelnlz/ms/au,onr/mv/m/mvi/5/pl/23/initcwndbps/1100000/vprv/1/ratebypass/yes/mime/video%2Fwebm/otfp/1/otf/1/lmt/1595797270504800/mt/1628852693/fvip/5/keepalive/yes/fexp/24001373,24007246/sparams/expire,ei,ip,id,itag,source,requiressl,vprv,ratebypass,mime,otfp,otf,lmt/sig/AOq0QJ8wRQIhAOPoqnr6eK2iMcrG1Eated-yTm2VPORt8N4vY8RvnMVUAiBP_VvMuGy6t-gbJLDIzJYMtf5wYn6k2Sdx_9_rca6Nig%3D%3D/lsparams/mh,mm,mn,ms,mv,mvi,pl,initcwndbps/lsig/AG3C_xAwRgIhAM-kSBI4IrACXKG7l7Y_Zz3BH9cY6zZCBymyP-_du71hAiEA3J4T9mbCKQWGCHmkni-FeXxWGfGXgCYSFGLCog-1w-A%3D/",
+			"fragments": [
+				{
+					"path": "sq/0"
+				},
+				{
+					"path": "sq/1/dur/5.120",
+					"duration": 5.12
+				},
+				{
+					"path": "sq/2/dur/5.120",
+					"duration": 5.12
+				},
+				{
+					"path": "sq/3/dur/5.120",
+					"duration": 5.12
+				},
+				{
+					"path": "sq/4/dur/5.120",
+					"duration": 5.12
+				},
+				{
+					"path": "sq/5/dur/5.120",
+					"duration": 5.12
+				},
+				{
+					"path": "sq/6/dur/5.120",
+					"duration": 5.12
+				},
+				{
+					"path": "sq/7/dur/5.120",
+					"duration": 5.12
+				},
+				{
+					"path": "sq/8/dur/5.120",
+					"duration": 5.12
+				},
+				{
+					"path": "sq/9/dur/5.120",
+					"duration": 5.12
+				},
+				{
+					"path": "sq/10/dur/5.120",
+					"duration": 5.12
+				},
+				{
+					"path": "sq/11/dur/5.120",
+					"duration": 5.12
+				},
+				{
+					"path": "sq/12/dur/5.120",
+					"duration": 5.12
+				},
+				{
+					"path": "sq/13/dur/5.120",
+					"duration": 5.12
+				},
+				{
+					"path": "sq/14/dur/5.120",
+					"duration": 5.12
+				},
+				{
+					"path": "sq/15/dur/5.120",
+					"duration": 5.12
+				},
+				{
+					"path": "sq/16/dur/5.120",
+					"duration": 5.12
+				},
+				{
+					"path": "sq/17/dur/5.120",
+					"duration": 5.12
+				},
+				{
+					"path": "sq/18/dur/5.120",
+					"duration": 5.12
+				},
+				{
+					"path": "sq/19/dur/5.120",
+					"duration": 5.12
+				},
+				{
+					"path": "sq/20/dur/5.120",
+					"duration": 5.12
+				},
+				{
+					"path": "sq/21/dur/5.120",
+					"duration": 5.12
+				},
+				{
+					"path": "sq/22/dur/5.120",
+					"duration": 5.12
+				},
+				{
+					"path": "sq/23/dur/5.120",
+					"duration": 5.12
+				},
+				{
+					"path": "sq/24/dur/5.120",
+					"duration": 5.12
+				},
+				{
+					"path": "sq/25/dur/5.120",
+					"duration": 5.12
+				},
+				{
+					"path": "sq/26/dur/5.120",
+					"duration": 5.12
+				},
+				{
+					"path": "sq/27/dur/5.120",
+					"duration": 5.12
+				},
+				{
+					"path": "sq/28/dur/5.120",
+					"duration": 5.12
+				},
+				{
+					"path": "sq/29/dur/5.120",
+					"duration": 5.12
+				},
+				{
+					"path": "sq/30/dur/5.120",
+					"duration": 5.12
+				},
+				{
+					"path": "sq/31/dur/5.120",
+					"duration": 5.12
+				},
+				{
+					"path": "sq/32/dur/5.120",
+					"duration": 5.12
+				},
+				{
+					"path": "sq/33/dur/5.120",
+					"duration": 5.12
+				},
+				{
+					"path": "sq/34/dur/5.120",
+					"duration": 5.12
+				},
+				{
+					"path": "sq/35/dur/5.120",
+					"duration": 5.12
+				},
+				{
+					"path": "sq/36/dur/5.120",
+					"duration": 5.12
+				},
+				{
+					"path": "sq/37/dur/5.120",
+					"duration": 5.12
+				},
+				{
+					"path": "sq/38/dur/5.120",
+					"duration": 5.12
+				},
+				{
+					"path": "sq/39/dur/5.120",
+					"duration": 5.12
+				},
+				{
+					"path": "sq/40/dur/5.120",
+					"duration": 5.12
+				},
+				{
+					"path": "sq/41/dur/5.120",
+					"duration": 5.12
+				},
+				{
+					"path": "sq/42/dur/5.120",
+					"duration": 5.12
+				},
+				{
+					"path": "sq/43/dur/5.120",
+					"duration": 5.12
+				},
+				{
+					"path": "sq/44/dur/5.120",
+					"duration": 5.12
+				},
+				{
+					"path": "sq/45/dur/5.120",
+					"duration": 5.12
+				},
+				{
+					"path": "sq/46/dur/5.120",
+					"duration": 5.12
+				},
+				{
+					"path": "sq/47/dur/5.120",
+					"duration": 5.12
+				},
+				{
+					"path": "sq/48/dur/5.120",
+					"duration": 5.12
+				},
+				{
+					"path": "sq/49/dur/5.120",
+					"duration": 5.12
+				},
+				{
+					"path": "sq/50/dur/5.120",
+					"duration": 5.12
+				},
+				{
+					"path": "sq/51/dur/5.120",
+					"duration": 5.12
+				},
+				{
+					"path": "sq/52/dur/5.120",
+					"duration": 5.12
+				},
+				{
+					"path": "sq/53/dur/2.840",
+					"duration": 2.84
+				}
+			],
+			"protocol": "http_dash_segments",
+			"quality": 3,
+			"format": "244 - 854x480 (DASH video)",
+			"http_headers": {
+				"User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3658.1 Safari/537.36",
+				"Accept-Charset": "ISO-8859-1,utf-8;q=0.7,*;q=0.7",
+				"Accept": "text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8",
+				"Accept-Encoding": "gzip, deflate",
+				"Accept-Language": "en-us,en;q=0.5"
+			}
+		},
+		{
+			"format_id": "135",
+			"manifest_url": "https://manifest.googlevideo.com/api/manifest/dash/expire/1628874635/ei/K1MWYfK9H7q22roPmZ-ASA/ip/220.72.26.14/id/7108484eaedc4119/source/youtube/requiressl/yes/playback_host/r5---sn-3u-bh2lr.googlevideo.com/mh/Q4/mm/31%2C26/mn/sn-3u-bh2lr%2Csn-oguelnlz/ms/au%2Conr/mv/m/mvi/5/pl/23/tx/24027932/txs/24027931%2C24027932/hfr/all/as/fmp4_audio_clear%2Cwebm_audio_clear%2Cwebm2_audio_clear%2Cfmp4_sd_hd_clear%2Cwebm2_sd_hd_clear/initcwndbps/1100000/vprv/1/mt/1628852693/fvip/5/keepalive/yes/fexp/24001373%2C24007246/itag/0/sparams/expire%2Cei%2Cip%2Cid%2Csource%2Crequiressl%2Ctx%2Ctxs%2Chfr%2Cas%2Cvprv%2Citag/sig/AOq0QJ8wRQIgF3eYPiuOBxkUwy7VZsPw2PwDIQLdiOkj3lg3tyUSoWcCIQDBNdHHjAUr7oWfmq-Ls5lC45YcL5_yrM7P3zEJm_08iA%3D%3D/lsparams/playback_host%2Cmh%2Cmm%2Cmn%2Cms%2Cmv%2Cmvi%2Cpl%2Cinitcwndbps/lsig/AG3C_xAwRgIhAM1gRFnElkU251nRqgzJj2olkGpwyfgwvzBJ9wvow9pAAiEA4boXWpR4X_Z-0QmLBn9P210s-kdHwYymXxIjG3V9hxs%3D",
+			"ext": "mp4",
+			"width": 854,
+			"height": 480,
+			"tbr": 1155.0,
+			"asr": null,
+			"fps": 25,
+			"language": null,
+			"format_note": "DASH video",
+			"filesize": null,
+			"container": "mp4_dash",
+			"vcodec": "avc1.4d4014",
+			"acodec": "none",
+			"url": "https://manifest.googlevideo.com/api/manifest/dash/expire/1628874635/ei/K1MWYfK9H7q22roPmZ-ASA/ip/220.72.26.14/id/7108484eaedc4119/source/youtube/requiressl/yes/playback_host/r5---sn-3u-bh2lr.googlevideo.com/mh/Q4/mm/31%2C26/mn/sn-3u-bh2lr%2Csn-oguelnlz/ms/au%2Conr/mv/m/mvi/5/pl/23/tx/24027932/txs/24027931%2C24027932/hfr/all/as/fmp4_audio_clear%2Cwebm_audio_clear%2Cwebm2_audio_clear%2Cfmp4_sd_hd_clear%2Cwebm2_sd_hd_clear/initcwndbps/1100000/vprv/1/mt/1628852693/fvip/5/keepalive/yes/fexp/24001373%2C24007246/itag/0/sparams/expire%2Cei%2Cip%2Cid%2Csource%2Crequiressl%2Ctx%2Ctxs%2Chfr%2Cas%2Cvprv%2Citag/sig/AOq0QJ8wRQIgF3eYPiuOBxkUwy7VZsPw2PwDIQLdiOkj3lg3tyUSoWcCIQDBNdHHjAUr7oWfmq-Ls5lC45YcL5_yrM7P3zEJm_08iA%3D%3D/lsparams/playback_host%2Cmh%2Cmm%2Cmn%2Cms%2Cmv%2Cmvi%2Cpl%2Cinitcwndbps/lsig/AG3C_xAwRgIhAM1gRFnElkU251nRqgzJj2olkGpwyfgwvzBJ9wvow9pAAiEA4boXWpR4X_Z-0QmLBn9P210s-kdHwYymXxIjG3V9hxs%3D",
+			"fragment_base_url": "https://r5---sn-3u-bh2lr.googlevideo.com/videoplayback/expire/1628874635/ei/K1MWYfK9H7q22roPmZ-ASA/ip/220.72.26.14/id/7108484eaedc4119/itag/135/source/yt_otf/requiressl/yes/mh/Q4/mm/31,26/mn/sn-3u-bh2lr,sn-oguelnlz/ms/au,onr/mv/m/mvi/5/pl/23/initcwndbps/1100000/vprv/1/ratebypass/yes/mime/video%2Fmp4/otfp/1/otf/1/lmt/1595797270504800/mt/1628852693/fvip/5/keepalive/yes/fexp/24001373,24007246/sparams/expire,ei,ip,id,itag,source,requiressl,vprv,ratebypass,mime,otfp,otf,lmt/sig/AOq0QJ8wRQIga8fdOMlipGv3F-2s8qyGMzddwZWANhyxhk1q56MC0okCIQDX4lrGT1dYwqbTJAodJniXFkMYOM25_JUMlkLJ-oP7Qg%3D%3D/lsparams/mh,mm,mn,ms,mv,mvi,pl,initcwndbps/lsig/AG3C_xAwRgIhAJpxZ7cC6t3w0Qv_anw5qGwBmawLBZ2D7NQoBRmF3BbQAiEAngKazoRMGH7HZRXDfKndtO9jcUCV6FOGVSTvHulg6gI%3D/",
+			"fragments": [
+				{
+					"path": "sq/0"
+				},
+				{
+					"path": "sq/1/dur/5.120",
+					"duration": 5.12
+				},
+				{
+					"path": "sq/2/dur/5.120",
+					"duration": 5.12
+				},
+				{
+					"path": "sq/3/dur/5.120",
+					"duration": 5.12
+				},
+				{
+					"path": "sq/4/dur/5.120",
+					"duration": 5.12
+				},
+				{
+					"path": "sq/5/dur/5.120",
+					"duration": 5.12
+				},
+				{
+					"path": "sq/6/dur/5.120",
+					"duration": 5.12
+				},
+				{
+					"path": "sq/7/dur/5.120",
+					"duration": 5.12
+				},
+				{
+					"path": "sq/8/dur/5.120",
+					"duration": 5.12
+				},
+				{
+					"path": "sq/9/dur/5.120",
+					"duration": 5.12
+				},
+				{
+					"path": "sq/10/dur/5.120",
+					"duration": 5.12
+				},
+				{
+					"path": "sq/11/dur/5.120",
+					"duration": 5.12
+				},
+				{
+					"path": "sq/12/dur/5.120",
+					"duration": 5.12
+				},
+				{
+					"path": "sq/13/dur/5.120",
+					"duration": 5.12
+				},
+				{
+					"path": "sq/14/dur/5.120",
+					"duration": 5.12
+				},
+				{
+					"path": "sq/15/dur/5.120",
+					"duration": 5.12
+				},
+				{
+					"path": "sq/16/dur/5.120",
+					"duration": 5.12
+				},
+				{
+					"path": "sq/17/dur/5.120",
+					"duration": 5.12
+				},
+				{
+					"path": "sq/18/dur/5.120",
+					"duration": 5.12
+				},
+				{
+					"path": "sq/19/dur/5.120",
+					"duration": 5.12
+				},
+				{
+					"path": "sq/20/dur/5.120",
+					"duration": 5.12
+				},
+				{
+					"path": "sq/21/dur/5.120",
+					"duration": 5.12
+				},
+				{
+					"path": "sq/22/dur/5.120",
+					"duration": 5.12
+				},
+				{
+					"path": "sq/23/dur/5.120",
+					"duration": 5.12
+				},
+				{
+					"path": "sq/24/dur/5.120",
+					"duration": 5.12
+				},
+				{
+					"path": "sq/25/dur/5.120",
+					"duration": 5.12
+				},
+				{
+					"path": "sq/26/dur/5.120",
+					"duration": 5.12
+				},
+				{
+					"path": "sq/27/dur/5.120",
+					"duration": 5.12
+				},
+				{
+					"path": "sq/28/dur/5.120",
+					"duration": 5.12
+				},
+				{
+					"path": "sq/29/dur/5.120",
+					"duration": 5.12
+				},
+				{
+					"path": "sq/30/dur/5.120",
+					"duration": 5.12
+				},
+				{
+					"path": "sq/31/dur/5.120",
+					"duration": 5.12
+				},
+				{
+					"path": "sq/32/dur/5.120",
+					"duration": 5.12
+				},
+				{
+					"path": "sq/33/dur/5.120",
+					"duration": 5.12
+				},
+				{
+					"path": "sq/34/dur/5.120",
+					"duration": 5.12
+				},
+				{
+					"path": "sq/35/dur/5.120",
+					"duration": 5.12
+				},
+				{
+					"path": "sq/36/dur/5.120",
+					"duration": 5.12
+				},
+				{
+					"path": "sq/37/dur/5.120",
+					"duration": 5.12
+				},
+				{
+					"path": "sq/38/dur/5.120",
+					"duration": 5.12
+				},
+				{
+					"path": "sq/39/dur/5.120",
+					"duration": 5.12
+				},
+				{
+					"path": "sq/40/dur/5.120",
+					"duration": 5.12
+				},
+				{
+					"path": "sq/41/dur/5.120",
+					"duration": 5.12
+				},
+				{
+					"path": "sq/42/dur/5.120",
+					"duration": 5.12
+				},
+				{
+					"path": "sq/43/dur/5.120",
+					"duration": 5.12
+				},
+				{
+					"path": "sq/44/dur/5.120",
+					"duration": 5.12
+				},
+				{
+					"path": "sq/45/dur/5.120",
+					"duration": 5.12
+				},
+				{
+					"path": "sq/46/dur/5.120",
+					"duration": 5.12
+				},
+				{
+					"path": "sq/47/dur/5.120",
+					"duration": 5.12
+				},
+				{
+					"path": "sq/48/dur/5.120",
+					"duration": 5.12
+				},
+				{
+					"path": "sq/49/dur/5.120",
+					"duration": 5.12
+				},
+				{
+					"path": "sq/50/dur/5.120",
+					"duration": 5.12
+				},
+				{
+					"path": "sq/51/dur/5.120",
+					"duration": 5.12
+				},
+				{
+					"path": "sq/52/dur/5.120",
+					"duration": 5.12
+				},
+				{
+					"path": "sq/53/dur/2.840",
+					"duration": 2.84
+				}
+			],
+			"protocol": "http_dash_segments",
+			"quality": 3,
+			"format": "135 - 854x480 (DASH video)",
+			"http_headers": {
+				"User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3658.1 Safari/537.36",
+				"Accept-Charset": "ISO-8859-1,utf-8;q=0.7,*;q=0.7",
+				"Accept": "text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8",
+				"Accept-Encoding": "gzip, deflate",
+				"Accept-Language": "en-us,en;q=0.5"
+			}
+		},
+		{
+			"format_id": "247",
+			"manifest_url": "https://manifest.googlevideo.com/api/manifest/dash/expire/1628874635/ei/K1MWYfK9H7q22roPmZ-ASA/ip/220.72.26.14/id/7108484eaedc4119/source/youtube/requiressl/yes/playback_host/r5---sn-3u-bh2lr.googlevideo.com/mh/Q4/mm/31%2C26/mn/sn-3u-bh2lr%2Csn-oguelnlz/ms/au%2Conr/mv/m/mvi/5/pl/23/tx/24027932/txs/24027931%2C24027932/hfr/all/as/fmp4_audio_clear%2Cwebm_audio_clear%2Cwebm2_audio_clear%2Cfmp4_sd_hd_clear%2Cwebm2_sd_hd_clear/initcwndbps/1100000/vprv/1/mt/1628852693/fvip/5/keepalive/yes/fexp/24001373%2C24007246/itag/0/sparams/expire%2Cei%2Cip%2Cid%2Csource%2Crequiressl%2Ctx%2Ctxs%2Chfr%2Cas%2Cvprv%2Citag/sig/AOq0QJ8wRQIgF3eYPiuOBxkUwy7VZsPw2PwDIQLdiOkj3lg3tyUSoWcCIQDBNdHHjAUr7oWfmq-Ls5lC45YcL5_yrM7P3zEJm_08iA%3D%3D/lsparams/playback_host%2Cmh%2Cmm%2Cmn%2Cms%2Cmv%2Cmvi%2Cpl%2Cinitcwndbps/lsig/AG3C_xAwRgIhAM1gRFnElkU251nRqgzJj2olkGpwyfgwvzBJ9wvow9pAAiEA4boXWpR4X_Z-0QmLBn9P210s-kdHwYymXxIjG3V9hxs%3D",
+			"ext": "webm",
+			"width": 1280,
+			"height": 720,
+			"tbr": 1505.28,
+			"asr": null,
+			"fps": 25,
+			"language": null,
+			"format_note": "DASH video",
+			"filesize": null,
+			"container": "webm_dash",
+			"vcodec": "vp9",
+			"acodec": "none",
+			"url": "https://manifest.googlevideo.com/api/manifest/dash/expire/1628874635/ei/K1MWYfK9H7q22roPmZ-ASA/ip/220.72.26.14/id/7108484eaedc4119/source/youtube/requiressl/yes/playback_host/r5---sn-3u-bh2lr.googlevideo.com/mh/Q4/mm/31%2C26/mn/sn-3u-bh2lr%2Csn-oguelnlz/ms/au%2Conr/mv/m/mvi/5/pl/23/tx/24027932/txs/24027931%2C24027932/hfr/all/as/fmp4_audio_clear%2Cwebm_audio_clear%2Cwebm2_audio_clear%2Cfmp4_sd_hd_clear%2Cwebm2_sd_hd_clear/initcwndbps/1100000/vprv/1/mt/1628852693/fvip/5/keepalive/yes/fexp/24001373%2C24007246/itag/0/sparams/expire%2Cei%2Cip%2Cid%2Csource%2Crequiressl%2Ctx%2Ctxs%2Chfr%2Cas%2Cvprv%2Citag/sig/AOq0QJ8wRQIgF3eYPiuOBxkUwy7VZsPw2PwDIQLdiOkj3lg3tyUSoWcCIQDBNdHHjAUr7oWfmq-Ls5lC45YcL5_yrM7P3zEJm_08iA%3D%3D/lsparams/playback_host%2Cmh%2Cmm%2Cmn%2Cms%2Cmv%2Cmvi%2Cpl%2Cinitcwndbps/lsig/AG3C_xAwRgIhAM1gRFnElkU251nRqgzJj2olkGpwyfgwvzBJ9wvow9pAAiEA4boXWpR4X_Z-0QmLBn9P210s-kdHwYymXxIjG3V9hxs%3D",
+			"fragment_base_url": "https://r5---sn-3u-bh2lr.googlevideo.com/videoplayback/expire/1628874635/ei/K1MWYfK9H7q22roPmZ-ASA/ip/220.72.26.14/id/7108484eaedc4119/itag/247/source/yt_otf/requiressl/yes/mh/Q4/mm/31,26/mn/sn-3u-bh2lr,sn-oguelnlz/ms/au,onr/mv/m/mvi/5/pl/23/initcwndbps/1100000/vprv/1/ratebypass/yes/mime/video%2Fwebm/otfp/1/otf/1/lmt/1595797270504800/mt/1628852693/fvip/5/keepalive/yes/fexp/24001373,24007246/sparams/expire,ei,ip,id,itag,source,requiressl,vprv,ratebypass,mime,otfp,otf,lmt/sig/AOq0QJ8wRAIgO3JmMcKHDV3UzN1E1lA_TEtTVQayyzkVcYgMbZf-xkoCIHwYySXa7MAnC8OZzySeLBYzsAjLXKRuJ5d5tqofZX5J/lsparams/mh,mm,mn,ms,mv,mvi,pl,initcwndbps/lsig/AG3C_xAwRQIhAMAcYJDptkDA80xZu0OKJvKTF0PxWrAQTfT9WdoWnnx3AiBXrGnR_-s98ljnWjHpwi8wQUsYvCclGujjgBswNENAxw%3D%3D/",
+			"fragments": [
+				{
+					"path": "sq/0"
+				},
+				{
+					"path": "sq/1/dur/5.120",
+					"duration": 5.12
+				},
+				{
+					"path": "sq/2/dur/5.120",
+					"duration": 5.12
+				},
+				{
+					"path": "sq/3/dur/5.120",
+					"duration": 5.12
+				},
+				{
+					"path": "sq/4/dur/5.120",
+					"duration": 5.12
+				},
+				{
+					"path": "sq/5/dur/5.120",
+					"duration": 5.12
+				},
+				{
+					"path": "sq/6/dur/5.120",
+					"duration": 5.12
+				},
+				{
+					"path": "sq/7/dur/5.120",
+					"duration": 5.12
+				},
+				{
+					"path": "sq/8/dur/5.120",
+					"duration": 5.12
+				},
+				{
+					"path": "sq/9/dur/5.120",
+					"duration": 5.12
+				},
+				{
+					"path": "sq/10/dur/5.120",
+					"duration": 5.12
+				},
+				{
+					"path": "sq/11/dur/5.120",
+					"duration": 5.12
+				},
+				{
+					"path": "sq/12/dur/5.120",
+					"duration": 5.12
+				},
+				{
+					"path": "sq/13/dur/5.120",
+					"duration": 5.12
+				},
+				{
+					"path": "sq/14/dur/5.120",
+					"duration": 5.12
+				},
+				{
+					"path": "sq/15/dur/5.120",
+					"duration": 5.12
+				},
+				{
+					"path": "sq/16/dur/5.120",
+					"duration": 5.12
+				},
+				{
+					"path": "sq/17/dur/5.120",
+					"duration": 5.12
+				},
+				{
+					"path": "sq/18/dur/5.120",
+					"duration": 5.12
+				},
+				{
+					"path": "sq/19/dur/5.120",
+					"duration": 5.12
+				},
+				{
+					"path": "sq/20/dur/5.120",
+					"duration": 5.12
+				},
+				{
+					"path": "sq/21/dur/5.120",
+					"duration": 5.12
+				},
+				{
+					"path": "sq/22/dur/5.120",
+					"duration": 5.12
+				},
+				{
+					"path": "sq/23/dur/5.120",
+					"duration": 5.12
+				},
+				{
+					"path": "sq/24/dur/5.120",
+					"duration": 5.12
+				},
+				{
+					"path": "sq/25/dur/5.120",
+					"duration": 5.12
+				},
+				{
+					"path": "sq/26/dur/5.120",
+					"duration": 5.12
+				},
+				{
+					"path": "sq/27/dur/5.120",
+					"duration": 5.12
+				},
+				{
+					"path": "sq/28/dur/5.120",
+					"duration": 5.12
+				},
+				{
+					"path": "sq/29/dur/5.120",
+					"duration": 5.12
+				},
+				{
+					"path": "sq/30/dur/5.120",
+					"duration": 5.12
+				},
+				{
+					"path": "sq/31/dur/5.120",
+					"duration": 5.12
+				},
+				{
+					"path": "sq/32/dur/5.120",
+					"duration": 5.12
+				},
+				{
+					"path": "sq/33/dur/5.120",
+					"duration": 5.12
+				},
+				{
+					"path": "sq/34/dur/5.120",
+					"duration": 5.12
+				},
+				{
+					"path": "sq/35/dur/5.120",
+					"duration": 5.12
+				},
+				{
+					"path": "sq/36/dur/5.120",
+					"duration": 5.12
+				},
+				{
+					"path": "sq/37/dur/5.120",
+					"duration": 5.12
+				},
+				{
+					"path": "sq/38/dur/5.120",
+					"duration": 5.12
+				},
+				{
+					"path": "sq/39/dur/5.120",
+					"duration": 5.12
+				},
+				{
+					"path": "sq/40/dur/5.120",
+					"duration": 5.12
+				},
+				{
+					"path": "sq/41/dur/5.120",
+					"duration": 5.12
+				},
+				{
+					"path": "sq/42/dur/5.120",
+					"duration": 5.12
+				},
+				{
+					"path": "sq/43/dur/5.120",
+					"duration": 5.12
+				},
+				{
+					"path": "sq/44/dur/5.120",
+					"duration": 5.12
+				},
+				{
+					"path": "sq/45/dur/5.120",
+					"duration": 5.12
+				},
+				{
+					"path": "sq/46/dur/5.120",
+					"duration": 5.12
+				},
+				{
+					"path": "sq/47/dur/5.120",
+					"duration": 5.12
+				},
+				{
+					"path": "sq/48/dur/5.120",
+					"duration": 5.12
+				},
+				{
+					"path": "sq/49/dur/5.120",
+					"duration": 5.12
+				},
+				{
+					"path": "sq/50/dur/5.120",
+					"duration": 5.12
+				},
+				{
+					"path": "sq/51/dur/5.120",
+					"duration": 5.12
+				},
+				{
+					"path": "sq/52/dur/5.120",
+					"duration": 5.12
+				},
+				{
+					"path": "sq/53/dur/2.840",
+					"duration": 2.84
+				}
+			],
+			"protocol": "http_dash_segments",
+			"quality": 4,
+			"format": "247 - 1280x720 (DASH video)",
+			"http_headers": {
+				"User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3658.1 Safari/537.36",
+				"Accept-Charset": "ISO-8859-1,utf-8;q=0.7,*;q=0.7",
+				"Accept": "text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8",
+				"Accept-Encoding": "gzip, deflate",
+				"Accept-Language": "en-us,en;q=0.5"
+			}
+		},
+		{
+			"format_id": "136",
+			"manifest_url": "https://manifest.googlevideo.com/api/manifest/dash/expire/1628874635/ei/K1MWYfK9H7q22roPmZ-ASA/ip/220.72.26.14/id/7108484eaedc4119/source/youtube/requiressl/yes/playback_host/r5---sn-3u-bh2lr.googlevideo.com/mh/Q4/mm/31%2C26/mn/sn-3u-bh2lr%2Csn-oguelnlz/ms/au%2Conr/mv/m/mvi/5/pl/23/tx/24027932/txs/24027931%2C24027932/hfr/all/as/fmp4_audio_clear%2Cwebm_audio_clear%2Cwebm2_audio_clear%2Cfmp4_sd_hd_clear%2Cwebm2_sd_hd_clear/initcwndbps/1100000/vprv/1/mt/1628852693/fvip/5/keepalive/yes/fexp/24001373%2C24007246/itag/0/sparams/expire%2Cei%2Cip%2Cid%2Csource%2Crequiressl%2Ctx%2Ctxs%2Chfr%2Cas%2Cvprv%2Citag/sig/AOq0QJ8wRQIgF3eYPiuOBxkUwy7VZsPw2PwDIQLdiOkj3lg3tyUSoWcCIQDBNdHHjAUr7oWfmq-Ls5lC45YcL5_yrM7P3zEJm_08iA%3D%3D/lsparams/playback_host%2Cmh%2Cmm%2Cmn%2Cms%2Cmv%2Cmvi%2Cpl%2Cinitcwndbps/lsig/AG3C_xAwRgIhAM1gRFnElkU251nRqgzJj2olkGpwyfgwvzBJ9wvow9pAAiEA4boXWpR4X_Z-0QmLBn9P210s-kdHwYymXxIjG3V9hxs%3D",
+			"ext": "mp4",
+			"width": 1280,
+			"height": 720,
+			"tbr": 2310.0,
+			"asr": null,
+			"fps": 25,
+			"language": null,
+			"format_note": "DASH video",
+			"filesize": null,
+			"container": "mp4_dash",
+			"vcodec": "avc1.4d400a",
+			"acodec": "none",
+			"url": "https://manifest.googlevideo.com/api/manifest/dash/expire/1628874635/ei/K1MWYfK9H7q22roPmZ-ASA/ip/220.72.26.14/id/7108484eaedc4119/source/youtube/requiressl/yes/playback_host/r5---sn-3u-bh2lr.googlevideo.com/mh/Q4/mm/31%2C26/mn/sn-3u-bh2lr%2Csn-oguelnlz/ms/au%2Conr/mv/m/mvi/5/pl/23/tx/24027932/txs/24027931%2C24027932/hfr/all/as/fmp4_audio_clear%2Cwebm_audio_clear%2Cwebm2_audio_clear%2Cfmp4_sd_hd_clear%2Cwebm2_sd_hd_clear/initcwndbps/1100000/vprv/1/mt/1628852693/fvip/5/keepalive/yes/fexp/24001373%2C24007246/itag/0/sparams/expire%2Cei%2Cip%2Cid%2Csource%2Crequiressl%2Ctx%2Ctxs%2Chfr%2Cas%2Cvprv%2Citag/sig/AOq0QJ8wRQIgF3eYPiuOBxkUwy7VZsPw2PwDIQLdiOkj3lg3tyUSoWcCIQDBNdHHjAUr7oWfmq-Ls5lC45YcL5_yrM7P3zEJm_08iA%3D%3D/lsparams/playback_host%2Cmh%2Cmm%2Cmn%2Cms%2Cmv%2Cmvi%2Cpl%2Cinitcwndbps/lsig/AG3C_xAwRgIhAM1gRFnElkU251nRqgzJj2olkGpwyfgwvzBJ9wvow9pAAiEA4boXWpR4X_Z-0QmLBn9P210s-kdHwYymXxIjG3V9hxs%3D",
+			"fragment_base_url": "https://r5---sn-3u-bh2lr.googlevideo.com/videoplayback/expire/1628874635/ei/K1MWYfK9H7q22roPmZ-ASA/ip/220.72.26.14/id/7108484eaedc4119/itag/136/source/yt_otf/requiressl/yes/mh/Q4/mm/31,26/mn/sn-3u-bh2lr,sn-oguelnlz/ms/au,onr/mv/m/mvi/5/pl/23/initcwndbps/1100000/vprv/1/ratebypass/yes/mime/video%2Fmp4/otfp/1/otf/1/lmt/1595797270504800/mt/1628852693/fvip/5/keepalive/yes/fexp/24001373,24007246/sparams/expire,ei,ip,id,itag,source,requiressl,vprv,ratebypass,mime,otfp,otf,lmt/sig/AOq0QJ8wRQIhALjzXmcFNmDcKUnH4qc9fRi7DDIEi5tPbaUiRrTSBlbvAiAlj0leyznQidVQQS4E7xkfbJ8UeX4fPdyEeunaCLdfCw%3D%3D/lsparams/mh,mm,mn,ms,mv,mvi,pl,initcwndbps/lsig/AG3C_xAwRQIgJ3f-YwpE20Z-pCTingpPvlIaljj6ZC1jywHZtiPZIw0CIQCXRrl3I71N2YBSezHi6xpU8Ck1FfRjyQ5WTnXPqMyJtw%3D%3D/",
+			"fragments": [
+				{
+					"path": "sq/0"
+				},
+				{
+					"path": "sq/1/dur/5.120",
+					"duration": 5.12
+				},
+				{
+					"path": "sq/2/dur/5.120",
+					"duration": 5.12
+				},
+				{
+					"path": "sq/3/dur/5.120",
+					"duration": 5.12
+				},
+				{
+					"path": "sq/4/dur/5.120",
+					"duration": 5.12
+				},
+				{
+					"path": "sq/5/dur/5.120",
+					"duration": 5.12
+				},
+				{
+					"path": "sq/6/dur/5.120",
+					"duration": 5.12
+				},
+				{
+					"path": "sq/7/dur/5.120",
+					"duration": 5.12
+				},
+				{
+					"path": "sq/8/dur/5.120",
+					"duration": 5.12
+				},
+				{
+					"path": "sq/9/dur/5.120",
+					"duration": 5.12
+				},
+				{
+					"path": "sq/10/dur/5.120",
+					"duration": 5.12
+				},
+				{
+					"path": "sq/11/dur/5.120",
+					"duration": 5.12
+				},
+				{
+					"path": "sq/12/dur/5.120",
+					"duration": 5.12
+				},
+				{
+					"path": "sq/13/dur/5.120",
+					"duration": 5.12
+				},
+				{
+					"path": "sq/14/dur/5.120",
+					"duration": 5.12
+				},
+				{
+					"path": "sq/15/dur/5.120",
+					"duration": 5.12
+				},
+				{
+					"path": "sq/16/dur/5.120",
+					"duration": 5.12
+				},
+				{
+					"path": "sq/17/dur/5.120",
+					"duration": 5.12
+				},
+				{
+					"path": "sq/18/dur/5.120",
+					"duration": 5.12
+				},
+				{
+					"path": "sq/19/dur/5.120",
+					"duration": 5.12
+				},
+				{
+					"path": "sq/20/dur/5.120",
+					"duration": 5.12
+				},
+				{
+					"path": "sq/21/dur/5.120",
+					"duration": 5.12
+				},
+				{
+					"path": "sq/22/dur/5.120",
+					"duration": 5.12
+				},
+				{
+					"path": "sq/23/dur/5.120",
+					"duration": 5.12
+				},
+				{
+					"path": "sq/24/dur/5.120",
+					"duration": 5.12
+				},
+				{
+					"path": "sq/25/dur/5.120",
+					"duration": 5.12
+				},
+				{
+					"path": "sq/26/dur/5.120",
+					"duration": 5.12
+				},
+				{
+					"path": "sq/27/dur/5.120",
+					"duration": 5.12
+				},
+				{
+					"path": "sq/28/dur/5.120",
+					"duration": 5.12
+				},
+				{
+					"path": "sq/29/dur/5.120",
+					"duration": 5.12
+				},
+				{
+					"path": "sq/30/dur/5.120",
+					"duration": 5.12
+				},
+				{
+					"path": "sq/31/dur/5.120",
+					"duration": 5.12
+				},
+				{
+					"path": "sq/32/dur/5.120",
+					"duration": 5.12
+				},
+				{
+					"path": "sq/33/dur/5.120",
+					"duration": 5.12
+				},
+				{
+					"path": "sq/34/dur/5.120",
+					"duration": 5.12
+				},
+				{
+					"path": "sq/35/dur/5.120",
+					"duration": 5.12
+				},
+				{
+					"path": "sq/36/dur/5.120",
+					"duration": 5.12
+				},
+				{
+					"path": "sq/37/dur/5.120",
+					"duration": 5.12
+				},
+				{
+					"path": "sq/38/dur/5.120",
+					"duration": 5.12
+				},
+				{
+					"path": "sq/39/dur/5.120",
+					"duration": 5.12
+				},
+				{
+					"path": "sq/40/dur/5.120",
+					"duration": 5.12
+				},
+				{
+					"path": "sq/41/dur/5.120",
+					"duration": 5.12
+				},
+				{
+					"path": "sq/42/dur/5.120",
+					"duration": 5.12
+				},
+				{
+					"path": "sq/43/dur/5.120",
+					"duration": 5.12
+				},
+				{
+					"path": "sq/44/dur/5.120",
+					"duration": 5.12
+				},
+				{
+					"path": "sq/45/dur/5.120",
+					"duration": 5.12
+				},
+				{
+					"path": "sq/46/dur/5.120",
+					"duration": 5.12
+				},
+				{
+					"path": "sq/47/dur/5.120",
+					"duration": 5.12
+				},
+				{
+					"path": "sq/48/dur/5.120",
+					"duration": 5.12
+				},
+				{
+					"path": "sq/49/dur/5.120",
+					"duration": 5.12
+				},
+				{
+					"path": "sq/50/dur/5.120",
+					"duration": 5.12
+				},
+				{
+					"path": "sq/51/dur/5.120",
+					"duration": 5.12
+				},
+				{
+					"path": "sq/52/dur/5.120",
+					"duration": 5.12
+				},
+				{
+					"path": "sq/53/dur/2.840",
+					"duration": 2.84
+				}
+			],
+			"protocol": "http_dash_segments",
+			"quality": 4,
+			"format": "136 - 1280x720 (DASH video)",
+			"http_headers": {
+				"User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3658.1 Safari/537.36",
+				"Accept-Charset": "ISO-8859-1,utf-8;q=0.7,*;q=0.7",
+				"Accept": "text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8",
+				"Accept-Encoding": "gzip, deflate",
+				"Accept-Language": "en-us,en;q=0.5"
+			}
+		},
+		{
+			"asr": null,
+			"filesize": 6580766,
+			"format_id": "137",
+			"format_note": "1080p",
+			"fps": 25,
+			"height": 1080,
+			"quality": 5,
+			"tbr": 195.652,
+			"url": "https://r5---sn-3u-bh2lr.googlevideo.com/videoplayback?expire=1628874635&ei=K1MWYfK9H7q22roPmZ-ASA&ip=220.72.26.14&id=o-AEdApPBCFk7MVucZAOufSIgQ1FV1ANYlnMmZCJBWhfyp&itag=137&aitags=133%2C134%2C135%2C136%2C137%2C160%2C242%2C243%2C244%2C247%2C248%2C278&source=youtube&requiressl=yes&mh=Q4&mm=31%2C26&mn=sn-3u-bh2lr%2Csn-oguelnlz&ms=au%2Conr&mv=m&mvi=5&pl=23&initcwndbps=1100000&vprv=1&mime=video%2Fmp4&ns=2J-p57xXFadfcsdZb0RIqIAG&gir=yes&clen=6580766&otfp=1&dur=269.080&lmt=1595797270504800&mt=1628852693&fvip=5&keepalive=yes&fexp=24001373%2C24007246&c=WEB&txp=6216222&n=BWwpM8-jDWmR8ySJeNZ&sparams=expire%2Cei%2Cip%2Cid%2Caitags%2Csource%2Crequiressl%2Cvprv%2Cmime%2Cns%2Cgir%2Cclen%2Cotfp%2Cdur%2Clmt&sig=AOq0QJ8wRgIhAMAbcy8bq7mFoxXZbZC4qCGOepNfJve9TVSJicxmTHNOAiEAznna9i1QokJqJm-2UySmCZ3Vgb96ijDGJIpmQCTml4A%3D&lsparams=mh%2Cmm%2Cmn%2Cms%2Cmv%2Cmvi%2Cpl%2Cinitcwndbps&lsig=AG3C_xAwRQIgdlqgO1YvR3YyQYhJoj_2syAWcfMlRdqZHTmk-MrRlNwCIQDWadMBskXYQGo48-kvAivlepSNUof-HRwG97PwUtpunA%3D%3D",
+			"width": 1920,
+			"ext": "mp4",
+			"vcodec": "avc1.640028",
+			"acodec": "none",
+			"vbr": 195.652,
+			"downloader_options": {
+				"http_chunk_size": 10485760
+			},
+			"container": "mp4_dash",
+			"format": "137 - 1920x1080 (1080p)",
+			"protocol": "https",
+			"http_headers": {
+				"User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3658.1 Safari/537.36",
+				"Accept-Charset": "ISO-8859-1,utf-8;q=0.7,*;q=0.7",
+				"Accept": "text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8",
+				"Accept-Encoding": "gzip, deflate",
+				"Accept-Language": "en-us,en;q=0.5"
+			}
+		},
+		{
+			"format_id": "248",
+			"manifest_url": "https://manifest.googlevideo.com/api/manifest/dash/expire/1628874635/ei/K1MWYfK9H7q22roPmZ-ASA/ip/220.72.26.14/id/7108484eaedc4119/source/youtube/requiressl/yes/playback_host/r5---sn-3u-bh2lr.googlevideo.com/mh/Q4/mm/31%2C26/mn/sn-3u-bh2lr%2Csn-oguelnlz/ms/au%2Conr/mv/m/mvi/5/pl/23/tx/24027932/txs/24027931%2C24027932/hfr/all/as/fmp4_audio_clear%2Cwebm_audio_clear%2Cwebm2_audio_clear%2Cfmp4_sd_hd_clear%2Cwebm2_sd_hd_clear/initcwndbps/1100000/vprv/1/mt/1628852693/fvip/5/keepalive/yes/fexp/24001373%2C24007246/itag/0/sparams/expire%2Cei%2Cip%2Cid%2Csource%2Crequiressl%2Ctx%2Ctxs%2Chfr%2Cas%2Cvprv%2Citag/sig/AOq0QJ8wRQIgF3eYPiuOBxkUwy7VZsPw2PwDIQLdiOkj3lg3tyUSoWcCIQDBNdHHjAUr7oWfmq-Ls5lC45YcL5_yrM7P3zEJm_08iA%3D%3D/lsparams/playback_host%2Cmh%2Cmm%2Cmn%2Cms%2Cmv%2Cmvi%2Cpl%2Cinitcwndbps/lsig/AG3C_xAwRgIhAM1gRFnElkU251nRqgzJj2olkGpwyfgwvzBJ9wvow9pAAiEA4boXWpR4X_Z-0QmLBn9P210s-kdHwYymXxIjG3V9hxs%3D",
+			"ext": "webm",
+			"width": 1920,
+			"height": 1080,
+			"tbr": 2646.0,
+			"asr": null,
+			"fps": 25,
+			"language": null,
+			"format_note": "DASH video",
+			"filesize": null,
+			"container": "webm_dash",
+			"vcodec": "vp9",
+			"acodec": "none",
+			"url": "https://manifest.googlevideo.com/api/manifest/dash/expire/1628874635/ei/K1MWYfK9H7q22roPmZ-ASA/ip/220.72.26.14/id/7108484eaedc4119/source/youtube/requiressl/yes/playback_host/r5---sn-3u-bh2lr.googlevideo.com/mh/Q4/mm/31%2C26/mn/sn-3u-bh2lr%2Csn-oguelnlz/ms/au%2Conr/mv/m/mvi/5/pl/23/tx/24027932/txs/24027931%2C24027932/hfr/all/as/fmp4_audio_clear%2Cwebm_audio_clear%2Cwebm2_audio_clear%2Cfmp4_sd_hd_clear%2Cwebm2_sd_hd_clear/initcwndbps/1100000/vprv/1/mt/1628852693/fvip/5/keepalive/yes/fexp/24001373%2C24007246/itag/0/sparams/expire%2Cei%2Cip%2Cid%2Csource%2Crequiressl%2Ctx%2Ctxs%2Chfr%2Cas%2Cvprv%2Citag/sig/AOq0QJ8wRQIgF3eYPiuOBxkUwy7VZsPw2PwDIQLdiOkj3lg3tyUSoWcCIQDBNdHHjAUr7oWfmq-Ls5lC45YcL5_yrM7P3zEJm_08iA%3D%3D/lsparams/playback_host%2Cmh%2Cmm%2Cmn%2Cms%2Cmv%2Cmvi%2Cpl%2Cinitcwndbps/lsig/AG3C_xAwRgIhAM1gRFnElkU251nRqgzJj2olkGpwyfgwvzBJ9wvow9pAAiEA4boXWpR4X_Z-0QmLBn9P210s-kdHwYymXxIjG3V9hxs%3D",
+			"fragment_base_url": "https://r5---sn-3u-bh2lr.googlevideo.com/videoplayback/expire/1628874635/ei/K1MWYfK9H7q22roPmZ-ASA/ip/220.72.26.14/id/7108484eaedc4119/itag/248/source/yt_otf/requiressl/yes/mh/Q4/mm/31,26/mn/sn-3u-bh2lr,sn-oguelnlz/ms/au,onr/mv/m/mvi/5/pl/23/initcwndbps/1100000/vprv/1/ratebypass/yes/mime/video%2Fwebm/otfp/1/otf/1/lmt/1595797270504800/mt/1628852693/fvip/5/keepalive/yes/fexp/24001373,24007246/sparams/expire,ei,ip,id,itag,source,requiressl,vprv,ratebypass,mime,otfp,otf,lmt/sig/AOq0QJ8wRQIgNii8eNNCMX9jDlGbUvLAewUmzTFJj7JEeuza7EVfR20CIQCa7RDFk-35u8rrMPYJ_6IeZQn7ZM2xDES_nphEp3i3sw%3D%3D/lsparams/mh,mm,mn,ms,mv,mvi,pl,initcwndbps/lsig/AG3C_xAwRQIhAKgKn-ACXtL0qXNAtK_kwD99fu4ZDXiRFV7jbqHcXYj2AiAx5PAv7-kEvnsJD71sGxlIR8lK_JrJytorX5v4n5lKJA%3D%3D/",
+			"fragments": [
+				{
+					"path": "sq/0"
+				},
+				{
+					"path": "sq/1/dur/5.120",
+					"duration": 5.12
+				},
+				{
+					"path": "sq/2/dur/5.120",
+					"duration": 5.12
+				},
+				{
+					"path": "sq/3/dur/5.120",
+					"duration": 5.12
+				},
+				{
+					"path": "sq/4/dur/5.120",
+					"duration": 5.12
+				},
+				{
+					"path": "sq/5/dur/5.120",
+					"duration": 5.12
+				},
+				{
+					"path": "sq/6/dur/5.120",
+					"duration": 5.12
+				},
+				{
+					"path": "sq/7/dur/5.120",
+					"duration": 5.12
+				},
+				{
+					"path": "sq/8/dur/5.120",
+					"duration": 5.12
+				},
+				{
+					"path": "sq/9/dur/5.120",
+					"duration": 5.12
+				},
+				{
+					"path": "sq/10/dur/5.120",
+					"duration": 5.12
+				},
+				{
+					"path": "sq/11/dur/5.120",
+					"duration": 5.12
+				},
+				{
+					"path": "sq/12/dur/5.120",
+					"duration": 5.12
+				},
+				{
+					"path": "sq/13/dur/5.120",
+					"duration": 5.12
+				},
+				{
+					"path": "sq/14/dur/5.120",
+					"duration": 5.12
+				},
+				{
+					"path": "sq/15/dur/5.120",
+					"duration": 5.12
+				},
+				{
+					"path": "sq/16/dur/5.120",
+					"duration": 5.12
+				},
+				{
+					"path": "sq/17/dur/5.120",
+					"duration": 5.12
+				},
+				{
+					"path": "sq/18/dur/5.120",
+					"duration": 5.12
+				},
+				{
+					"path": "sq/19/dur/5.120",
+					"duration": 5.12
+				},
+				{
+					"path": "sq/20/dur/5.120",
+					"duration": 5.12
+				},
+				{
+					"path": "sq/21/dur/5.120",
+					"duration": 5.12
+				},
+				{
+					"path": "sq/22/dur/5.120",
+					"duration": 5.12
+				},
+				{
+					"path": "sq/23/dur/5.120",
+					"duration": 5.12
+				},
+				{
+					"path": "sq/24/dur/5.120",
+					"duration": 5.12
+				},
+				{
+					"path": "sq/25/dur/5.120",
+					"duration": 5.12
+				},
+				{
+					"path": "sq/26/dur/5.120",
+					"duration": 5.12
+				},
+				{
+					"path": "sq/27/dur/5.120",
+					"duration": 5.12
+				},
+				{
+					"path": "sq/28/dur/5.120",
+					"duration": 5.12
+				},
+				{
+					"path": "sq/29/dur/5.120",
+					"duration": 5.12
+				},
+				{
+					"path": "sq/30/dur/5.120",
+					"duration": 5.12
+				},
+				{
+					"path": "sq/31/dur/5.120",
+					"duration": 5.12
+				},
+				{
+					"path": "sq/32/dur/5.120",
+					"duration": 5.12
+				},
+				{
+					"path": "sq/33/dur/5.120",
+					"duration": 5.12
+				},
+				{
+					"path": "sq/34/dur/5.120",
+					"duration": 5.12
+				},
+				{
+					"path": "sq/35/dur/5.120",
+					"duration": 5.12
+				},
+				{
+					"path": "sq/36/dur/5.120",
+					"duration": 5.12
+				},
+				{
+					"path": "sq/37/dur/5.120",
+					"duration": 5.12
+				},
+				{
+					"path": "sq/38/dur/5.120",
+					"duration": 5.12
+				},
+				{
+					"path": "sq/39/dur/5.120",
+					"duration": 5.12
+				},
+				{
+					"path": "sq/40/dur/5.120",
+					"duration": 5.12
+				},
+				{
+					"path": "sq/41/dur/5.120",
+					"duration": 5.12
+				},
+				{
+					"path": "sq/42/dur/5.120",
+					"duration": 5.12
+				},
+				{
+					"path": "sq/43/dur/5.120",
+					"duration": 5.12
+				},
+				{
+					"path": "sq/44/dur/5.120",
+					"duration": 5.12
+				},
+				{
+					"path": "sq/45/dur/5.120",
+					"duration": 5.12
+				},
+				{
+					"path": "sq/46/dur/5.120",
+					"duration": 5.12
+				},
+				{
+					"path": "sq/47/dur/5.120",
+					"duration": 5.12
+				},
+				{
+					"path": "sq/48/dur/5.120",
+					"duration": 5.12
+				},
+				{
+					"path": "sq/49/dur/5.120",
+					"duration": 5.12
+				},
+				{
+					"path": "sq/50/dur/5.120",
+					"duration": 5.12
+				},
+				{
+					"path": "sq/51/dur/5.120",
+					"duration": 5.12
+				},
+				{
+					"path": "sq/52/dur/5.120",
+					"duration": 5.12
+				},
+				{
+					"path": "sq/53/dur/2.840",
+					"duration": 2.84
+				}
+			],
+			"protocol": "http_dash_segments",
+			"quality": 5,
+			"format": "248 - 1920x1080 (DASH video)",
+			"http_headers": {
+				"User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3658.1 Safari/537.36",
+				"Accept-Charset": "ISO-8859-1,utf-8;q=0.7,*;q=0.7",
+				"Accept": "text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8",
+				"Accept-Encoding": "gzip, deflate",
+				"Accept-Language": "en-us,en;q=0.5"
+			}
+		},
+		{
+			"asr": 44100,
+			"filesize": 5004095,
+			"format_id": "18",
+			"format_note": "360p",
+			"fps": 25,
+			"height": 360,
+			"quality": 2,
+			"tbr": 148.742,
+			"url": "https://r5---sn-3u-bh2lr.googlevideo.com/videoplayback?expire=1628874635&ei=K1MWYfK9H7q22roPmZ-ASA&ip=220.72.26.14&id=o-AEdApPBCFk7MVucZAOufSIgQ1FV1ANYlnMmZCJBWhfyp&itag=18&source=youtube&requiressl=yes&mh=Q4&mm=31%2C26&mn=sn-3u-bh2lr%2Csn-oguelnlz&ms=au%2Conr&mv=m&mvi=5&pl=23&initcwndbps=1100000&vprv=1&mime=video%2Fmp4&ns=nB957Tcz8arBq1XDdc4sGGsG&gir=yes&clen=5004095&ratebypass=yes&dur=269.142&lmt=1595797158230771&mt=1628852693&fvip=5&fexp=24001373%2C24007246&c=WEB&txp=6216222&n=lqiFe0-5beZL2VocpVa&sparams=expire%2Cei%2Cip%2Cid%2Citag%2Csource%2Crequiressl%2Cvprv%2Cmime%2Cns%2Cgir%2Cclen%2Cratebypass%2Cdur%2Clmt&sig=AOq0QJ8wRQIgcIBFVuAeQyNYM4AMh1LlbZDb7Q1BxZ9c77LpaqEsGboCIQDJs3G-sZBU9JFrlsG_uxocovrP-wVOXZdJfIz4JlSeAQ%3D%3D&lsparams=mh%2Cmm%2Cmn%2Cms%2Cmv%2Cmvi%2Cpl%2Cinitcwndbps&lsig=AG3C_xAwRQIgdlqgO1YvR3YyQYhJoj_2syAWcfMlRdqZHTmk-MrRlNwCIQDWadMBskXYQGo48-kvAivlepSNUof-HRwG97PwUtpunA%3D%3D",
+			"width": 640,
+			"ext": "mp4",
+			"vcodec": "avc1.42001E",
+			"acodec": "mp4a.40.2",
+			"format": "18 - 640x360 (360p)",
+			"protocol": "https",
+			"http_headers": {
+				"User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3658.1 Safari/537.36",
+				"Accept-Charset": "ISO-8859-1,utf-8;q=0.7,*;q=0.7",
+				"Accept": "text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8",
+				"Accept-Encoding": "gzip, deflate",
+				"Accept-Language": "en-us,en;q=0.5"
+			}
+		},
+		{
+			"asr": 44100,
+			"filesize": null,
+			"format_id": "22",
+			"format_note": "720p",
+			"fps": 25,
+			"height": 720,
+			"quality": 4,
+			"tbr": 232.087,
+			"url": "https://r5---sn-3u-bh2lr.googlevideo.com/videoplayback?expire=1628874635&ei=K1MWYfK9H7q22roPmZ-ASA&ip=220.72.26.14&id=o-AEdApPBCFk7MVucZAOufSIgQ1FV1ANYlnMmZCJBWhfyp&itag=22&source=youtube&requiressl=yes&mh=Q4&mm=31%2C26&mn=sn-3u-bh2lr%2Csn-oguelnlz&ms=au%2Conr&mv=m&mvi=5&pl=23&initcwndbps=1100000&vprv=1&mime=video%2Fmp4&ns=nB957Tcz8arBq1XDdc4sGGsG&ratebypass=yes&dur=269.142&lmt=1595797289426121&mt=1628852693&fvip=5&fexp=24001373%2C24007246&c=WEB&txp=6216222&n=lqiFe0-5beZL2VocpVa&sparams=expire%2Cei%2Cip%2Cid%2Citag%2Csource%2Crequiressl%2Cvprv%2Cmime%2Cns%2Cratebypass%2Cdur%2Clmt&sig=AOq0QJ8wRQIgFtBF1cT6p3bRGudN3Qjq70GdwDKgI2Evx8EHh3HEqx8CIQDVP6AB12mbFMsjX0ZvbsSKjuaiIB8zqg08QfMNG-JoPA%3D%3D&lsparams=mh%2Cmm%2Cmn%2Cms%2Cmv%2Cmvi%2Cpl%2Cinitcwndbps&lsig=AG3C_xAwRQIgdlqgO1YvR3YyQYhJoj_2syAWcfMlRdqZHTmk-MrRlNwCIQDWadMBskXYQGo48-kvAivlepSNUof-HRwG97PwUtpunA%3D%3D",
+			"width": 1280,
+			"ext": "mp4",
+			"vcodec": "avc1.64001F",
+			"acodec": "mp4a.40.2",
+			"format": "22 - 1280x720 (720p)",
+			"protocol": "https",
+			"http_headers": {
+				"User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3658.1 Safari/537.36",
+				"Accept-Charset": "ISO-8859-1,utf-8;q=0.7,*;q=0.7",
+				"Accept": "text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8",
+				"Accept-Encoding": "gzip, deflate",
+				"Accept-Language": "en-us,en;q=0.5"
+			}
+		}
+	],
+	"thumbnails": [
+		{
+			"height": 94,
+			"url": "https://i.ytimg.com/vi/cQhITq7cQRk/hqdefault.jpg?sqp=-oaymwEbCKgBEF5IVfKriqkDDggBFQAAiEIYAXABwAEG&rs=AOn4CLD0uAoVpisTbGcuujIT1mIXYQ-AAQ",
+			"width": 168,
+			"resolution": "168x94",
+			"id": "0"
+		},
+		{
+			"height": 110,
+			"url": "https://i.ytimg.com/vi/cQhITq7cQRk/hqdefault.jpg?sqp=-oaymwEbCMQBEG5IVfKriqkDDggBFQAAiEIYAXABwAEG&rs=AOn4CLBD7e-GPBuqEQV0UfXQkmke84gVAw",
+			"width": 196,
+			"resolution": "196x110",
+			"id": "1"
+		},
+		{
+			"height": 138,
+			"url": "https://i.ytimg.com/vi/cQhITq7cQRk/hqdefault.jpg?sqp=-oaymwEcCPYBEIoBSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLAe3ISWmrpPHWz5Zi6f3aoHicm9Cg",
+			"width": 246,
+			"resolution": "246x138",
+			"id": "2"
+		},
+		{
+			"height": 188,
+			"url": "https://i.ytimg.com/vi/cQhITq7cQRk/hqdefault.jpg?sqp=-oaymwEcCNACELwBSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLDnGCDNrFNUqyzlLnOeDEkoAV8Eew",
+			"width": 336,
+			"resolution": "336x188",
+			"id": "3"
+		}
+	],
+	"description": "남코의 고전명작, 갤러가의 소리 녹음.\n한국에서는 갤러그로 99% 불리웠다.\n당대 오락실하면 '뿅뿅'이라는 의성어가 대명사 역할을 했는데,\n그 정도로의 대히트작.\n\n#오락실소리 #갤러그음악 #고전게임",
+	"upload_date": "20200726",
+	"uploader": "레트로지평선",
+	"uploader_id": "UCy63q2vdKZkigQN9CKbiQng",
+	"uploader_url": "http://www.youtube.com/channel/UCy63q2vdKZkigQN9CKbiQng",
+	"channel_id": "UCy63q2vdKZkigQN9CKbiQng",
+	"channel_url": "https://www.youtube.com/channel/UCy63q2vdKZkigQN9CKbiQng",
+	"duration": 269,
+	"view_count": 1341,
+	"average_rating": 5.0,
+	"age_limit": 0,
+	"webpage_url": "https://www.youtube.com/watch?v=cQhITq7cQRk",
+	"categories": [
+		"Gaming"
+	],
+	"tags": [
+		"갤러그",
+		"galaga",
+		"namco",
+		"sound",
+		"sound record"
+	],
+	"is_live": null,
+	"like_count": 14,
+	"dislike_count": 0,
+	"channel": "레트로지평선",
+	"extractor": "youtube",
+	"webpage_url_basename": "watch",
+	"extractor_key": "Youtube",
+	"playlist": null,
+	"playlist_index": null,
+	"thumbnail": "https://i.ytimg.com/vi/cQhITq7cQRk/hqdefault.jpg?sqp=-oaymwEcCNACELwBSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLDnGCDNrFNUqyzlLnOeDEkoAV8Eew",
+	"display_id": "cQhITq7cQRk",
+	"requested_subtitles": null,
+	"format_id": "139",
+	"manifest_url": "https://manifest.googlevideo.com/api/manifest/dash/expire/1628874635/ei/K1MWYfK9H7q22roPmZ-ASA/ip/220.72.26.14/id/7108484eaedc4119/source/youtube/requiressl/yes/playback_host/r5---sn-3u-bh2lr.googlevideo.com/mh/Q4/mm/31%2C26/mn/sn-3u-bh2lr%2Csn-oguelnlz/ms/au%2Conr/mv/m/mvi/5/pl/23/tx/24027932/txs/24027931%2C24027932/hfr/all/as/fmp4_audio_clear%2Cwebm_audio_clear%2Cwebm2_audio_clear%2Cfmp4_sd_hd_clear%2Cwebm2_sd_hd_clear/initcwndbps/1100000/vprv/1/mt/1628852693/fvip/5/keepalive/yes/fexp/24001373%2C24007246/itag/0/sparams/expire%2Cei%2Cip%2Cid%2Csource%2Crequiressl%2Ctx%2Ctxs%2Chfr%2Cas%2Cvprv%2Citag/sig/AOq0QJ8wRQIgF3eYPiuOBxkUwy7VZsPw2PwDIQLdiOkj3lg3tyUSoWcCIQDBNdHHjAUr7oWfmq-Ls5lC45YcL5_yrM7P3zEJm_08iA%3D%3D/lsparams/playback_host%2Cmh%2Cmm%2Cmn%2Cms%2Cmv%2Cmvi%2Cpl%2Cinitcwndbps/lsig/AG3C_xAwRgIhAM1gRFnElkU251nRqgzJj2olkGpwyfgwvzBJ9wvow9pAAiEA4boXWpR4X_Z-0QmLBn9P210s-kdHwYymXxIjG3V9hxs%3D",
+	"ext": "m4a",
+	"width": null,
+	"height": null,
+	"tbr": 49.878,
+	"asr": 22050,
+	"fps": null,
+	"language": null,
+	"format_note": "DASH audio",
+	"filesize": 1642732,
+	"container": "m4a_dash",
+	"vcodec": "none",
+	"acodec": "mp4a.40.5",
+	"url": "https://manifest.googlevideo.com/api/manifest/dash/expire/1628874635/ei/K1MWYfK9H7q22roPmZ-ASA/ip/220.72.26.14/id/7108484eaedc4119/source/youtube/requiressl/yes/playback_host/r5---sn-3u-bh2lr.googlevideo.com/mh/Q4/mm/31%2C26/mn/sn-3u-bh2lr%2Csn-oguelnlz/ms/au%2Conr/mv/m/mvi/5/pl/23/tx/24027932/txs/24027931%2C24027932/hfr/all/as/fmp4_audio_clear%2Cwebm_audio_clear%2Cwebm2_audio_clear%2Cfmp4_sd_hd_clear%2Cwebm2_sd_hd_clear/initcwndbps/1100000/vprv/1/mt/1628852693/fvip/5/keepalive/yes/fexp/24001373%2C24007246/itag/0/sparams/expire%2Cei%2Cip%2Cid%2Csource%2Crequiressl%2Ctx%2Ctxs%2Chfr%2Cas%2Cvprv%2Citag/sig/AOq0QJ8wRQIgF3eYPiuOBxkUwy7VZsPw2PwDIQLdiOkj3lg3tyUSoWcCIQDBNdHHjAUr7oWfmq-Ls5lC45YcL5_yrM7P3zEJm_08iA%3D%3D/lsparams/playback_host%2Cmh%2Cmm%2Cmn%2Cms%2Cmv%2Cmvi%2Cpl%2Cinitcwndbps/lsig/AG3C_xAwRgIhAM1gRFnElkU251nRqgzJj2olkGpwyfgwvzBJ9wvow9pAAiEA4boXWpR4X_Z-0QmLBn9P210s-kdHwYymXxIjG3V9hxs%3D",
+	"fragment_base_url": "https://r5---sn-3u-bh2lr.googlevideo.com/videoplayback/expire/1628874635/ei/K1MWYfK9H7q22roPmZ-ASA/ip/220.72.26.14/id/7108484eaedc4119/itag/139/source/youtube/requiressl/yes/mh/Q4/mm/31,26/mn/sn-3u-bh2lr,sn-oguelnlz/ms/au,onr/mv/m/mvi/5/pl/23/initcwndbps/1100000/vprv/1/ratebypass/yes/mime/audio%2Fmp4/otfp/1/gir/yes/clen/1642732/lmt/1595797264590044/dur/269.212/mt/1628852693/fvip/5/keepalive/yes/fexp/24001373,24007246/sparams/expire,ei,ip,id,itag,source,requiressl,vprv,ratebypass,mime,otfp,gir,clen,lmt,dur/sig/AOq0QJ8wRQIhAMbXXZcTFO_kdx67AXRxXBsT1zMtYvKA5uRZCsmo9zA5AiBDUTKKDtPCzSEyOpI9l8WCHaq5QZnfB0n7Iy5Tr7huQg%3D%3D/lsparams/mh,mm,mn,ms,mv,mvi,pl,initcwndbps/lsig/AG3C_xAwRQIhAN6xKED20z0FspWqZhMLoa2lR82yjFoscx3Lg9msLTehAiAKTr2iIbTAvVk_BcTAd5ZHfIf_pKjQPnghZvNJ1tXCIw%3D%3D/",
+	"fragments": [
+		{
+			"path": "range/0-640"
+		},
+		{
+			"path": "range/997-62253",
+			"duration": 9.985
+		},
+		{
+			"path": "range/62254-123325",
+			"duration": 9.984
+		},
+		{
+			"path": "range/123326-184232",
+			"duration": 9.985
+		},
+		{
+			"path": "range/184233-244963",
+			"duration": 9.984
+		},
+		{
+			"path": "range/244964-305623",
+			"duration": 9.985
+		},
+		{
+			"path": "range/305624-366759",
+			"duration": 9.984
+		},
+		{
+			"path": "range/366760-427601",
+			"duration": 9.985
+		},
+		{
+			"path": "range/427602-488767",
+			"duration": 9.985
+		},
+		{
+			"path": "range/488768-549473",
+			"duration": 9.984
+		},
+		{
+			"path": "range/549474-610198",
+			"duration": 9.985
+		},
+		{
+			"path": "range/610199-670934",
+			"duration": 9.984
+		},
+		{
+			"path": "range/670935-731921",
+			"duration": 9.985
+		},
+		{
+			"path": "range/731922-792822",
+			"duration": 9.985
+		},
+		{
+			"path": "range/792823-853772",
+			"duration": 9.984
+		},
+		{
+			"path": "range/853773-914513",
+			"duration": 9.985
+		},
+		{
+			"path": "range/914514-975216",
+			"duration": 9.984
+		},
+		{
+			"path": "range/975217-1036458",
+			"duration": 9.985
+		},
+		{
+			"path": "range/1036459-1096949",
+			"duration": 9.984
+		},
+		{
+			"path": "range/1096950-1157827",
+			"duration": 9.985
+		},
+		{
+			"path": "range/1157828-1219069",
+			"duration": 9.985
+		},
+		{
+			"path": "range/1219070-1279801",
+			"duration": 9.984
+		},
+		{
+			"path": "range/1279802-1340728",
+			"duration": 9.985
+		},
+		{
+			"path": "range/1340729-1401428",
+			"duration": 9.984
+		},
+		{
+			"path": "range/1401429-1462237",
+			"duration": 9.985
+		},
+		{
+			"path": "range/1462238-1523133",
+			"duration": 9.984
+		},
+		{
+			"path": "range/1523134-1584034",
+			"duration": 9.985
+		},
+		{
+			"path": "range/1584035-1642731",
+			"duration": 9.613
+		}
+	],
+	"protocol": "http_dash_segments",
+	"format": "139 - audio only (DASH audio)",
+	"http_headers": {
+		"User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3658.1 Safari/537.36",
+		"Accept-Charset": "ISO-8859-1,utf-8;q=0.7,*;q=0.7",
+		"Accept": "text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8",
+		"Accept-Encoding": "gzip, deflate",
+		"Accept-Language": "en-us,en;q=0.5"
+	}
+}
